@@ -1,0 +1,84 @@
+{
+  "id": "pcc_web_app_workflow",
+  "title": "Project capstone: web app workflow",
+  "summary": "Use the Django project arc as a capstone for user-centered features, data ownership, styling, and deployment thinking.",
+  "tags": [
+    "capstone",
+    "web",
+    "deployment",
+    "product-thinking"
+  ],
+  "prerequisites": [
+    "files_and_exceptions",
+    "data_ethics_and_reporting"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Getting Started with Django",
+        "User Accounts",
+        "Styling and Deploying an App"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "pcc_web_app_workflow",
+      "hints": [
+        "Request, logic, data, response."
+      ],
+      "id": "pcc_web_app_workflow__app-loop",
+      "type": "flashcard",
+      "prompt": "What are the main layers in a simple web app workflow?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Routes or views receive requests, application logic handles the task, data is stored or retrieved, and templates or components render the response.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "pcc_web_app_workflow",
+      "hints": [
+        "Think product behavior, not just storage."
+      ],
+      "id": "pcc_web_app_workflow__user-data-ownership",
+      "type": "short_answer",
+      "prompt": "Why is user-data ownership a design concern, not just a database concern?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "permissions affect the whole product flow",
+        "users should only access their own data",
+        "authorization shapes the interface"
+      ],
+      "solution": {
+        "summary": "Ownership affects routing, visibility, permissions, and trust throughout the user experience.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "pcc_web_app_workflow",
+      "hints": [],
+      "id": "pcc_web_app_workflow__deployment-checklist",
+      "type": "project_checkpoint",
+      "prompt": "Before deploying a small learning app, what should be checked besides whether it runs on your laptop?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Deployment quality depends on operability, not just whether the first page loads.",
+        "checklist": [
+          "Error handling and useful logs.",
+          "Environment configuration and secrets management.",
+          "User-facing performance and accessibility.",
+          "Backup or restore strategy for important data."
+        ]
+      }
+    }
+  ],
+  "itemCount": 3
+}

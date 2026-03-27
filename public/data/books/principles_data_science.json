@@ -1,0 +1,1044 @@
+{
+  "bookId": "principles_data_science",
+  "title": "Principles of Data Science",
+  "shortTitle": "Principles of Data Science",
+  "totalPages": 573,
+  "chapterCount": 10,
+  "coveredChapterCount": 10,
+  "sectionsCovered": 16,
+  "sectionsTotal": 99,
+  "chapters": [
+    {
+      "id": "chapter-1-what-are-data-and-data-science",
+      "title": "Chapter 1 What Are Data and Data Science?",
+      "pageStart": 19,
+      "pageEnd": 68,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 19,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "1-1-what-is-data-science",
+          "title": "1.1 What Is Data Science?",
+          "pageStart": 19,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "1-2-data-science-in-practice",
+          "title": "1.2 Data Science in Practice",
+          "pageStart": 22,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "1-3-data-and-datasets",
+          "title": "1.3 Data and Datasets",
+          "pageStart": 26,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "1-4-using-technology-for-data-science",
+          "title": "1.4 Using Technology for Data Science",
+          "pageStart": 39,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "1-5-data-science-with-python",
+          "title": "1.5 Data Science with Python",
+          "pageStart": 41,
+          "conceptIds": [
+            "scientific_computing_and_interfaces",
+            "dataframes_and_cleaning"
+          ],
+          "itemIds": [
+            "scientific_computing_and_interfaces__numpy-strength",
+            "scientific_computing_and_interfaces__gui-event-loop",
+            "scientific_computing_and_interfaces__numpy-mean",
+            "dataframes_and_cleaning__missing-data-first-step",
+            "dataframes_and_cleaning__dataframe-benefit",
+            "dataframes_and_cleaning__describe-intuition",
+            "dataframes_and_cleaning__pandas-filter"
+          ]
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 63,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 64,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "chapter-review",
+          "title": "Chapter Review",
+          "pageStart": 65,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 65,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "quantitative-problems",
+          "title": "Quantitative Problems",
+          "pageStart": 66,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "references",
+          "title": "References",
+          "pageStart": 66,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "scientific_computing_and_interfaces",
+        "dataframes_and_cleaning"
+      ],
+      "itemIds": [
+        "scientific_computing_and_interfaces__numpy-strength",
+        "scientific_computing_and_interfaces__gui-event-loop",
+        "scientific_computing_and_interfaces__numpy-mean",
+        "dataframes_and_cleaning__missing-data-first-step",
+        "dataframes_and_cleaning__dataframe-benefit",
+        "dataframes_and_cleaning__describe-intuition",
+        "dataframes_and_cleaning__pandas-filter"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-2-collecting-and-preparing-data",
+      "title": "Chapter 2 Collecting and Preparing Data",
+      "pageStart": 69,
+      "pageEnd": 114,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 69,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "2-1-overview-of-data-collection-methods",
+          "title": "2.1 Overview of Data Collection Methods",
+          "pageStart": 70,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "2-2-survey-design-and-implementation",
+          "title": "2.2 Survey Design and Implementation",
+          "pageStart": 73,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "2-3-web-scraping-and-social-media-data-collection",
+          "title": "2.3 Web Scraping and Social Media Data Collection",
+          "pageStart": 78,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "2-4-data-cleaning-and-preprocessing",
+          "title": "2.4 Data Cleaning and Preprocessing",
+          "pageStart": 88,
+          "conceptIds": [
+            "dataframes_and_cleaning"
+          ],
+          "itemIds": [
+            "dataframes_and_cleaning__missing-data-first-step",
+            "dataframes_and_cleaning__dataframe-benefit",
+            "dataframes_and_cleaning__describe-intuition",
+            "dataframes_and_cleaning__pandas-filter"
+          ]
+        },
+        {
+          "id": "2-5-handling-large-datasets",
+          "title": "2.5 Handling Large Datasets",
+          "pageStart": 100,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 106,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 108,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 109,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "references",
+          "title": "References",
+          "pageStart": 113,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "dataframes_and_cleaning"
+      ],
+      "itemIds": [
+        "dataframes_and_cleaning__missing-data-first-step",
+        "dataframes_and_cleaning__dataframe-benefit",
+        "dataframes_and_cleaning__describe-intuition",
+        "dataframes_and_cleaning__pandas-filter"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-3-descriptive-statistics-statistical-measurements-and-probability-distri",
+      "title": "Chapter 3 Descriptive Statistics: Statistical Measurements and Probability Distributions",
+      "pageStart": 115,
+      "pageEnd": 156,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 115,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "3-1-measures-of-center",
+          "title": "3.1 Measures of Center",
+          "pageStart": 116,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "3-2-measures-of-variation",
+          "title": "3.2 Measures of Variation",
+          "pageStart": 122,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "3-3-measures-of-position",
+          "title": "3.3 Measures of Position",
+          "pageStart": 127,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "3-4-probability-theory",
+          "title": "3.4 Probability Theory",
+          "pageStart": 131,
+          "conceptIds": [
+            "simulation_probability"
+          ],
+          "itemIds": [
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation"
+          ]
+        },
+        {
+          "id": "3-5-discrete-and-continuous-probability-distributions",
+          "title": "3.5 Discrete and Continuous Probability Distributions",
+          "pageStart": 139,
+          "conceptIds": [
+            "simulation_probability"
+          ],
+          "itemIds": [
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation"
+          ]
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 152,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 153,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "quantitative-problems",
+          "title": "Quantitative Problems",
+          "pageStart": 154,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "simulation_probability"
+      ],
+      "itemIds": [
+        "simulation_probability__monte-carlo-idea",
+        "simulation_probability__random-choice-shape",
+        "simulation_probability__more-trials-effect",
+        "simulation_probability__coin-simulation"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-4-inferential-statistics-and-regression-analysis",
+      "title": "Chapter 4 Inferential Statistics and Regression Analysis",
+      "pageStart": 157,
+      "pageEnd": 224,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 157,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "4-1-statistical-inference-and-confidence-intervals",
+          "title": "4.1 Statistical Inference and Confidence Intervals",
+          "pageStart": 158,
+          "conceptIds": [
+            "sampling_inference_hypothesis"
+          ],
+          "itemIds": [
+            "sampling_inference_hypothesis__sample-vs-population",
+            "sampling_inference_hypothesis__p-value-meaning",
+            "sampling_inference_hypothesis__confidence-interval",
+            "sampling_inference_hypothesis__sample-mean"
+          ]
+        },
+        {
+          "id": "4-2-hypothesis-testing",
+          "title": "4.2 Hypothesis Testing",
+          "pageStart": 177,
+          "conceptIds": [
+            "sampling_inference_hypothesis"
+          ],
+          "itemIds": [
+            "sampling_inference_hypothesis__sample-vs-population",
+            "sampling_inference_hypothesis__p-value-meaning",
+            "sampling_inference_hypothesis__confidence-interval",
+            "sampling_inference_hypothesis__sample-mean"
+          ]
+        },
+        {
+          "id": "4-3-correlation-and-linear-regression-analysis",
+          "title": "4.3 Correlation and Linear Regression Analysis",
+          "pageStart": 199,
+          "conceptIds": [
+            "regression_and_model_validation"
+          ],
+          "itemIds": [
+            "regression_and_model_validation__train-test-split",
+            "regression_and_model_validation__overfitting-signal",
+            "regression_and_model_validation__residual-meaning",
+            "regression_and_model_validation__simple-linreg"
+          ]
+        },
+        {
+          "id": "4-4-analysis-of-variance-anova",
+          "title": "4.4 Analysis of Variance (ANOVA)",
+          "pageStart": 215,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 220,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 222,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "quantitative-problems",
+          "title": "Quantitative Problems",
+          "pageStart": 222,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "sampling_inference_hypothesis",
+        "regression_and_model_validation"
+      ],
+      "itemIds": [
+        "sampling_inference_hypothesis__sample-vs-population",
+        "sampling_inference_hypothesis__p-value-meaning",
+        "sampling_inference_hypothesis__confidence-interval",
+        "sampling_inference_hypothesis__sample-mean",
+        "regression_and_model_validation__train-test-split",
+        "regression_and_model_validation__overfitting-signal",
+        "regression_and_model_validation__residual-meaning",
+        "regression_and_model_validation__simple-linreg"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-5-time-series-and-forecasting",
+      "title": "Chapter 5 Time Series and Forecasting",
+      "pageStart": 225,
+      "pageEnd": 278,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 225,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "5-1-introduction-to-time-series-analysis",
+          "title": "5.1 Introduction to Time Series Analysis",
+          "pageStart": 225,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "5-2-components-of-time-series-analysis",
+          "title": "5.2 Components of Time Series Analysis",
+          "pageStart": 234,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "5-3-time-series-forecasting-methods",
+          "title": "5.3 Time Series Forecasting Methods",
+          "pageStart": 239,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "5-4-forecast-evaluation-methods",
+          "title": "5.4 Forecast Evaluation Methods",
+          "pageStart": 266,
+          "conceptIds": [
+            "time_series_forecasting"
+          ],
+          "itemIds": [
+            "time_series_forecasting__time-order-matters",
+            "time_series_forecasting__seasonality",
+            "time_series_forecasting__forecast-baseline",
+            "time_series_forecasting__naive-forecast"
+          ]
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 271,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 272,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 273,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "quantitative-problems",
+          "title": "Quantitative Problems",
+          "pageStart": 274,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "time_series_forecasting"
+      ],
+      "itemIds": [
+        "time_series_forecasting__time-order-matters",
+        "time_series_forecasting__seasonality",
+        "time_series_forecasting__forecast-baseline",
+        "time_series_forecasting__naive-forecast"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-6-decision-making-using-machine-learning-basics",
+      "title": "Chapter 6 Decision-Making Using Machine Learning Basics",
+      "pageStart": 279,
+      "pageEnd": 344,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 279,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "6-1-what-is-machine-learning",
+          "title": "6.1 What Is Machine Learning?",
+          "pageStart": 280,
+          "conceptIds": [
+            "machine_learning_classification"
+          ],
+          "itemIds": [
+            "machine_learning_classification__precision-vs-recall",
+            "machine_learning_classification__confusion-matrix",
+            "machine_learning_classification__class-imbalance",
+            "machine_learning_classification__logistic-regression"
+          ]
+        },
+        {
+          "id": "6-2-classification-using-machine-learning",
+          "title": "6.2 Classification Using Machine Learning",
+          "pageStart": 288,
+          "conceptIds": [
+            "machine_learning_classification",
+            "clustering_and_unsupervised"
+          ],
+          "itemIds": [
+            "machine_learning_classification__precision-vs-recall",
+            "machine_learning_classification__confusion-matrix",
+            "machine_learning_classification__class-imbalance",
+            "machine_learning_classification__logistic-regression",
+            "clustering_and_unsupervised__unsupervised-definition",
+            "clustering_and_unsupervised__kmeans-caveat",
+            "clustering_and_unsupervised__kmeans-fit",
+            "clustering_and_unsupervised__cluster-audit"
+          ]
+        },
+        {
+          "id": "6-3-machine-learning-in-regression-analysis",
+          "title": "6.3 Machine Learning in Regression Analysis",
+          "pageStart": 307,
+          "conceptIds": [
+            "regression_and_model_validation"
+          ],
+          "itemIds": [
+            "regression_and_model_validation__train-test-split",
+            "regression_and_model_validation__overfitting-signal",
+            "regression_and_model_validation__residual-meaning",
+            "regression_and_model_validation__simple-linreg"
+          ]
+        },
+        {
+          "id": "6-4-decision-trees",
+          "title": "6.4 Decision Trees",
+          "pageStart": 320,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "6-5-other-machine-learning-techniques",
+          "title": "6.5 Other Machine Learning Techniques",
+          "pageStart": 330,
+          "conceptIds": [
+            "clustering_and_unsupervised"
+          ],
+          "itemIds": [
+            "clustering_and_unsupervised__unsupervised-definition",
+            "clustering_and_unsupervised__kmeans-caveat",
+            "clustering_and_unsupervised__kmeans-fit",
+            "clustering_and_unsupervised__cluster-audit"
+          ]
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 340,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 341,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "chapter-review",
+          "title": "Chapter Review",
+          "pageStart": 342,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 342,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "quantitative-problems",
+          "title": "Quantitative Problems",
+          "pageStart": 342,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "references",
+          "title": "References",
+          "pageStart": 344,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "machine_learning_classification",
+        "clustering_and_unsupervised",
+        "regression_and_model_validation"
+      ],
+      "itemIds": [
+        "machine_learning_classification__precision-vs-recall",
+        "machine_learning_classification__confusion-matrix",
+        "machine_learning_classification__class-imbalance",
+        "machine_learning_classification__logistic-regression",
+        "clustering_and_unsupervised__unsupervised-definition",
+        "clustering_and_unsupervised__kmeans-caveat",
+        "clustering_and_unsupervised__kmeans-fit",
+        "clustering_and_unsupervised__cluster-audit",
+        "regression_and_model_validation__train-test-split",
+        "regression_and_model_validation__overfitting-signal",
+        "regression_and_model_validation__residual-meaning",
+        "regression_and_model_validation__simple-linreg"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-7-deep-learning-and-ai-basics",
+      "title": "Chapter 7 Deep Learning and AI Basics",
+      "pageStart": 345,
+      "pageEnd": 390,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 345,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "7-1-introduction-to-neural-networks",
+          "title": "7.1 Introduction to Neural Networks",
+          "pageStart": 346,
+          "conceptIds": [
+            "deep_learning_and_ai_foundations"
+          ],
+          "itemIds": [
+            "deep_learning_and_ai_foundations__layer-intuition",
+            "deep_learning_and_ai_foundations__epoch-meaning",
+            "deep_learning_and_ai_foundations__loss-function",
+            "deep_learning_and_ai_foundations__ai-use-case-check"
+          ]
+        },
+        {
+          "id": "7-2-backpropagation",
+          "title": "7.2 Backpropagation",
+          "pageStart": 355,
+          "conceptIds": [
+            "deep_learning_and_ai_foundations"
+          ],
+          "itemIds": [
+            "deep_learning_and_ai_foundations__layer-intuition",
+            "deep_learning_and_ai_foundations__epoch-meaning",
+            "deep_learning_and_ai_foundations__loss-function",
+            "deep_learning_and_ai_foundations__ai-use-case-check"
+          ]
+        },
+        {
+          "id": "7-3-introduction-to-deep-learning",
+          "title": "7.3 Introduction to Deep Learning",
+          "pageStart": 367,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "7-4-convolutional-neural-networks",
+          "title": "7.4 Convolutional Neural Networks",
+          "pageStart": 371,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "7-5-natural-language-processing",
+          "title": "7.5 Natural Language Processing",
+          "pageStart": 373,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 384,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 385,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "chapter-review",
+          "title": "Chapter Review",
+          "pageStart": 386,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 387,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "quantitative-problems",
+          "title": "Quantitative Problems",
+          "pageStart": 388,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "references",
+          "title": "References",
+          "pageStart": 389,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "deep_learning_and_ai_foundations"
+      ],
+      "itemIds": [
+        "deep_learning_and_ai_foundations__layer-intuition",
+        "deep_learning_and_ai_foundations__epoch-meaning",
+        "deep_learning_and_ai_foundations__loss-function",
+        "deep_learning_and_ai_foundations__ai-use-case-check"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-8-ethics-throughout-the-data-science-cycle",
+      "title": "Chapter 8 Ethics Throughout the Data Science Cycle",
+      "pageStart": 391,
+      "pageEnd": 424,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 391,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "8-1-ethics-in-data-collection",
+          "title": "8.1 Ethics in Data Collection",
+          "pageStart": 392,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "8-2-ethics-in-data-analysis-and-modeling",
+          "title": "8.2 Ethics in Data Analysis and Modeling",
+          "pageStart": 402,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "8-3-ethics-in-visualization-and-reporting",
+          "title": "8.3 Ethics in Visualization and Reporting",
+          "pageStart": 409,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 418,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 419,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "chapter-review",
+          "title": "Chapter Review",
+          "pageStart": 421,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 424,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "references",
+          "title": "References",
+          "pageStart": 424,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "data_ethics_and_reporting"
+      ],
+      "itemIds": [
+        "data_ethics_and_reporting__ethics-cycle",
+        "data_ethics_and_reporting__reporting-best-practice",
+        "data_ethics_and_reporting__fairness-question",
+        "data_ethics_and_reporting__executive-summary"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-9-visualizing-data",
+      "title": "Chapter 9 Visualizing Data",
+      "pageStart": 425,
+      "pageEnd": 474,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 425,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "9-1-encoding-univariate-data",
+          "title": "9.1 Encoding Univariate Data",
+          "pageStart": 426,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "9-2-encoding-data-that-change-over-time",
+          "title": "9.2 Encoding Data That Change Over Time",
+          "pageStart": 440,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "9-3-graphing-probability-distributions",
+          "title": "9.3 Graphing Probability Distributions",
+          "pageStart": 445,
+          "conceptIds": [
+            "simulation_probability"
+          ],
+          "itemIds": [
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation"
+          ]
+        },
+        {
+          "id": "9-4-geospatial-and-heatmap-data-visualization-using-python",
+          "title": "9.4 Geospatial and Heatmap Data Visualization Using Python",
+          "pageStart": 453,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "9-5-multivariate-and-network-data-visualization-using-python",
+          "title": "9.5 Multivariate and Network Data Visualization Using Python",
+          "pageStart": 459,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 471,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 472,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 472,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "scientific_computing_and_interfaces",
+        "visualization_storytelling",
+        "simulation_probability"
+      ],
+      "itemIds": [
+        "scientific_computing_and_interfaces__numpy-strength",
+        "scientific_computing_and_interfaces__gui-event-loop",
+        "scientific_computing_and_interfaces__numpy-mean",
+        "visualization_storytelling__chart-choice",
+        "visualization_storytelling__misleading-axis",
+        "visualization_storytelling__annotation-value",
+        "visualization_storytelling__line-plot",
+        "simulation_probability__monte-carlo-idea",
+        "simulation_probability__random-choice-shape",
+        "simulation_probability__more-trials-effect",
+        "simulation_probability__coin-simulation"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-10-reporting-results",
+      "title": "Chapter 10 Reporting Results",
+      "pageStart": 475,
+      "pageEnd": null,
+      "sections": [
+        {
+          "id": "introduction",
+          "title": "Introduction",
+          "pageStart": 475,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "10-1-writing-an-informative-report",
+          "title": "10.1 Writing an Informative Report",
+          "pageStart": 476,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "10-2-validating-your-model",
+          "title": "10.2 Validating Your Model",
+          "pageStart": 483,
+          "conceptIds": [
+            "regression_and_model_validation"
+          ],
+          "itemIds": [
+            "regression_and_model_validation__train-test-split",
+            "regression_and_model_validation__overfitting-signal",
+            "regression_and_model_validation__residual-meaning",
+            "regression_and_model_validation__simple-linreg"
+          ]
+        },
+        {
+          "id": "10-3-effective-executive-summaries",
+          "title": "10.3 Effective Executive Summaries",
+          "pageStart": 498,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "key-terms",
+          "title": "Key Terms",
+          "pageStart": 504,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "group-project",
+          "title": "Group Project",
+          "pageStart": 505,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "chapter-review",
+          "title": "Chapter Review",
+          "pageStart": 505,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "critical-thinking",
+          "title": "Critical Thinking",
+          "pageStart": 507,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "references",
+          "title": "References",
+          "pageStart": 508,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "visualization_storytelling",
+        "data_ethics_and_reporting",
+        "regression_and_model_validation"
+      ],
+      "itemIds": [
+        "visualization_storytelling__chart-choice",
+        "visualization_storytelling__misleading-axis",
+        "visualization_storytelling__annotation-value",
+        "visualization_storytelling__line-plot",
+        "data_ethics_and_reporting__ethics-cycle",
+        "data_ethics_and_reporting__reporting-best-practice",
+        "data_ethics_and_reporting__fairness-question",
+        "data_ethics_and_reporting__executive-summary",
+        "regression_and_model_validation__train-test-split",
+        "regression_and_model_validation__overfitting-signal",
+        "regression_and_model_validation__residual-meaning",
+        "regression_and_model_validation__simple-linreg"
+      ],
+      "status": "covered"
+    }
+  ]
+}

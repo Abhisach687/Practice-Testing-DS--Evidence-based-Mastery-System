@@ -1,0 +1,84 @@
+{
+  "id": "pcc_game_architecture",
+  "title": "Project capstone: interactive game architecture",
+  "summary": "Use the arcade-game chapters as a systems-design capstone for loops, state updates, events, classes, and progressive refactoring.",
+  "tags": [
+    "capstone",
+    "projects",
+    "architecture",
+    "python-crash-course"
+  ],
+  "prerequisites": [
+    "objects_and_classes",
+    "conditionals_and_loops"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "A Ship That Fires Bullets",
+        "Aliens!",
+        "Scoring"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "pcc_game_architecture",
+      "hints": [
+        "Input, update, render."
+      ],
+      "id": "pcc_game_architecture__game-loop",
+      "type": "flashcard",
+      "prompt": "What does a game loop repeatedly do?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It processes input, updates the game state, and redraws the scene over and over until the program ends.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "pcc_game_architecture",
+      "hints": [
+        "Think maintenance and debugging."
+      ],
+      "id": "pcc_game_architecture__state-separation",
+      "type": "short_answer",
+      "prompt": "Why is it helpful to separate rendering code from state-update code in a game project?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "easier to reason about",
+        "cleaner architecture",
+        "separates responsibilities"
+      ],
+      "solution": {
+        "summary": "Separating update and rendering responsibilities makes the code easier to debug, test, and extend.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "pcc_game_architecture",
+      "hints": [],
+      "id": "pcc_game_architecture__game-retro",
+      "type": "project_checkpoint",
+      "prompt": "If you were planning the arcade project from scratch, what subsystems would you define first?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Thinking in subsystems helps a toy project scale into a maintainable architecture.",
+        "checklist": [
+          "Input handling and event dispatch.",
+          "World state: player, enemies, bullets, score.",
+          "Update rules for movement and collisions.",
+          "Rendering and feedback."
+        ]
+      }
+    }
+  ],
+  "itemCount": 3
+}

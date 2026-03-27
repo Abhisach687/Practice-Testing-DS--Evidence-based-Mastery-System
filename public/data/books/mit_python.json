@@ -1,0 +1,484 @@
+{
+  "bookId": "mit_python",
+  "title": "Introduction to Computation and Programming Using Python, 3rd Edition",
+  "shortTitle": "MIT Python",
+  "totalPages": 690,
+  "chapterCount": 26,
+  "coveredChapterCount": 26,
+  "sectionsCovered": 0,
+  "sectionsTotal": 0,
+  "chapters": [
+    {
+      "id": "1-getting-started",
+      "title": "1: GETTING STARTED",
+      "pageStart": 25,
+      "pageEnd": 33,
+      "sections": [],
+      "conceptIds": [
+        "python_environment_and_execution"
+      ],
+      "itemIds": [
+        "python_environment_and_execution__interpreter-role",
+        "python_environment_and_execution__script-vs-repl",
+        "python_environment_and_execution__traceback-purpose",
+        "python_environment_and_execution__greeting-script"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "2-introduction-to-python",
+      "title": "2: INTRODUCTION TO PYTHON",
+      "pageStart": 34,
+      "pageEnd": 67,
+      "sections": [],
+      "conceptIds": [
+        "python_environment_and_execution",
+        "variables_strings_numbers",
+        "conditionals_and_loops"
+      ],
+      "itemIds": [
+        "python_environment_and_execution__interpreter-role",
+        "python_environment_and_execution__script-vs-repl",
+        "python_environment_and_execution__traceback-purpose",
+        "python_environment_and_execution__greeting-script",
+        "variables_strings_numbers__f-string-purpose",
+        "variables_strings_numbers__string-method-output",
+        "variables_strings_numbers__division-choice",
+        "variables_strings_numbers__receipt-line",
+        "conditionals_and_loops__guard-clause",
+        "conditionals_and_loops__elif-purpose",
+        "conditionals_and_loops__while-countdown",
+        "conditionals_and_loops__password-attempts"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "3-some-simple-numerical-programs",
+      "title": "3: SOME SIMPLE NUMERICAL PROGRAMS",
+      "pageStart": 68,
+      "pageEnd": 86,
+      "sections": [],
+      "conceptIds": [
+        "variables_strings_numbers"
+      ],
+      "itemIds": [
+        "variables_strings_numbers__f-string-purpose",
+        "variables_strings_numbers__string-method-output",
+        "variables_strings_numbers__division-choice",
+        "variables_strings_numbers__receipt-line"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "4-functions-scoping-and-abstraction",
+      "title": "4: FUNCTIONS, SCOPING, AND ABSTRACTION",
+      "pageStart": 87,
+      "pageEnd": 112,
+      "sections": [],
+      "conceptIds": [
+        "functions_and_modules"
+      ],
+      "itemIds": [
+        "functions_and_modules__return-vs-print",
+        "functions_and_modules__parameter-purpose",
+        "functions_and_modules__function-call-trace",
+        "functions_and_modules__module-style-helper"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "5-structured-types-and-mutability",
+      "title": "5: STRUCTURED TYPES AND MUTABILITY",
+      "pageStart": 113,
+      "pageEnd": 145,
+      "sections": [],
+      "conceptIds": [
+        "collections_and_iteration"
+      ],
+      "itemIds": [
+        "collections_and_iteration__list-vs-tuple",
+        "collections_and_iteration__dict-loop-trace",
+        "collections_and_iteration__slice-meaning",
+        "collections_and_iteration__inventory-total"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "6-recursion-and-global-variables",
+      "title": "6: RECURSION AND GLOBAL VARIABLES",
+      "pageStart": 146,
+      "pageEnd": 157,
+      "sections": [],
+      "conceptIds": [
+        "recursion_search_and_complexity"
+      ],
+      "itemIds": [
+        "recursion_search_and_complexity__base-case",
+        "recursion_search_and_complexity__binary-search-requirement",
+        "recursion_search_and_complexity__big-o-intuition",
+        "recursion_search_and_complexity__recursive-countdown"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "7-modules-and-files",
+      "title": "7: MODULES AND FILES",
+      "pageStart": 158,
+      "pageEnd": 168,
+      "sections": [],
+      "conceptIds": [
+        "functions_and_modules",
+        "files_and_exceptions"
+      ],
+      "itemIds": [
+        "functions_and_modules__return-vs-print",
+        "functions_and_modules__parameter-purpose",
+        "functions_and_modules__function-call-trace",
+        "functions_and_modules__module-style-helper",
+        "files_and_exceptions__with-statement",
+        "files_and_exceptions__exception-when",
+        "files_and_exceptions__specific-except",
+        "files_and_exceptions__safe-divide"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "8-testing-and-debugging",
+      "title": "8: TESTING AND DEBUGGING",
+      "pageStart": 169,
+      "pageEnd": 189,
+      "sections": [],
+      "conceptIds": [
+        "debugging_testing_assertions"
+      ],
+      "itemIds": [
+        "debugging_testing_assertions__failing-test-value",
+        "debugging_testing_assertions__fix-average",
+        "debugging_testing_assertions__assert-purpose",
+        "debugging_testing_assertions__minimal-repro"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "9-exceptions-and-assertions",
+      "title": "9: EXCEPTIONS AND ASSERTIONS",
+      "pageStart": 190,
+      "pageEnd": 199,
+      "sections": [],
+      "conceptIds": [
+        "files_and_exceptions",
+        "debugging_testing_assertions"
+      ],
+      "itemIds": [
+        "files_and_exceptions__with-statement",
+        "files_and_exceptions__exception-when",
+        "files_and_exceptions__specific-except",
+        "files_and_exceptions__safe-divide",
+        "debugging_testing_assertions__failing-test-value",
+        "debugging_testing_assertions__fix-average",
+        "debugging_testing_assertions__assert-purpose",
+        "debugging_testing_assertions__minimal-repro"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "10-classes-and-object-oriented-programming",
+      "title": "10: CLASSES AND OBJECT-ORIENTED PROGRAMMING",
+      "pageStart": 200,
+      "pageEnd": 235,
+      "sections": [],
+      "conceptIds": [
+        "objects_and_classes"
+      ],
+      "itemIds": [
+        "objects_and_classes__class-vs-instance",
+        "objects_and_classes__method-call-output",
+        "objects_and_classes__init-purpose",
+        "objects_and_classes__book-class"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "11-a-simplistic-introduction-to-algorithmic-complexity",
+      "title": "11: A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY",
+      "pageStart": 236,
+      "pageEnd": 254,
+      "sections": [],
+      "conceptIds": [
+        "recursion_search_and_complexity"
+      ],
+      "itemIds": [
+        "recursion_search_and_complexity__base-case",
+        "recursion_search_and_complexity__binary-search-requirement",
+        "recursion_search_and_complexity__big-o-intuition",
+        "recursion_search_and_complexity__recursive-countdown"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "12-some-simple-algorithms-and-data-structures",
+      "title": "12: SOME SIMPLE ALGORITHMS AND DATA STRUCTURES",
+      "pageStart": 255,
+      "pageEnd": 277,
+      "sections": [],
+      "conceptIds": [
+        "recursion_search_and_complexity"
+      ],
+      "itemIds": [
+        "recursion_search_and_complexity__base-case",
+        "recursion_search_and_complexity__binary-search-requirement",
+        "recursion_search_and_complexity__big-o-intuition",
+        "recursion_search_and_complexity__recursive-countdown"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "13-plotting-and-more-about-classes",
+      "title": "13: PLOTTING AND MORE ABOUT CLASSES",
+      "pageStart": 278,
+      "pageEnd": 300,
+      "sections": [],
+      "conceptIds": [
+        "objects_and_classes",
+        "visualization_storytelling"
+      ],
+      "itemIds": [
+        "objects_and_classes__class-vs-instance",
+        "objects_and_classes__method-call-output",
+        "objects_and_classes__init-purpose",
+        "objects_and_classes__book-class",
+        "visualization_storytelling__chart-choice",
+        "visualization_storytelling__misleading-axis",
+        "visualization_storytelling__annotation-value",
+        "visualization_storytelling__line-plot"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "14-knapsack-and-graph-optimization-problems",
+      "title": "14: KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS",
+      "pageStart": 301,
+      "pageEnd": 325,
+      "sections": [],
+      "conceptIds": [
+        "dynamic_programming_and_graphs"
+      ],
+      "itemIds": [
+        "dynamic_programming_and_graphs__memoization",
+        "dynamic_programming_and_graphs__graph-model",
+        "dynamic_programming_and_graphs__fib-memo",
+        "dynamic_programming_and_graphs__knapsack-reflection"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "15-dynamic-programming",
+      "title": "15: DYNAMIC PROGRAMMING",
+      "pageStart": 326,
+      "pageEnd": 340,
+      "sections": [],
+      "conceptIds": [
+        "dynamic_programming_and_graphs"
+      ],
+      "itemIds": [
+        "dynamic_programming_and_graphs__memoization",
+        "dynamic_programming_and_graphs__graph-model",
+        "dynamic_programming_and_graphs__fib-memo",
+        "dynamic_programming_and_graphs__knapsack-reflection"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "16-random-walks-and-more-about-data-visualization",
+      "title": "16: RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION",
+      "pageStart": 341,
+      "pageEnd": 364,
+      "sections": [],
+      "conceptIds": [
+        "simulation_probability",
+        "visualization_storytelling"
+      ],
+      "itemIds": [
+        "simulation_probability__monte-carlo-idea",
+        "simulation_probability__random-choice-shape",
+        "simulation_probability__more-trials-effect",
+        "simulation_probability__coin-simulation",
+        "visualization_storytelling__chart-choice",
+        "visualization_storytelling__misleading-axis",
+        "visualization_storytelling__annotation-value",
+        "visualization_storytelling__line-plot"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "17-stochastic-programs-probability-and-distributions",
+      "title": "17: STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS",
+      "pageStart": 365,
+      "pageEnd": 417,
+      "sections": [],
+      "conceptIds": [
+        "simulation_probability"
+      ],
+      "itemIds": [
+        "simulation_probability__monte-carlo-idea",
+        "simulation_probability__random-choice-shape",
+        "simulation_probability__more-trials-effect",
+        "simulation_probability__coin-simulation"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "18-monte-carlo-simulation",
+      "title": "18: MONTE CARLO SIMULATION",
+      "pageStart": 418,
+      "pageEnd": 437,
+      "sections": [],
+      "conceptIds": [
+        "simulation_probability"
+      ],
+      "itemIds": [
+        "simulation_probability__monte-carlo-idea",
+        "simulation_probability__random-choice-shape",
+        "simulation_probability__more-trials-effect",
+        "simulation_probability__coin-simulation"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "19-sampling-and-confidence",
+      "title": "19: SAMPLING AND CONFIDENCE",
+      "pageStart": 438,
+      "pageEnd": 456,
+      "sections": [],
+      "conceptIds": [
+        "sampling_inference_hypothesis"
+      ],
+      "itemIds": [
+        "sampling_inference_hypothesis__sample-vs-population",
+        "sampling_inference_hypothesis__p-value-meaning",
+        "sampling_inference_hypothesis__confidence-interval",
+        "sampling_inference_hypothesis__sample-mean"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "20-understanding-experimental-data",
+      "title": "20: UNDERSTANDING EXPERIMENTAL DATA",
+      "pageStart": 457,
+      "pageEnd": 481,
+      "sections": [],
+      "conceptIds": [
+        "sampling_inference_hypothesis"
+      ],
+      "itemIds": [
+        "sampling_inference_hypothesis__sample-vs-population",
+        "sampling_inference_hypothesis__p-value-meaning",
+        "sampling_inference_hypothesis__confidence-interval",
+        "sampling_inference_hypothesis__sample-mean"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "21-randomized-trials-and-hypothesis-checking",
+      "title": "21: RANDOMIZED TRIALS AND HYPOTHESIS CHECKING",
+      "pageStart": 482,
+      "pageEnd": 511,
+      "sections": [],
+      "conceptIds": [
+        "sampling_inference_hypothesis"
+      ],
+      "itemIds": [
+        "sampling_inference_hypothesis__sample-vs-population",
+        "sampling_inference_hypothesis__p-value-meaning",
+        "sampling_inference_hypothesis__confidence-interval",
+        "sampling_inference_hypothesis__sample-mean"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "22-lies-damned-lies-and-statistics",
+      "title": "22: LIES, DAMNED LIES, AND STATISTICS",
+      "pageStart": 512,
+      "pageEnd": 535,
+      "sections": [],
+      "conceptIds": [
+        "sampling_inference_hypothesis"
+      ],
+      "itemIds": [
+        "sampling_inference_hypothesis__sample-vs-population",
+        "sampling_inference_hypothesis__p-value-meaning",
+        "sampling_inference_hypothesis__confidence-interval",
+        "sampling_inference_hypothesis__sample-mean"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "23-exploring-data-with-pandas",
+      "title": "23: EXPLORING DATA WITH PANDAS",
+      "pageStart": 536,
+      "pageEnd": 569,
+      "sections": [],
+      "conceptIds": [
+        "dataframes_and_cleaning"
+      ],
+      "itemIds": [
+        "dataframes_and_cleaning__missing-data-first-step",
+        "dataframes_and_cleaning__dataframe-benefit",
+        "dataframes_and_cleaning__describe-intuition",
+        "dataframes_and_cleaning__pandas-filter"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "24-a-quick-look-at-machine-learning",
+      "title": "24: A QUICK LOOK AT MACHINE LEARNING",
+      "pageStart": 570,
+      "pageEnd": 584,
+      "sections": [],
+      "conceptIds": [
+        "machine_learning_classification"
+      ],
+      "itemIds": [
+        "machine_learning_classification__precision-vs-recall",
+        "machine_learning_classification__confusion-matrix",
+        "machine_learning_classification__class-imbalance",
+        "machine_learning_classification__logistic-regression"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "25-clustering",
+      "title": "25: CLUSTERING",
+      "pageStart": 585,
+      "pageEnd": 607,
+      "sections": [],
+      "conceptIds": [
+        "clustering_and_unsupervised"
+      ],
+      "itemIds": [
+        "clustering_and_unsupervised__unsupervised-definition",
+        "clustering_and_unsupervised__kmeans-caveat",
+        "clustering_and_unsupervised__kmeans-fit",
+        "clustering_and_unsupervised__cluster-audit"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "26-classification-methods",
+      "title": "26: CLASSIFICATION METHODS",
+      "pageStart": 608,
+      "pageEnd": null,
+      "sections": [],
+      "conceptIds": [
+        "machine_learning_classification"
+      ],
+      "itemIds": [
+        "machine_learning_classification__precision-vs-recall",
+        "machine_learning_classification__confusion-matrix",
+        "machine_learning_classification__class-imbalance",
+        "machine_learning_classification__logistic-regression"
+      ],
+      "status": "covered"
+    }
+  ]
+}

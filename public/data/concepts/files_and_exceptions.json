@@ -1,0 +1,133 @@
+{
+  "id": "files_and_exceptions",
+  "title": "Files and exceptions",
+  "summary": "Read and write files safely, and handle failures in ways that preserve signal instead of hiding bugs.",
+  "tags": [
+    "python",
+    "files",
+    "exceptions",
+    "io"
+  ],
+  "prerequisites": [
+    "functions_and_modules"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "File Input and Output"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Files and Exceptions",
+        "Reading from a File",
+        "Writing to a File"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "MODULES AND FILES",
+        "EXCEPTIONS AND ASSERTIONS"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "files_and_exceptions",
+      "hints": [
+        "Think automatic cleanup."
+      ],
+      "id": "files_and_exceptions__with-statement",
+      "type": "flashcard",
+      "prompt": "Why is `with open(...)` usually better than `open(...)` alone?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It guarantees that the file is cleaned up promptly, even if an error occurs while you are working with it.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "files_and_exceptions",
+      "hints": [
+        "Use exceptions when failure is possible and expected."
+      ],
+      "id": "files_and_exceptions__exception-when",
+      "type": "mcq",
+      "prompt": "Which situation is the best use of a `try`/`except` block?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Handling a file that might not exist when the user provides the path."
+        },
+        {
+          "id": "b",
+          "label": "Avoiding all debugging forever."
+        },
+        {
+          "id": "c",
+          "label": "Replacing every `if` statement in your codebase."
+        },
+        {
+          "id": "d",
+          "label": "Making a list immutable."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "File access can fail for reasons outside your control, so catching the specific error lets you respond cleanly."
+      }
+    },
+    {
+      "conceptId": "files_and_exceptions",
+      "hints": [
+        "Think debugging quality."
+      ],
+      "id": "files_and_exceptions__specific-except",
+      "type": "short_answer",
+      "prompt": "Why should you catch specific exceptions instead of using a bare `except`?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "to avoid hiding unrelated bugs",
+        "specific errors are safer",
+        "bare except hides problems"
+      ],
+      "solution": {
+        "summary": "Specific exceptions preserve useful failures and make it much easier to understand what actually went wrong.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "files_and_exceptions",
+      "hints": [],
+      "id": "files_and_exceptions__safe-divide",
+      "type": "code_exercise",
+      "prompt": "Write a function `safe_divide(a, b)` that returns `a / b`, but returns the string `'cannot divide by zero'` when `b` is zero.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "# define safe_divide here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nassert ns['safe_divide'](8, 2) == 4\nassert ns['safe_divide'](8, 0) == 'cannot divide by zero'\n__grade_result__ = {'passed': True, 'message': 'Your function handles zero division correctly.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "def safe_divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return 'cannot divide by zero'\n",
+        "checklist": [
+          "Handles the normal case",
+          "Handles division by zero cleanly"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

@@ -1,0 +1,118 @@
+{
+  "id": "time_series_forecasting",
+  "title": "Time series and forecasting",
+  "summary": "Respect ordering in time-dependent data, separate trend from noise, and evaluate forecasts against appropriate baselines.",
+  "tags": [
+    "time-series",
+    "forecasting",
+    "evaluation"
+  ],
+  "prerequisites": [
+    "regression_and_model_validation"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Time Series and Forecasting",
+        "Forecast Evaluation Methods"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "time_series_forecasting",
+      "hints": [
+        "Think leakage from the future."
+      ],
+      "id": "time_series_forecasting__time-order-matters",
+      "type": "flashcard",
+      "prompt": "Why should time series splits respect chronological order?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Because future values should not leak into model training when you are trying to predict those future values.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "time_series_forecasting",
+      "hints": [
+        "Think recurring structure, not one-time trend."
+      ],
+      "id": "time_series_forecasting__seasonality",
+      "type": "short_answer",
+      "prompt": "What does seasonality mean in a time series?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "repeating pattern over a fixed period",
+        "regular cycle",
+        "periodic structure"
+      ],
+      "solution": {
+        "summary": "Seasonality is a predictable repeating pattern tied to a fixed interval such as day, week, month, or year.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "time_series_forecasting",
+      "hints": [
+        "A fancy model should beat something simple."
+      ],
+      "id": "time_series_forecasting__forecast-baseline",
+      "type": "mcq",
+      "prompt": "What is the main reason to compare a forecasting model against a simple baseline such as `last value`?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "To verify that the complex model actually adds value."
+        },
+        {
+          "id": "b",
+          "label": "Because baselines are always optimal."
+        },
+        {
+          "id": "c",
+          "label": "To avoid using any evaluation metric."
+        },
+        {
+          "id": "d",
+          "label": "Because time series never contain noise."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "If a complex model cannot beat a strong simple baseline, the extra complexity is usually not justified."
+      }
+    },
+    {
+      "conceptId": "time_series_forecasting",
+      "hints": [],
+      "id": "time_series_forecasting__naive-forecast",
+      "type": "code_exercise",
+      "prompt": "Write a function `naive_forecast(series)` that returns a list containing the last observed value repeated once for the next step.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "# define naive_forecast here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nassert ns['naive_forecast']([3, 5, 7]) == [7]\nassert ns['naive_forecast']([10]) == [10]\n__grade_result__ = {'passed': True, 'message': 'Your naive forecast returns the last observed value.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "def naive_forecast(series):\n    return [series[-1]]\n",
+        "checklist": [
+          "Uses the last observation",
+          "Returns a forecast container"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

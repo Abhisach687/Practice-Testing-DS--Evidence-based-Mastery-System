@@ -1,0 +1,110 @@
+{
+  "id": "clustering_and_unsupervised",
+  "title": "Clustering and unsupervised learning",
+  "summary": "Group similar observations without labels and stay skeptical about whether the discovered groups are meaningful or artifacts.",
+  "tags": [
+    "machine-learning",
+    "clustering",
+    "unsupervised"
+  ],
+  "prerequisites": [
+    "dataframes_and_cleaning"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Other Machine Learning Techniques",
+        "Classification Using Machine Learning"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "CLUSTERING"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "clustering_and_unsupervised",
+      "hints": [
+        "No ground-truth class column."
+      ],
+      "id": "clustering_and_unsupervised__unsupervised-definition",
+      "type": "flashcard",
+      "prompt": "What makes clustering an unsupervised learning task?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "The algorithm is not given target labels and must organize the observations using patterns in the inputs alone.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "clustering_and_unsupervised",
+      "hints": [
+        "Think modeling assumption versus reality."
+      ],
+      "id": "clustering_and_unsupervised__kmeans-caveat",
+      "type": "short_answer",
+      "prompt": "Why should you be cautious when interpreting clusters from k-means?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "clusters may be imposed by the algorithm",
+        "depends on k and scaling",
+        "not proof of real groups"
+      ],
+      "solution": {
+        "summary": "K-means will always partition the data, but that does not guarantee the clusters represent real underlying categories.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "clustering_and_unsupervised",
+      "hints": [],
+      "id": "clustering_and_unsupervised__kmeans-fit",
+      "type": "code_exercise",
+      "prompt": "Fit a 2-cluster k-means model to the points below and print the number of cluster centers.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "from sklearn.cluster import KMeans\nX = [[0, 0], [0, 1], [4, 4], [4, 5]]\n# fit a two-cluster model and print how many centers it learned\n",
+      "pyodide": {
+        "packages": [
+          "scikit-learn"
+        ],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\nassert buf.getvalue().strip() == '2', 'The fitted model should report two centers.'\n__grade_result__ = {'passed': True, 'message': 'Your clustering model fit the requested number of clusters.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "from sklearn.cluster import KMeans\nX = [[0, 0], [0, 1], [4, 4], [4, 5]]\nmodel = KMeans(n_clusters=2, random_state=0, n_init='auto').fit(X)\nprint(len(model.cluster_centers_))\n",
+        "checklist": [
+          "Creates a KMeans model",
+          "Fits to the provided points"
+        ]
+      }
+    },
+    {
+      "conceptId": "clustering_and_unsupervised",
+      "hints": [],
+      "id": "clustering_and_unsupervised__cluster-audit",
+      "type": "project_checkpoint",
+      "prompt": "After generating clusters for customers, what would you inspect before turning them into a business policy?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "A cluster is only valuable when it is stable, understandable, and connected to a responsible downstream decision.",
+        "checklist": [
+          "Check whether the clusters are stable under scaling or random seed changes.",
+          "Inspect whether the features encode bias or proxies for protected traits.",
+          "Confirm that the segments support a useful action."
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

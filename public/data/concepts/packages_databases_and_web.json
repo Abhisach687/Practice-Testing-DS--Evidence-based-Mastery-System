@@ -1,0 +1,124 @@
+{
+  "id": "packages_databases_and_web",
+  "title": "Packages, databases, and web interaction",
+  "summary": "Work with Python's wider ecosystem by installing packages, storing structured data, and making controlled requests to external systems.",
+  "tags": [
+    "pip",
+    "databases",
+    "web",
+    "apis",
+    "ecosystem"
+  ],
+  "prerequisites": [
+    "functions_and_modules",
+    "files_and_exceptions"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Installing Packages With Pip",
+        "Creating and Modifying PDF Files",
+        "Working With Databases",
+        "Interacting With the Web"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Working with APIs"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "packages_databases_and_web",
+      "hints": [
+        "Think dependency management."
+      ],
+      "id": "packages_databases_and_web__pip-role",
+      "type": "flashcard",
+      "prompt": "What is `pip` used for in a Python workflow?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It installs and manages external Python packages so your project can use libraries beyond the standard library.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "packages_databases_and_web",
+      "hints": [
+        "Think contract, not syntax sugar."
+      ],
+      "id": "packages_databases_and_web__api-definition",
+      "type": "mcq",
+      "prompt": "What is an API in everyday programming terms?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A defined interface for requesting and exchanging functionality or data."
+        },
+        {
+          "id": "b",
+          "label": "A special kind of Python loop."
+        },
+        {
+          "id": "c",
+          "label": "A database backup file."
+        },
+        {
+          "id": "d",
+          "label": "A chart annotation style."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "An API is an agreed-upon interface that lets one piece of software use data or behavior from another."
+      }
+    },
+    {
+      "conceptId": "packages_databases_and_web",
+      "hints": [
+        "Think querying, scale, and structure."
+      ],
+      "id": "packages_databases_and_web__database-benefit",
+      "type": "short_answer",
+      "prompt": "Why would you use a database instead of a plain text file for some applications?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "structured queries",
+        "reliable storage",
+        "relationships and indexing"
+      ],
+      "solution": {
+        "summary": "Databases help when data needs structure, querying, indexing, relationships, or multi-user reliability.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "packages_databases_and_web",
+      "hints": [],
+      "id": "packages_databases_and_web__external-system-checklist",
+      "type": "project_checkpoint",
+      "prompt": "Before adding a third-party package or API to a learning app, what should you check?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "External tools accelerate development, but they also add operational and maintenance responsibilities.",
+        "checklist": [
+          "Is the dependency trustworthy and maintained?",
+          "What data shape and failure modes should I expect?",
+          "How will I test the integration without breaking the core app?"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

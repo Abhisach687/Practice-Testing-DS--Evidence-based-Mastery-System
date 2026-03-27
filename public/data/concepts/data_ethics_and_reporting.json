@@ -1,0 +1,116 @@
+{
+  "id": "data_ethics_and_reporting",
+  "title": "Data ethics and reporting",
+  "summary": "Treat privacy, fairness, transparency, and communication quality as part of the analysis itself rather than as polish added at the end.",
+  "tags": [
+    "ethics",
+    "reporting",
+    "communication",
+    "fairness"
+  ],
+  "prerequisites": [
+    "visualization_storytelling",
+    "machine_learning_classification"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Ethics Throughout the Data Science Cycle",
+        "Reporting Results"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "data_ethics_and_reporting",
+      "hints": [
+        "Think lifecycle, not final checkpoint."
+      ],
+      "id": "data_ethics_and_reporting__ethics-cycle",
+      "type": "flashcard",
+      "prompt": "Why should ethics be considered across the whole data science cycle instead of only at deployment?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Bias, privacy loss, and misuse can enter during collection, cleaning, modeling, visualization, and reporting, so waiting until the end is too late.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "data_ethics_and_reporting",
+      "hints": [
+        "Trust grows when caveats are visible."
+      ],
+      "id": "data_ethics_and_reporting__reporting-best-practice",
+      "type": "mcq",
+      "prompt": "Which reporting habit most improves trust?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "State assumptions, limitations, and uncertainty clearly."
+        },
+        {
+          "id": "b",
+          "label": "Hide weak results to keep the story cleaner."
+        },
+        {
+          "id": "c",
+          "label": "Report only one metric with no context."
+        },
+        {
+          "id": "d",
+          "label": "Avoid documenting data provenance."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "Transparent reporting includes assumptions, uncertainty, limitations, and provenance so others can judge the work responsibly."
+      }
+    },
+    {
+      "conceptId": "data_ethics_and_reporting",
+      "hints": [
+        "Think uneven impact across groups."
+      ],
+      "id": "data_ethics_and_reporting__fairness-question",
+      "type": "short_answer",
+      "prompt": "Name one fairness question you should ask before deploying a model.",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "who is harmed by errors",
+        "does performance differ across groups",
+        "are there biased proxies"
+      ],
+      "solution": {
+        "summary": "A useful fairness check asks whether errors or benefits are distributed unevenly across meaningful groups.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "data_ethics_and_reporting",
+      "hints": [],
+      "id": "data_ethics_and_reporting__executive-summary",
+      "type": "project_checkpoint",
+      "prompt": "Imagine you must brief a non-technical stakeholder on an analysis. What belongs in a strong executive summary?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "A strong summary is brief, decision-oriented, and honest about limitations.",
+        "checklist": [
+          "The main finding and the action it supports.",
+          "The uncertainty or risk around that finding.",
+          "What data and methods shaped the result.",
+          "What should happen next."
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

@@ -1,0 +1,39 @@
+{
+  "name": "practice-testing-ds",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:content && npm run sync:pyodide && vite build",
+    "build:content": "node ./scripts/build-content.mjs",
+    "extract:books": "node ./scripts/extract-pdfs.mjs",
+    "sync:pyodide": "node ./scripts/sync-pyodide.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "idb": "^8.0.2",
+    "pyodide": "0.29.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.4.1",
+    "fake-indexeddb": "^6.2.2",
+    "jsdom": "^26.1.0",
+    "pdfjs-dist": "^5.4.149",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
+  }
+}

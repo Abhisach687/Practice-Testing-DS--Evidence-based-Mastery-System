@@ -1,0 +1,133 @@
+{
+  "id": "debugging_testing_assertions",
+  "title": "Debugging, testing, and assertions",
+  "summary": "Read failures, isolate bugs, and write tests that protect behavior as programs grow.",
+  "tags": [
+    "python",
+    "debugging",
+    "testing",
+    "assertions"
+  ],
+  "prerequisites": [
+    "files_and_exceptions"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Finding and Fixing Code Bugs"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Testing Your Code"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "TESTING AND DEBUGGING",
+        "EXCEPTIONS AND ASSERTIONS"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "debugging_testing_assertions",
+      "hints": [
+        "Think feedback loop, not punishment."
+      ],
+      "id": "debugging_testing_assertions__failing-test-value",
+      "type": "flashcard",
+      "prompt": "Why is a failing test useful even though it feels like bad news?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It gives you a precise, repeatable signal that behavior is wrong and tells you when the bug is actually fixed.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "debugging_testing_assertions",
+      "hints": [
+        "Check the denominator.",
+        "The count of items should match the list length."
+      ],
+      "id": "debugging_testing_assertions__fix-average",
+      "type": "bug_fix",
+      "prompt": "The function should return the arithmetic mean of a list of numbers. Fix the bug.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "def average(values):\n    return sum(values) / (len(values) - 1)\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nassert round(ns['average']([2, 4, 6]), 2) == 4.0\nassert round(ns['average']([10, 20]), 2) == 15.0\n__grade_result__ = {'passed': True, 'message': 'You corrected the mean calculation.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "def average(values):\n    return sum(values) / len(values)\n",
+        "checklist": [
+          "Uses the true list length"
+        ]
+      }
+    },
+    {
+      "conceptId": "debugging_testing_assertions",
+      "hints": [
+        "Assertions are about programmer assumptions."
+      ],
+      "id": "debugging_testing_assertions__assert-purpose",
+      "type": "mcq",
+      "prompt": "What is an assertion best used for?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Documenting and checking assumptions that should always be true."
+        },
+        {
+          "id": "b",
+          "label": "Replacing all user-facing error handling."
+        },
+        {
+          "id": "c",
+          "label": "Installing packages from the internet."
+        },
+        {
+          "id": "d",
+          "label": "Formatting CSV files."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "Assertions are a compact way to state invariants and catch impossible states during development."
+      }
+    },
+    {
+      "conceptId": "debugging_testing_assertions",
+      "hints": [
+        "Shrink the problem until the bug still survives."
+      ],
+      "id": "debugging_testing_assertions__minimal-repro",
+      "type": "short_answer",
+      "prompt": "What is a minimal reproducible example, and why does it help debugging?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "small example that still shows the bug",
+        "reproduce the bug in a tiny case",
+        "small repeatable failing case"
+      ],
+      "solution": {
+        "summary": "A minimal reproducible example removes noise, making the bug easier to reason about and easier for others to help with.",
+        "checklist": []
+      }
+    }
+  ],
+  "itemCount": 4
+}

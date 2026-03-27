@@ -1,0 +1,114 @@
+{
+  "id": "deep_learning_and_ai_foundations",
+  "title": "Deep learning and AI foundations",
+  "summary": "Understand neural-network building blocks and keep the emphasis on what the model is optimizing, not on memorizing buzzwords.",
+  "tags": [
+    "deep-learning",
+    "ai",
+    "neural-networks"
+  ],
+  "prerequisites": [
+    "machine_learning_classification"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Deep Learning and AI Basics",
+        "Introduction to Neural Networks",
+        "Backpropagation"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "deep_learning_and_ai_foundations",
+      "hints": [
+        "Think useful internal features."
+      ],
+      "id": "deep_learning_and_ai_foundations__layer-intuition",
+      "type": "flashcard",
+      "prompt": "In simple terms, what does a hidden layer do in a neural network?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It learns intermediate representations that help transform raw inputs into features useful for the final prediction.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "deep_learning_and_ai_foundations",
+      "hints": [
+        "Think dataset exposure, not model architecture."
+      ],
+      "id": "deep_learning_and_ai_foundations__epoch-meaning",
+      "type": "mcq",
+      "prompt": "What is one training epoch?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "One full pass through the training data."
+        },
+        {
+          "id": "b",
+          "label": "A single neuron in the output layer."
+        },
+        {
+          "id": "c",
+          "label": "The validation metric after deployment."
+        },
+        {
+          "id": "d",
+          "label": "A clustering hyperparameter."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "An epoch is one complete pass through the training dataset during optimization."
+      }
+    },
+    {
+      "conceptId": "deep_learning_and_ai_foundations",
+      "hints": [
+        "Training needs a target to minimize."
+      ],
+      "id": "deep_learning_and_ai_foundations__loss-function",
+      "type": "short_answer",
+      "prompt": "Why does a model need a loss function during training?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "to measure how wrong predictions are",
+        "objective for optimization",
+        "guides parameter updates"
+      ],
+      "solution": {
+        "summary": "The loss function quantifies prediction error so the optimization process knows how to adjust the parameters.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "deep_learning_and_ai_foundations",
+      "hints": [],
+      "id": "deep_learning_and_ai_foundations__ai-use-case-check",
+      "type": "project_checkpoint",
+      "prompt": "Before choosing a deep learning approach, what questions should you ask about the problem and the data?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Deep learning should be chosen because the problem demands it, not because it sounds more advanced.",
+        "checklist": [
+          "Do I have enough labeled data for this task?",
+          "Is a simpler baseline good enough?",
+          "Can I explain, validate, and monitor the system responsibly?"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

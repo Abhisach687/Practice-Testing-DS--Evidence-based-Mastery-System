@@ -1,0 +1,84 @@
+{
+  "id": "pcc_data_visualization_projects",
+  "title": "Project capstone: data visualization workflows",
+  "summary": "Treat the project chapters on generated data, downloads, and APIs as a workflow for moving from raw inputs to meaningful visual output.",
+  "tags": [
+    "capstone",
+    "projects",
+    "visualization",
+    "apis"
+  ],
+  "prerequisites": [
+    "visualization_storytelling",
+    "dataframes_and_cleaning"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Generating Data",
+        "Downloading Data",
+        "Working with APIs"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "pcc_data_visualization_projects",
+      "hints": [
+        "Think pipeline, not one command."
+      ],
+      "id": "pcc_data_visualization_projects__workflow-order",
+      "type": "flashcard",
+      "prompt": "What is the usual order from raw external data to a publishable chart?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Acquire the data, inspect it, clean or reshape it, choose the right visual encoding, then annotate the takeaway.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "pcc_data_visualization_projects",
+      "hints": [
+        "External data can drift."
+      ],
+      "id": "pcc_data_visualization_projects__api-risk",
+      "type": "short_answer",
+      "prompt": "What is one reason API data needs extra validation before charting it?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "schema may change",
+        "missing fields",
+        "unexpected values"
+      ],
+      "solution": {
+        "summary": "API payloads can change or contain missing and malformed values, so validation prevents silent downstream errors.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "pcc_data_visualization_projects",
+      "hints": [],
+      "id": "pcc_data_visualization_projects__viz-project-brief",
+      "type": "project_checkpoint",
+      "prompt": "Outline a mini project that uses downloaded data to answer one concrete question with a chart.",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "A good project brief ties the data source, analysis step, and visual output to one focused question.",
+        "checklist": [
+          "Name the question.",
+          "State the data source.",
+          "Describe the cleaning step.",
+          "Choose the chart and why it fits."
+        ]
+      }
+    }
+  ],
+  "itemCount": 3
+}

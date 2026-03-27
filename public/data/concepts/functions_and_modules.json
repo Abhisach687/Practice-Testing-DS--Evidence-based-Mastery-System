@@ -1,0 +1,118 @@
+{
+  "id": "functions_and_modules",
+  "title": "Functions and modules",
+  "summary": "Break logic into reusable units with clear parameters, return values, and module boundaries.",
+  "tags": [
+    "python",
+    "functions",
+    "modules",
+    "abstraction"
+  ],
+  "prerequisites": [
+    "conditionals_and_loops"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Functions and Loops",
+        "Modules and Packages"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Functions",
+        "Storing Your Functions in Modules"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "FUNCTIONS, SCOPING, AND ABSTRACTION",
+        "MODULES AND FILES"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": true,
+  "items": [
+    {
+      "conceptId": "functions_and_modules",
+      "hints": [
+        "Think reuse versus display."
+      ],
+      "id": "functions_and_modules__return-vs-print",
+      "type": "flashcard",
+      "prompt": "What is the difference between returning a value and printing a value?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Returning sends a value back to the caller for reuse; printing only displays text to the user.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "functions_and_modules",
+      "hints": [
+        "A hard-coded function is much less flexible."
+      ],
+      "id": "functions_and_modules__parameter-purpose",
+      "type": "short_answer",
+      "prompt": "Why are parameters useful in a function definition?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "they let you pass different inputs",
+        "they make the function reusable",
+        "inputs to a function"
+      ],
+      "solution": {
+        "summary": "Parameters make a function reusable by letting callers supply different inputs without rewriting the body.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "functions_and_modules",
+      "hints": [
+        "Remember the default value for `factor`."
+      ],
+      "id": "functions_and_modules__function-call-trace",
+      "type": "predict_output",
+      "prompt": "Predict the output.",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "code": "def scale(value, factor=2):\n    return value * factor\n\nprint(scale(5))\nprint(scale(5, 3))",
+      "acceptedAnswers": [
+        "10\n15"
+      ],
+      "solution": {
+        "summary": "The first call uses the default factor 2, and the second overrides it with 3."
+      }
+    },
+    {
+      "conceptId": "functions_and_modules",
+      "hints": [],
+      "id": "functions_and_modules__module-style-helper",
+      "type": "code_exercise",
+      "prompt": "Define a function `is_even(number)` that returns `True` when the input is even and `False` otherwise.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "# define is_even here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nassert 'is_even' in ns, 'Define a function named is_even.'\nassert ns['is_even'](4) is True\nassert ns['is_even'](5) is False\n__grade_result__ = {'passed': True, 'message': 'Your function returns the right boolean values.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "def is_even(number):\n    return number % 2 == 0\n",
+        "checklist": [
+          "Returns booleans",
+          "Uses the input parameter"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}
