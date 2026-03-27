@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: process.env.BASE_PATH ?? "/Practice-Testing-DS--Evidence-based-Mastery-System/",
+  base: process.env.BASE_PATH ?? "/Practice-Testing-DS--Evidence-based-Mastery-System",
   plugins: [react()],
   resolve: {
     alias: {
