@@ -1,5 +1,6 @@
 {
   "name": "practice-testing-ds",
+  "homepage": "https://abhisach687.github.io/Practice-Testing-DS--Evidence-based-Mastery-System",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -12,9 +13,12 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "idb": "^8.0.2",
     "pyodide": "0.29.3",
     "react": "^19.1.0",
