@@ -74,7 +74,7 @@ export default [
         solutionCode:
           "learner_name = \"Ava\"\nprint(f\"Hello, {learner_name}!\")\nprint(\"Ready to practice Python.\")\n",
         tests:
-          "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\noutput = [line.strip() for line in buf.getvalue().strip().splitlines()]\nassert len(output) == 2, 'Print exactly two lines.'\nassert output[0].startswith('Hello, '), 'First line should greet the learner.'\nassert output[1] == 'Ready to practice Python.', 'Second line should match exactly.'\n__grade_result__ = {'passed': True, 'message': 'Your script prints the required greeting.'}\n",
+          "import io, contextlib\nbuf = io.StringIO()\nns = {}\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, ns)\noutput = [line.strip() for line in buf.getvalue().strip().splitlines()]\nassert len(output) == 2, 'Print exactly two lines.'\nassert 'learner_name' in ns, \"Store the learner's name in learner_name before printing.\"\nexpected_first_line = f\"Hello, {ns['learner_name']}!\"\nassert output[0] == expected_first_line, f\"First line should be exactly {expected_first_line!r}, but got {output[0]!r}.\"\nexpected_second_line = 'Ready to practice Python.'\nassert output[1] == expected_second_line, f\"Second line should be exactly {expected_second_line!r}, but got {output[1]!r}.\"\n__grade_result__ = {'passed': True, 'message': 'Your script prints the required greeting.'}\n",
         rubric: [
           "Uses a variable",
           "Prints two lines",
