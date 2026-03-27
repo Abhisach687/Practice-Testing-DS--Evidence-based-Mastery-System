@@ -14,11 +14,22 @@ function normalizeMultiline(value: string) {
     .join("\n");
 }
 
+function hasText(value: string) {
+  return value.trim().length > 0;
+}
+
 export function evaluateAutoItem(
   item: LearningItem,
   answer: string
 ): PyodideExecutionResult {
   if (item.type === "mcq") {
+    if (!hasText(answer)) {
+      return {
+        passed: false,
+        message: "Choose an option before checking your answer."
+      };
+    }
+
     const passed = answer === item.correctChoiceId;
     return {
       passed,
@@ -34,16 +45,30 @@ export function evaluateAutoItem(
       ? normalizeMultiline(answer)
       : normalize(answer);
 
+  if (!normalizedAnswer) {
+    return {
+      passed: false,
+      message: "Enter an answer before checking it."
+    };
+  }
+
   const passed = acceptedAnswers.some((accepted) => {
     const normalizedAccepted =
       item.type === "predict_output" || item.type === "code_trace"
         ? normalizeMultiline(accepted)
         : normalize(accepted);
 
+    if (!normalizedAccepted) {
+      return false;
+    }
+
+    if (item.type === "predict_output" || item.type === "code_trace") {
+      return normalizedAnswer === normalizedAccepted;
+    }
+
     return (
       normalizedAnswer === normalizedAccepted ||
-      normalizedAnswer.includes(normalizedAccepted) ||
-      normalizedAccepted.includes(normalizedAnswer)
+      normalizedAnswer.includes(normalizedAccepted)
     );
   });
 
