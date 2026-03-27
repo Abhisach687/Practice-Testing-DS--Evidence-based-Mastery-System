@@ -1,13 +1,27 @@
 :root {
-  color-scheme: light;
+  color-scheme: dark;
   font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #182028;
+  --bg-top: #071019;
+  --bg-bottom: #02070d;
+  --surface: rgba(10, 25, 39, 0.88);
+  --surface-strong: rgba(13, 32, 49, 0.94);
+  --surface-soft: rgba(12, 26, 40, 0.8);
+  --line: rgba(151, 186, 215, 0.14);
+  --text: #eef5fb;
+  --muted: #9db0c3;
+  --accent: #f2a45c;
+  --accent-strong: #ffca8f;
+  --teal: #7bd7c3;
+  --danger: #ff9a9a;
+  --success: #83dcb3;
+  color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(244, 184, 121, 0.32), transparent 32%),
-    radial-gradient(circle at top right, rgba(85, 126, 150, 0.18), transparent 28%),
-    linear-gradient(180deg, #f5ede1 0%, #efe5d5 48%, #e7dcc8 100%);
+    radial-gradient(circle at top left, rgba(242, 164, 92, 0.18), transparent 32%),
+    radial-gradient(circle at top right, rgba(69, 128, 166, 0.18), transparent 26%),
+    radial-gradient(circle at center right, rgba(123, 215, 195, 0.08), transparent 24%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
 }
 
 * {
@@ -17,6 +31,12 @@
 body {
   margin: 0;
   min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(242, 164, 92, 0.18), transparent 32%),
+    radial-gradient(circle at top right, rgba(69, 128, 166, 0.18), transparent 26%),
+    radial-gradient(circle at center right, rgba(123, 215, 195, 0.08), transparent 24%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
 }
 
 button,
@@ -41,10 +61,10 @@ input {
 .hero-card,
 .sidebar-card,
 .study-card {
-  border: 1px solid rgba(24, 32, 40, 0.12);
+  border: 1px solid var(--line);
   border-radius: 28px;
-  background: rgba(255, 250, 243, 0.86);
-  box-shadow: 0 18px 50px rgba(50, 44, 33, 0.08);
+  background: linear-gradient(180deg, rgba(12, 27, 41, 0.92), rgba(8, 21, 33, 0.92));
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.34);
   backdrop-filter: blur(10px);
 }
 
@@ -65,12 +85,12 @@ input {
 
 .hero-text {
   max-width: 60ch;
-  color: #44515e;
+  color: var(--muted);
 }
 
 .eyebrow {
   margin: 0;
-  color: #8c5127;
+  color: var(--accent-strong);
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.72rem;
@@ -86,14 +106,14 @@ input {
 .stat-pill {
   padding: 1rem;
   border-radius: 20px;
-  background: linear-gradient(180deg, rgba(252, 244, 230, 0.96), rgba(244, 233, 215, 0.96));
-  border: 1px solid rgba(123, 98, 70, 0.12);
+  background: linear-gradient(180deg, rgba(18, 39, 58, 0.96), rgba(10, 24, 36, 0.96));
+  border: 1px solid var(--line);
 }
 
 .stat-pill span {
   display: block;
   font-size: 0.85rem;
-  color: #6b6257;
+  color: var(--muted);
 }
 
 .stat-pill strong {
@@ -153,28 +173,28 @@ input {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  background: rgba(140, 81, 39, 0.12);
-  color: #8c5127;
+  background: rgba(242, 164, 92, 0.14);
+  color: var(--accent-strong);
 }
 
 .queue-due {
-  background: rgba(150, 76, 76, 0.14);
-  color: #8c3636;
+  background: rgba(255, 130, 130, 0.14);
+  color: #ffb0b0;
 }
 
 .queue-weak {
-  background: rgba(191, 119, 39, 0.14);
-  color: #9d5a1d;
+  background: rgba(242, 164, 92, 0.14);
+  color: var(--accent-strong);
 }
 
 .queue-fresh {
-  background: rgba(76, 126, 115, 0.14);
-  color: #2f7166;
+  background: rgba(123, 215, 195, 0.14);
+  color: var(--teal);
 }
 
 .queue-relearn {
-  background: rgba(91, 95, 180, 0.14);
-  color: #4447a9;
+  background: rgba(138, 124, 255, 0.14);
+  color: #b6adff;
 }
 
 .book-grid {
@@ -185,8 +205,8 @@ input {
 .book-card {
   padding: 0.85rem;
   border-radius: 18px;
-  background: rgba(245, 237, 225, 0.76);
-  border: 1px solid rgba(24, 32, 40, 0.08);
+  background: rgba(15, 31, 46, 0.88);
+  border: 1px solid var(--line);
 }
 
 .book-card h3,
@@ -211,19 +231,20 @@ input {
   width: 100%;
   padding: 0.8rem 0.9rem;
   border-radius: 18px;
-  background: rgba(255, 252, 247, 0.88);
-  border: 1px solid rgba(24, 32, 40, 0.08);
+  background: rgba(14, 30, 45, 0.92);
+  border: 1px solid var(--line);
 }
 
 .concept-chip strong {
-  color: #6b6257;
+  color: var(--muted);
   text-transform: uppercase;
   font-size: 0.72rem;
   letter-spacing: 0.08em;
 }
 
 .concept-chip.active {
-  background: linear-gradient(180deg, rgba(255, 235, 204, 0.96), rgba(247, 226, 193, 0.96));
+  background: linear-gradient(180deg, rgba(44, 58, 77, 0.96), rgba(20, 37, 55, 0.96));
+  border-color: rgba(242, 164, 92, 0.28);
 }
 
 .study-header {
@@ -237,20 +258,20 @@ input {
   display: grid;
   gap: 0.3rem;
   justify-items: end;
-  color: #6b6257;
+  color: var(--muted);
   font-size: 0.85rem;
 }
 
 .concept-summary {
   margin-top: 0;
-  color: #44515e;
+  color: var(--muted);
 }
 
 .prompt-card {
   padding: 1rem;
   border-radius: 22px;
-  background: rgba(255, 255, 255, 0.65);
-  border: 1px solid rgba(24, 32, 40, 0.08);
+  background: rgba(9, 21, 33, 0.84);
+  border: 1px solid var(--line);
 }
 
 .answer-box {
@@ -259,8 +280,9 @@ input {
   margin-top: 0.75rem;
   padding: 0.9rem;
   border-radius: 18px;
-  border: 1px solid rgba(24, 32, 40, 0.14);
-  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(151, 186, 215, 0.18);
+  background: rgba(5, 15, 24, 0.92);
+  color: var(--text);
   resize: vertical;
 }
 
@@ -280,12 +302,13 @@ input {
   padding: 0.95rem;
   border-radius: 18px;
   overflow-x: auto;
-  background: #182028;
-  color: #f4eadc;
+  background: #05111b;
+  color: #edf3f9;
+  border: 1px solid rgba(151, 186, 215, 0.12);
 }
 
 .terminal-block.failure {
-  background: #4c2424;
+  background: #351717;
 }
 
 .choice-list {
@@ -301,8 +324,8 @@ input {
   align-items: start;
   padding: 0.8rem 0.9rem;
   border-radius: 18px;
-  border: 1px solid rgba(24, 32, 40, 0.1);
-  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(151, 186, 215, 0.14);
+  background: rgba(12, 27, 41, 0.9);
 }
 
 .action-row {
@@ -322,18 +345,19 @@ input {
 }
 
 .primary-button {
-  background: #183f4c;
-  color: #f6efe4;
+  background: linear-gradient(180deg, #f2a45c, #d87e2f);
+  color: #140e09;
+  font-weight: 700;
 }
 
 .secondary-button {
-  background: rgba(24, 63, 76, 0.1);
-  color: #183f4c;
+  background: rgba(151, 186, 215, 0.12);
+  color: var(--text);
 }
 
 .danger-button {
-  background: rgba(140, 54, 54, 0.14);
-  color: #8c3636;
+  background: rgba(255, 130, 130, 0.14);
+  color: var(--danger);
 }
 
 .upload-button {
@@ -352,16 +376,18 @@ input {
   margin-top: 0.95rem;
   padding: 0.95rem 1rem;
   border-radius: 18px;
-  background: rgba(247, 240, 229, 0.82);
-  border: 1px solid rgba(24, 32, 40, 0.08);
+  background: rgba(12, 27, 41, 0.88);
+  border: 1px solid var(--line);
 }
 
 .feedback-card.success {
-  background: rgba(228, 242, 236, 0.9);
+  background: rgba(15, 49, 42, 0.9);
+  border-color: rgba(131, 220, 179, 0.2);
 }
 
 .feedback-card.failure {
-  background: rgba(246, 227, 227, 0.9);
+  background: rgba(56, 23, 29, 0.92);
+  border-color: rgba(255, 154, 154, 0.2);
 }
 
 .feedback-card h4,
@@ -376,6 +402,27 @@ input {
 .checklist {
   margin: 0.65rem 0 0;
   padding-left: 1.2rem;
+}
+
+.study-card,
+.prompt-card,
+.choice-card,
+.book-card,
+.concept-chip,
+.stat-pill,
+.feedback-card {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.concept-chip:hover,
+.queue-list button:hover,
+.primary-button:hover,
+.secondary-button:hover,
+.danger-button:hover {
+  transform: translateY(-1px);
 }
 
 .footer-actions {

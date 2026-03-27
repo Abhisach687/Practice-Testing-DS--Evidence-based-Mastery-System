@@ -125,55 +125,11 @@ npm run build
 
 ### 2. Publish the `dist/` folder
 
-Recommended approach: GitHub Actions with Pages.
+This repo already includes:
 
-Create `.github/workflows/deploy-pages.yml` with:
+`./.github/workflows/deploy-pages.yml`
 
-```yaml
-name: Deploy GitHub Pages
-
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-        env:
-          BASE_PATH: /<repo-name>/
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
-```
+That workflow builds the app and deploys `dist/` to GitHub Pages automatically on every push to `main`.
 
 Then:
 
@@ -182,7 +138,30 @@ Then:
 3. Set the source to `GitHub Actions`.
 4. Push to `main` to trigger the workflow.
 
+Important:
+
+- The included workflow assumes a project site and uses `/${{ github.event.repository.name }}/` as `BASE_PATH`.
+- If you are deploying to a user or organization root site instead of a project site, edit `.github/workflows/deploy-pages.yml` and change `BASE_PATH` to `/`.
+
 If you prefer a manual branch-based deployment instead, the same rule still applies: build first with the correct `BASE_PATH`, then publish the contents of `dist/`.
+
+## GitHub Pages Walkthrough
+
+If you want the shortest path:
+
+1. Create a GitHub repository and push this project to `main`.
+2. Open the repo on GitHub.
+3. Go to `Settings -> Pages`.
+4. Under `Build and deployment`, choose `GitHub Actions`.
+5. Make sure `.github/workflows/deploy-pages.yml` is in the repo.
+6. Push a commit to `main`.
+7. Open the `Actions` tab and wait for `Deploy GitHub Pages` to finish.
+8. After it succeeds, GitHub will show the site URL on the Pages settings screen and in the workflow summary.
+
+If the site opens with missing assets, the usual cause is a mismatched base path:
+
+- project page: keep `BASE_PATH` as `/${repo-name}/`
+- root domain page: change `BASE_PATH` to `/`
 
 ## Notes
 
