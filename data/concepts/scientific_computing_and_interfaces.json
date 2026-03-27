@@ -1,0 +1,96 @@
+{
+  "id": "scientific_computing_and_interfaces",
+  "title": "Scientific computing and interfaces",
+  "summary": "Use numerical libraries and graphical interfaces when the task calls for them, while keeping the underlying program structure clear.",
+  "tags": [
+    "numpy",
+    "graphing",
+    "gui",
+    "interfaces"
+  ],
+  "prerequisites": [
+    "variables_strings_numbers",
+    "visualization_storytelling"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Scientific Computing and Graphing",
+        "Graphical User Interfaces"
+      ]
+    },
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Data Science with Python",
+        "Visualizing Data"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "scientific_computing_and_interfaces",
+      "hints": [
+        "Think vectorized numerical computation."
+      ],
+      "id": "scientific_computing_and_interfaces__numpy-strength",
+      "type": "flashcard",
+      "prompt": "Why is NumPy often preferred over raw Python loops for numeric arrays?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It provides efficient array operations and mathematical tools that are faster and more expressive for numerical work.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "scientific_computing_and_interfaces",
+      "hints": [
+        "Think waiting for user actions."
+      ],
+      "id": "scientific_computing_and_interfaces__gui-event-loop",
+      "type": "short_answer",
+      "prompt": "What is the role of an event loop in a graphical interface?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "respond to user actions",
+        "listen for events and update the UI",
+        "handle clicks and redraws"
+      ],
+      "solution": {
+        "summary": "A GUI event loop waits for input events and routes them to the code that updates the interface.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "scientific_computing_and_interfaces",
+      "hints": [],
+      "id": "scientific_computing_and_interfaces__numpy-mean",
+      "type": "code_exercise",
+      "prompt": "Use NumPy to create an array from `[2, 4, 6, 8]` and print its mean.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "import numpy as np\nvalues = [2, 4, 6, 8]\n# create the array and print the mean\n",
+      "pyodide": {
+        "packages": [
+          "numpy"
+        ],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\nassert buf.getvalue().strip() == '5.0', 'The mean should be 5.0.'\n__grade_result__ = {'passed': True, 'message': 'Your NumPy array computation is correct.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "import numpy as np\nvalues = [2, 4, 6, 8]\narr = np.array(values)\nprint(arr.mean())\n",
+        "checklist": [
+          "Creates a NumPy array",
+          "Uses an array method to compute the mean"
+        ]
+      }
+    }
+  ],
+  "itemCount": 3
+}

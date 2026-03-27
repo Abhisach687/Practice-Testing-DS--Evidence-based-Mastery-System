@@ -1,0 +1,127 @@
+{
+  "id": "machine_learning_classification",
+  "title": "Machine learning classification",
+  "summary": "Train classifiers, interpret confusion-matrix tradeoffs, and choose metrics that match the real cost of mistakes.",
+  "tags": [
+    "machine-learning",
+    "classification",
+    "metrics"
+  ],
+  "prerequisites": [
+    "regression_and_model_validation"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "What Is Machine Learning?",
+        "Classification Using Machine Learning"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "A QUICK LOOK AT MACHINE LEARNING",
+        "CLASSIFICATION METHODS"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "machine_learning_classification",
+      "hints": [
+        "Predicted positives versus actual positives."
+      ],
+      "id": "machine_learning_classification__precision-vs-recall",
+      "type": "flashcard",
+      "prompt": "What is the core difference between precision and recall?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Precision focuses on how many predicted positives are correct, while recall focuses on how many actual positives were found.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "machine_learning_classification",
+      "hints": [
+        "Think false negatives."
+      ],
+      "id": "machine_learning_classification__confusion-matrix",
+      "type": "mcq",
+      "prompt": "Which metric becomes especially important when missing a real positive case is costly?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Recall"
+        },
+        {
+          "id": "b",
+          "label": "Precision only because it is always best"
+        },
+        {
+          "id": "c",
+          "label": "Accuracy regardless of class balance"
+        },
+        {
+          "id": "d",
+          "label": "The chart title"
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "When missing real positives is expensive, recall matters because it tracks how many positives you successfully catch."
+      }
+    },
+    {
+      "conceptId": "machine_learning_classification",
+      "hints": [
+        "Imagine 99% negatives and 1% positives."
+      ],
+      "id": "machine_learning_classification__class-imbalance",
+      "type": "short_answer",
+      "prompt": "Why can accuracy be misleading on an imbalanced dataset?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "majority class can dominate",
+        "a trivial model can look good",
+        "rare class gets ignored"
+      ],
+      "solution": {
+        "summary": "A model can achieve high accuracy by predicting only the majority class while completely failing on the minority class.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "machine_learning_classification",
+      "hints": [],
+      "id": "machine_learning_classification__logistic-regression",
+      "type": "code_exercise",
+      "prompt": "Fit a logistic regression classifier on the tiny dataset below and print the prediction for `[3]`.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "from sklearn.linear_model import LogisticRegression\nX = [[0], [1], [2], [4], [5]]\ny = [0, 0, 0, 1, 1]\n# fit and print the prediction for [3]\n",
+      "pyodide": {
+        "packages": [
+          "scikit-learn"
+        ],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\nassert buf.getvalue().strip() in {'0', '1'}, 'Prediction should be a class label.'\n__grade_result__ = {'passed': True, 'message': 'Your classifier trains and predicts successfully.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "from sklearn.linear_model import LogisticRegression\nX = [[0], [1], [2], [4], [5]]\ny = [0, 0, 0, 1, 1]\nmodel = LogisticRegression().fit(X, y)\nprint(int(model.predict([[3]])[0]))\n",
+        "checklist": [
+          "Creates a classifier",
+          "Fits before predicting"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

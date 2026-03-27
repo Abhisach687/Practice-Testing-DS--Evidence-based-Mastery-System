@@ -1,0 +1,1293 @@
+{
+  "bookId": "python_crash_course",
+  "title": "Python Crash Course, 3rd Edition",
+  "shortTitle": "Python Crash Course",
+  "totalPages": 853,
+  "chapterCount": 20,
+  "coveredChapterCount": 20,
+  "sectionsCovered": 21,
+  "sectionsTotal": 108,
+  "chapters": [
+    {
+      "id": "chapter-1-getting-started",
+      "title": "Chapter 1: Getting Started",
+      "pageStart": 52,
+      "pageEnd": 68,
+      "sections": [
+        {
+          "id": "setting-up-your-programming-environment",
+          "title": "Setting Up Your Programming Environment",
+          "pageStart": 52,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "python-on-different-operating-systems",
+          "title": "Python on Different Operating Systems",
+          "pageStart": 55,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "running-a-hello-world-program",
+          "title": "Running a Hello World Program",
+          "pageStart": 62,
+          "conceptIds": [
+            "python_environment_and_execution"
+          ],
+          "itemIds": [
+            "python_environment_and_execution__interpreter-role",
+            "python_environment_and_execution__script-vs-repl",
+            "python_environment_and_execution__traceback-purpose",
+            "python_environment_and_execution__greeting-script"
+          ]
+        },
+        {
+          "id": "troubleshooting",
+          "title": "Troubleshooting",
+          "pageStart": 64,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "running-python-programs-from-a-terminal",
+          "title": "Running Python Programs from a Terminal",
+          "pageStart": 66,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 68,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "python_environment_and_execution"
+      ],
+      "itemIds": [
+        "python_environment_and_execution__interpreter-role",
+        "python_environment_and_execution__script-vs-repl",
+        "python_environment_and_execution__traceback-purpose",
+        "python_environment_and_execution__greeting-script"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-2-variables-and-simple-data-types",
+      "title": "Chapter 2: Variables and Simple Data Types",
+      "pageStart": 69,
+      "pageEnd": 94,
+      "sections": [
+        {
+          "id": "what-really-happens-when-you-run-hello-world-py",
+          "title": "What Really Happens When You Run hello_world.py",
+          "pageStart": 69,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "variables",
+          "title": "Variables",
+          "pageStart": 70,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "strings",
+          "title": "Strings",
+          "pageStart": 75,
+          "conceptIds": [
+            "variables_strings_numbers"
+          ],
+          "itemIds": [
+            "variables_strings_numbers__f-string-purpose",
+            "variables_strings_numbers__string-method-output",
+            "variables_strings_numbers__division-choice",
+            "variables_strings_numbers__receipt-line"
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "pageStart": 85,
+          "conceptIds": [
+            "variables_strings_numbers"
+          ],
+          "itemIds": [
+            "variables_strings_numbers__f-string-purpose",
+            "variables_strings_numbers__string-method-output",
+            "variables_strings_numbers__division-choice",
+            "variables_strings_numbers__receipt-line"
+          ]
+        },
+        {
+          "id": "comments",
+          "title": "Comments",
+          "pageStart": 90,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "the-zen-of-python",
+          "title": "The Zen of Python",
+          "pageStart": 92,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 94,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "variables_strings_numbers"
+      ],
+      "itemIds": [
+        "variables_strings_numbers__f-string-purpose",
+        "variables_strings_numbers__string-method-output",
+        "variables_strings_numbers__division-choice",
+        "variables_strings_numbers__receipt-line"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-3-introducing-lists",
+      "title": "Chapter 3: Introducing Lists",
+      "pageStart": 95,
+      "pageEnd": 116,
+      "sections": [
+        {
+          "id": "what-is-a-list",
+          "title": "What Is a List?",
+          "pageStart": 95,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "modifying-adding-and-removing-elements",
+          "title": "Modifying, Adding, and Removing Elements",
+          "pageStart": 99,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "organizing-a-list",
+          "title": "Organizing a List",
+          "pageStart": 109,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "avoiding-index-errors-when-working-with-lists",
+          "title": "Avoiding Index Errors When Working with Lists",
+          "pageStart": 113,
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 115,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "collections_and_iteration"
+      ],
+      "itemIds": [
+        "collections_and_iteration__list-vs-tuple",
+        "collections_and_iteration__dict-loop-trace",
+        "collections_and_iteration__slice-meaning",
+        "collections_and_iteration__inventory-total"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-4-working-with-lists",
+      "title": "Chapter 4: Working with Lists",
+      "pageStart": 117,
+      "pageEnd": 150,
+      "sections": [
+        {
+          "id": "looping-through-an-entire-list",
+          "title": "Looping Through an Entire List",
+          "pageStart": 117,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "avoiding-indentation-errors",
+          "title": "Avoiding Indentation Errors",
+          "pageStart": 123,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "making-numerical-lists",
+          "title": "Making Numerical Lists",
+          "pageStart": 128,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "working-with-part-of-a-list",
+          "title": "Working with Part of a List",
+          "pageStart": 135,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "tuples",
+          "title": "Tuples",
+          "pageStart": 141,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "styling-your-code",
+          "title": "Styling Your Code",
+          "pageStart": 145,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 149,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "collections_and_iteration"
+      ],
+      "itemIds": [
+        "collections_and_iteration__list-vs-tuple",
+        "collections_and_iteration__dict-loop-trace",
+        "collections_and_iteration__slice-meaning",
+        "collections_and_iteration__inventory-total"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-5-if-statements",
+      "title": "Chapter 5: if Statements",
+      "pageStart": 151,
+      "pageEnd": 179,
+      "sections": [
+        {
+          "id": "a-simple-example",
+          "title": "A Simple Example",
+          "pageStart": 152,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "conditional-tests",
+          "title": "Conditional Tests",
+          "pageStart": 152,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "if-statements",
+          "title": "if Statements",
+          "pageStart": 161,
+          "conceptIds": [
+            "conditionals_and_loops"
+          ],
+          "itemIds": [
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts"
+          ]
+        },
+        {
+          "id": "using-if-statements-with-lists",
+          "title": "Using if Statements with Lists",
+          "pageStart": 172,
+          "conceptIds": [
+            "conditionals_and_loops"
+          ],
+          "itemIds": [
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts"
+          ]
+        },
+        {
+          "id": "styling-your-if-statements",
+          "title": "Styling Your if Statements",
+          "pageStart": 177,
+          "conceptIds": [
+            "conditionals_and_loops"
+          ],
+          "itemIds": [
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts"
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 178,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "conditionals_and_loops"
+      ],
+      "itemIds": [
+        "conditionals_and_loops__guard-clause",
+        "conditionals_and_loops__elif-purpose",
+        "conditionals_and_loops__while-countdown",
+        "conditionals_and_loops__password-attempts"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-6-dictionaries",
+      "title": "Chapter 6: Dictionaries",
+      "pageStart": 180,
+      "pageEnd": 211,
+      "sections": [
+        {
+          "id": "a-simple-dictionary",
+          "title": "A Simple Dictionary",
+          "pageStart": 181,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "working-with-dictionaries",
+          "title": "Working with Dictionaries",
+          "pageStart": 181,
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ]
+        },
+        {
+          "id": "looping-through-a-dictionary",
+          "title": "Looping Through a Dictionary",
+          "pageStart": 192,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "nesting",
+          "title": "Nesting",
+          "pageStart": 201,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 211,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "collections_and_iteration"
+      ],
+      "itemIds": [
+        "collections_and_iteration__list-vs-tuple",
+        "collections_and_iteration__dict-loop-trace",
+        "collections_and_iteration__slice-meaning",
+        "collections_and_iteration__inventory-total"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-7-user-input-and-while-loops",
+      "title": "Chapter 7: User Input and while Loops",
+      "pageStart": 212,
+      "pageEnd": 234,
+      "sections": [
+        {
+          "id": "how-the-input-function-works",
+          "title": "How the input() Function Works",
+          "pageStart": 213,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "introducing-while-loops",
+          "title": "Introducing while Loops",
+          "pageStart": 219,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "using-a-while-loop-with-lists-and-dictionaries",
+          "title": "Using a while Loop with Lists and Dictionaries",
+          "pageStart": 228,
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 233,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "conditionals_and_loops",
+        "collections_and_iteration"
+      ],
+      "itemIds": [
+        "conditionals_and_loops__guard-clause",
+        "conditionals_and_loops__elif-purpose",
+        "conditionals_and_loops__while-countdown",
+        "conditionals_and_loops__password-attempts",
+        "collections_and_iteration__list-vs-tuple",
+        "collections_and_iteration__dict-loop-trace",
+        "collections_and_iteration__slice-meaning",
+        "collections_and_iteration__inventory-total"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-8-functions",
+      "title": "Chapter 8: Functions",
+      "pageStart": 235,
+      "pageEnd": 275,
+      "sections": [
+        {
+          "id": "defining-a-function",
+          "title": "Defining a Function",
+          "pageStart": 236,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "passing-arguments",
+          "title": "Passing Arguments",
+          "pageStart": 239,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "return-values",
+          "title": "Return Values",
+          "pageStart": 247,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "passing-a-list",
+          "title": "Passing a List",
+          "pageStart": 255,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "passing-an-arbitrary-number-of-arguments",
+          "title": "Passing an Arbitrary Number of Arguments",
+          "pageStart": 261,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "storing-your-functions-in-modules",
+          "title": "Storing Your Functions in Modules",
+          "pageStart": 266,
+          "conceptIds": [
+            "functions_and_modules"
+          ],
+          "itemIds": [
+            "functions_and_modules__return-vs-print",
+            "functions_and_modules__parameter-purpose",
+            "functions_and_modules__function-call-trace",
+            "functions_and_modules__module-style-helper"
+          ]
+        },
+        {
+          "id": "styling-functions",
+          "title": "Styling Functions",
+          "pageStart": 271,
+          "conceptIds": [
+            "functions_and_modules"
+          ],
+          "itemIds": [
+            "functions_and_modules__return-vs-print",
+            "functions_and_modules__parameter-purpose",
+            "functions_and_modules__function-call-trace",
+            "functions_and_modules__module-style-helper"
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 273,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "functions_and_modules"
+      ],
+      "itemIds": [
+        "functions_and_modules__return-vs-print",
+        "functions_and_modules__parameter-purpose",
+        "functions_and_modules__function-call-trace",
+        "functions_and_modules__module-style-helper"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-9-classes",
+      "title": "Chapter 9: Classes",
+      "pageStart": 276,
+      "pageEnd": 314,
+      "sections": [
+        {
+          "id": "creating-and-using-a-class",
+          "title": "Creating and Using a Class",
+          "pageStart": 277,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "working-with-classes-and-instances",
+          "title": "Working with Classes and Instances",
+          "pageStart": 284,
+          "conceptIds": [
+            "objects_and_classes"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class"
+          ]
+        },
+        {
+          "id": "inheritance",
+          "title": "Inheritance",
+          "pageStart": 291,
+          "conceptIds": [
+            "objects_and_classes"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class"
+          ]
+        },
+        {
+          "id": "importing-classes",
+          "title": "Importing Classes",
+          "pageStart": 301,
+          "conceptIds": [
+            "objects_and_classes"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class"
+          ]
+        },
+        {
+          "id": "the-python-standard-library",
+          "title": "The Python Standard Library",
+          "pageStart": 310,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "styling-classes",
+          "title": "Styling Classes",
+          "pageStart": 312,
+          "conceptIds": [
+            "objects_and_classes"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class"
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 313,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "objects_and_classes"
+      ],
+      "itemIds": [
+        "objects_and_classes__class-vs-instance",
+        "objects_and_classes__method-call-output",
+        "objects_and_classes__init-purpose",
+        "objects_and_classes__book-class"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-10-files-and-exceptions",
+      "title": "Chapter 10: Files and Exceptions",
+      "pageStart": 315,
+      "pageEnd": 352,
+      "sections": [
+        {
+          "id": "reading-from-a-file",
+          "title": "Reading from a File",
+          "pageStart": 316,
+          "conceptIds": [
+            "files_and_exceptions"
+          ],
+          "itemIds": [
+            "files_and_exceptions__with-statement",
+            "files_and_exceptions__exception-when",
+            "files_and_exceptions__specific-except",
+            "files_and_exceptions__safe-divide"
+          ]
+        },
+        {
+          "id": "writing-to-a-file",
+          "title": "Writing to a File",
+          "pageStart": 326,
+          "conceptIds": [
+            "files_and_exceptions"
+          ],
+          "itemIds": [
+            "files_and_exceptions__with-statement",
+            "files_and_exceptions__exception-when",
+            "files_and_exceptions__specific-except",
+            "files_and_exceptions__safe-divide"
+          ]
+        },
+        {
+          "id": "exceptions",
+          "title": "Exceptions",
+          "pageStart": 329,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "storing-data",
+          "title": "Storing Data",
+          "pageStart": 343,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 351,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "files_and_exceptions"
+      ],
+      "itemIds": [
+        "files_and_exceptions__with-statement",
+        "files_and_exceptions__exception-when",
+        "files_and_exceptions__specific-except",
+        "files_and_exceptions__safe-divide"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-11-testing-your-code",
+      "title": "Chapter 11: Testing Your Code",
+      "pageStart": 353,
+      "pageEnd": 379,
+      "sections": [
+        {
+          "id": "installing-pytest-with-pip",
+          "title": "Installing pytest with pip",
+          "pageStart": 354,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "testing-a-function",
+          "title": "Testing a Function",
+          "pageStart": 356,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "testing-a-class",
+          "title": "Testing a Class",
+          "pageStart": 367,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 376,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "debugging_testing_assertions"
+      ],
+      "itemIds": [
+        "debugging_testing_assertions__failing-test-value",
+        "debugging_testing_assertions__fix-average",
+        "debugging_testing_assertions__assert-purpose",
+        "debugging_testing_assertions__minimal-repro"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-12-a-ship-that-fires-bullets",
+      "title": "Chapter 12: A Ship That Fires Bullets",
+      "pageStart": 380,
+      "pageEnd": 421,
+      "sections": [
+        {
+          "id": "planning-your-project",
+          "title": "Planning Your Project",
+          "pageStart": 381,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "installing-pygame",
+          "title": "Installing Pygame",
+          "pageStart": 382,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "starting-the-game-project",
+          "title": "Starting the Game Project",
+          "pageStart": 382,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "adding-the-ship-image",
+          "title": "Adding the Ship Image",
+          "pageStart": 389,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "refactoring-the-check-events-and-update-screen-methods",
+          "title": "Refactoring: The _check_events() and _update_screen() Methods",
+          "pageStart": 395,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "piloting-the-ship",
+          "title": "Piloting the Ship",
+          "pageStart": 398,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "a-quick-recap",
+          "title": "A Quick Recap",
+          "pageStart": 409,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "shooting-bullets",
+          "title": "Shooting Bullets",
+          "pageStart": 411,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 421,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "pcc_game_architecture"
+      ],
+      "itemIds": [
+        "pcc_game_architecture__game-loop",
+        "pcc_game_architecture__state-separation",
+        "pcc_game_architecture__game-retro"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-13-aliens",
+      "title": "Chapter 13: Aliens!",
+      "pageStart": 422,
+      "pageEnd": 455,
+      "sections": [
+        {
+          "id": "reviewing-the-project",
+          "title": "Reviewing the Project",
+          "pageStart": 423,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "creating-the-first-alien",
+          "title": "Creating the First Alien",
+          "pageStart": 424,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "building-the-alien-fleet",
+          "title": "Building the Alien Fleet",
+          "pageStart": 427,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "making-the-fleet-move",
+          "title": "Making the Fleet Move",
+          "pageStart": 434,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "shooting-aliens",
+          "title": "Shooting Aliens",
+          "pageStart": 440,
+          "conceptIds": [
+            "pcc_game_architecture"
+          ],
+          "itemIds": [
+            "pcc_game_architecture__game-loop",
+            "pcc_game_architecture__state-separation",
+            "pcc_game_architecture__game-retro"
+          ]
+        },
+        {
+          "id": "ending-the-game",
+          "title": "Ending the Game",
+          "pageStart": 446,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 454,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "pcc_game_architecture"
+      ],
+      "itemIds": [
+        "pcc_game_architecture__game-loop",
+        "pcc_game_architecture__state-separation",
+        "pcc_game_architecture__game-retro"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-14-scoring",
+      "title": "Chapter 14: Scoring",
+      "pageStart": 456,
+      "pageEnd": 491,
+      "sections": [
+        {
+          "id": "adding-the-play-button",
+          "title": "Adding the Play Button",
+          "pageStart": 456,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "leveling-up",
+          "title": "Leveling Up",
+          "pageStart": 465,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "scoring",
+          "title": "Scoring",
+          "pageStart": 469,
+          "conceptIds": [
+            "pcc_game_architecture"
+          ],
+          "itemIds": [
+            "pcc_game_architecture__game-loop",
+            "pcc_game_architecture__state-separation",
+            "pcc_game_architecture__game-retro"
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 490,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "pcc_game_architecture"
+      ],
+      "itemIds": [
+        "pcc_game_architecture__game-loop",
+        "pcc_game_architecture__state-separation",
+        "pcc_game_architecture__game-retro"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-15-generating-data",
+      "title": "Chapter 15: Generating Data",
+      "pageStart": 492,
+      "pageEnd": 535,
+      "sections": [
+        {
+          "id": "installing-matplotlib",
+          "title": "Installing Matplotlib",
+          "pageStart": 493,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "plotting-a-simple-line-graph",
+          "title": "Plotting a Simple Line Graph",
+          "pageStart": 494,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "random-walks",
+          "title": "Random Walks",
+          "pageStart": 509,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "rolling-dice-with-plotly",
+          "title": "Rolling Dice with Plotly",
+          "pageStart": 520,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 534,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "visualization_storytelling",
+        "pcc_data_visualization_projects"
+      ],
+      "itemIds": [
+        "visualization_storytelling__chart-choice",
+        "visualization_storytelling__misleading-axis",
+        "visualization_storytelling__annotation-value",
+        "visualization_storytelling__line-plot",
+        "pcc_data_visualization_projects__workflow-order",
+        "pcc_data_visualization_projects__api-risk",
+        "pcc_data_visualization_projects__viz-project-brief"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-16-downloading-data",
+      "title": "Chapter 16: Downloading Data",
+      "pageStart": 536,
+      "pageEnd": 573,
+      "sections": [
+        {
+          "id": "the-csv-file-format",
+          "title": "The CSV File Format",
+          "pageStart": 537,
+          "conceptIds": [
+            "dataframes_and_cleaning"
+          ],
+          "itemIds": [
+            "dataframes_and_cleaning__missing-data-first-step",
+            "dataframes_and_cleaning__dataframe-benefit",
+            "dataframes_and_cleaning__describe-intuition",
+            "dataframes_and_cleaning__pandas-filter"
+          ]
+        },
+        {
+          "id": "mapping-global-datasets-geojson-format",
+          "title": "Mapping Global Datasets: GeoJSON Format",
+          "pageStart": 556,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 572,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "dataframes_and_cleaning",
+        "visualization_storytelling",
+        "pcc_data_visualization_projects"
+      ],
+      "itemIds": [
+        "dataframes_and_cleaning__missing-data-first-step",
+        "dataframes_and_cleaning__dataframe-benefit",
+        "dataframes_and_cleaning__describe-intuition",
+        "dataframes_and_cleaning__pandas-filter",
+        "visualization_storytelling__chart-choice",
+        "visualization_storytelling__misleading-axis",
+        "visualization_storytelling__annotation-value",
+        "visualization_storytelling__line-plot",
+        "pcc_data_visualization_projects__workflow-order",
+        "pcc_data_visualization_projects__api-risk",
+        "pcc_data_visualization_projects__viz-project-brief"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-17-working-with-apis",
+      "title": "Chapter 17: Working with APIs",
+      "pageStart": 574,
+      "pageEnd": 601,
+      "sections": [
+        {
+          "id": "using-an-api",
+          "title": "Using an API",
+          "pageStart": 574,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "visualizing-repositories-using-plotly",
+          "title": "Visualizing Repositories Using Plotly",
+          "pageStart": 585,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "the-hacker-news-api",
+          "title": "The Hacker News API",
+          "pageStart": 594,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 600,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "packages_databases_and_web",
+        "visualization_storytelling",
+        "pcc_data_visualization_projects"
+      ],
+      "itemIds": [
+        "packages_databases_and_web__pip-role",
+        "packages_databases_and_web__api-definition",
+        "packages_databases_and_web__database-benefit",
+        "packages_databases_and_web__external-system-checklist",
+        "visualization_storytelling__chart-choice",
+        "visualization_storytelling__misleading-axis",
+        "visualization_storytelling__annotation-value",
+        "visualization_storytelling__line-plot",
+        "pcc_data_visualization_projects__workflow-order",
+        "pcc_data_visualization_projects__api-risk",
+        "pcc_data_visualization_projects__viz-project-brief"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-18-getting-started-with-django",
+      "title": "Chapter 18: Getting Started with Django",
+      "pageStart": 602,
+      "pageEnd": 648,
+      "sections": [
+        {
+          "id": "setting-up-a-project",
+          "title": "Setting Up a Project",
+          "pageStart": 603,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "starting-an-app",
+          "title": "Starting an App",
+          "pageStart": 611,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "making-pages-the-learning-log-home-page",
+          "title": "Making Pages: The Learning Log Home Page",
+          "pageStart": 626,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "building-additional-pages",
+          "title": "Building Additional Pages",
+          "pageStart": 633,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 647,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "pcc_web_app_workflow"
+      ],
+      "itemIds": [
+        "pcc_web_app_workflow__app-loop",
+        "pcc_web_app_workflow__user-data-ownership",
+        "pcc_web_app_workflow__deployment-checklist"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-19-user-accounts",
+      "title": "Chapter 19: User Accounts",
+      "pageStart": 649,
+      "pageEnd": 692,
+      "sections": [
+        {
+          "id": "allowing-users-to-enter-data",
+          "title": "Allowing Users to Enter Data",
+          "pageStart": 650,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "setting-up-user-accounts",
+          "title": "Setting Up User Accounts",
+          "pageStart": 667,
+          "conceptIds": [
+            "pcc_web_app_workflow"
+          ],
+          "itemIds": [
+            "pcc_web_app_workflow__app-loop",
+            "pcc_web_app_workflow__user-data-ownership",
+            "pcc_web_app_workflow__deployment-checklist"
+          ]
+        },
+        {
+          "id": "allowing-users-to-own-their-data",
+          "title": "Allowing Users to Own Their Data",
+          "pageStart": 679,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 691,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "pcc_web_app_workflow"
+      ],
+      "itemIds": [
+        "pcc_web_app_workflow__app-loop",
+        "pcc_web_app_workflow__user-data-ownership",
+        "pcc_web_app_workflow__deployment-checklist"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "chapter-20-styling-and-deploying-an-app",
+      "title": "Chapter 20: Styling and Deploying an App",
+      "pageStart": 693,
+      "pageEnd": null,
+      "sections": [
+        {
+          "id": "styling-learning-log",
+          "title": "Styling Learning Log",
+          "pageStart": 694,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "deploying-learning-log",
+          "title": "Deploying Learning Log",
+          "pageStart": 712,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary",
+          "title": "Summary",
+          "pageStart": 739,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "pcc_web_app_workflow"
+      ],
+      "itemIds": [
+        "pcc_web_app_workflow__app-loop",
+        "pcc_web_app_workflow__user-data-ownership",
+        "pcc_web_app_workflow__deployment-checklist"
+      ],
+      "status": "covered"
+    }
+  ]
+}

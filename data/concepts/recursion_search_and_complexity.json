@@ -1,0 +1,121 @@
+{
+  "id": "recursion_search_and_complexity",
+  "title": "Recursion, search, and complexity",
+  "summary": "Break problems into smaller subproblems, compare search strategies, and reason about how runtime grows as inputs scale.",
+  "tags": [
+    "algorithms",
+    "recursion",
+    "search",
+    "complexity"
+  ],
+  "prerequisites": [
+    "functions_and_modules",
+    "collections_and_iteration"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "RECURSION AND GLOBAL VARIABLES",
+        "A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY",
+        "SOME SIMPLE ALGORITHMS AND DATA STRUCTURES"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "recursion_search_and_complexity",
+      "hints": [
+        "Think termination, not elegance."
+      ],
+      "id": "recursion_search_and_complexity__base-case",
+      "type": "flashcard",
+      "prompt": "Why does a recursive function need a base case?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "The base case stops the recursive calls so the problem eventually terminates instead of expanding forever.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "recursion_search_and_complexity",
+      "hints": [
+        "Binary search depends on order."
+      ],
+      "id": "recursion_search_and_complexity__binary-search-requirement",
+      "type": "mcq",
+      "prompt": "What must be true before binary search is a valid strategy?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The data must be sorted by the searched key."
+        },
+        {
+          "id": "b",
+          "label": "The data must be stored in a dictionary only."
+        },
+        {
+          "id": "c",
+          "label": "Every element must be unique."
+        },
+        {
+          "id": "d",
+          "label": "The list must contain strings."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "Without a sorted order, halving the search space does not tell you which side can be safely discarded."
+      }
+    },
+    {
+      "conceptId": "recursion_search_and_complexity",
+      "hints": [
+        "It is about trend, not exact seconds."
+      ],
+      "id": "recursion_search_and_complexity__big-o-intuition",
+      "type": "short_answer",
+      "prompt": "In plain language, what does Big-O notation describe?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "how runtime grows with input size",
+        "growth rate",
+        "how performance scales"
+      ],
+      "solution": {
+        "summary": "Big-O describes how the work required by an algorithm grows as the input gets larger.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "recursion_search_and_complexity",
+      "hints": [],
+      "id": "recursion_search_and_complexity__recursive-countdown",
+      "type": "code_exercise",
+      "prompt": "Write a recursive function `countdown(n)` that returns a list like `[3, 2, 1, 0]` when called with `3`.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "# define countdown here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nassert ns['countdown'](0) == [0]\nassert ns['countdown'](3) == [3, 2, 1, 0]\n__grade_result__ = {'passed': True, 'message': 'Your recursion shrinks toward the base case correctly.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "def countdown(n):\n    if n == 0:\n        return [0]\n    return [n] + countdown(n - 1)\n",
+        "checklist": [
+          "Includes a base case",
+          "Reduces the problem size"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

@@ -1,0 +1,129 @@
+{
+  "id": "sampling_inference_hypothesis",
+  "title": "Sampling, inference, and hypothesis testing",
+  "summary": "Reason from samples to populations, build confidence intervals carefully, and interpret hypothesis tests without magical thinking.",
+  "tags": [
+    "statistics",
+    "sampling",
+    "confidence",
+    "hypothesis-testing"
+  ],
+  "prerequisites": [
+    "simulation_probability"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "SAMPLING AND CONFIDENCE",
+        "UNDERSTANDING EXPERIMENTAL DATA",
+        "RANDOMIZED TRIALS AND HYPOTHESIS CHECKING",
+        "LIES, DAMNED LIES, AND STATISTICS"
+      ]
+    },
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Inferential Statistics",
+        "Hypothesis Testing",
+        "Confidence Intervals"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "sampling_inference_hypothesis",
+      "hints": [
+        "Think full target group versus observed subset."
+      ],
+      "id": "sampling_inference_hypothesis__sample-vs-population",
+      "type": "flashcard",
+      "prompt": "What is the difference between a sample and a population?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "A population is the full group you care about; a sample is the subset you actually observe and measure.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "sampling_inference_hypothesis",
+      "hints": [
+        "Condition on the null, not on the data alone."
+      ],
+      "id": "sampling_inference_hypothesis__p-value-meaning",
+      "type": "mcq",
+      "prompt": "Which statement is the best interpretation of a p-value?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Assuming the null hypothesis were true, it measures how surprising data this extreme would be."
+        },
+        {
+          "id": "b",
+          "label": "It is the probability that the null hypothesis is false."
+        },
+        {
+          "id": "c",
+          "label": "It is the effect size in standardized units."
+        },
+        {
+          "id": "d",
+          "label": "It guarantees replication."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "A p-value is about the extremeness of the data under the null model, not the probability that the null is false."
+      }
+    },
+    {
+      "conceptId": "sampling_inference_hypothesis",
+      "hints": [
+        "Think uncertainty shrinking as evidence grows."
+      ],
+      "id": "sampling_inference_hypothesis__confidence-interval",
+      "type": "short_answer",
+      "prompt": "Why does a larger sample usually produce a narrower confidence interval?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "less sampling variability",
+        "more information reduces uncertainty",
+        "standard error gets smaller"
+      ],
+      "solution": {
+        "summary": "Larger samples reduce the standard error, which usually narrows the interval around the estimate.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "sampling_inference_hypothesis",
+      "hints": [],
+      "id": "sampling_inference_hypothesis__sample-mean",
+      "type": "code_exercise",
+      "prompt": "Write a function `sample_mean(values)` that returns the arithmetic mean of a non-empty list of numbers.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "# define sample_mean here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nassert ns['sample_mean']([2, 4, 6]) == 4\nassert ns['sample_mean']([10, 20]) == 15\n__grade_result__ = {'passed': True, 'message': 'Your mean function is correct.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "def sample_mean(values):\n    return sum(values) / len(values)\n",
+        "checklist": [
+          "Uses sum and count",
+          "Returns numeric average"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

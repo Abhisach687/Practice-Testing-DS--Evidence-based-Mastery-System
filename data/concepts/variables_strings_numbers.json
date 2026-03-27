@@ -1,0 +1,132 @@
+{
+  "id": "variables_strings_numbers",
+  "title": "Variables, strings, and numbers",
+  "summary": "Use names to store values, transform strings, and choose numeric operators that match the task.",
+  "tags": [
+    "python",
+    "strings",
+    "numbers",
+    "variables"
+  ],
+  "prerequisites": [
+    "python_environment_and_execution"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Strings and String Methods",
+        "Numbers and Math"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Variables and Simple Data Types",
+        "Strings",
+        "Numbers"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "INTRODUCTION TO PYTHON",
+        "SOME SIMPLE NUMERICAL PROGRAMS"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": true,
+  "items": [
+    {
+      "conceptId": "variables_strings_numbers",
+      "hints": [
+        "Think about mixing text with computed values."
+      ],
+      "id": "variables_strings_numbers__f-string-purpose",
+      "type": "flashcard",
+      "prompt": "Why are f-strings useful when building output?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "They let you embed variable values and expressions directly inside a readable string template.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "variables_strings_numbers",
+      "hints": [
+        "Remember that `.title()` capitalizes each word."
+      ],
+      "id": "variables_strings_numbers__string-method-output",
+      "type": "predict_output",
+      "prompt": "Predict the exact output.",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "code": "topic = 'data science'\nprint(topic.title())\nprint(topic.replace(' ', '-'))",
+      "acceptedAnswers": [
+        "Data Science\ndata-science"
+      ],
+      "solution": {
+        "summary": "The first line title-cases both words, and the second replaces the space with a hyphen."
+      }
+    },
+    {
+      "conceptId": "variables_strings_numbers",
+      "hints": [
+        "Think modulo."
+      ],
+      "id": "variables_strings_numbers__division-choice",
+      "type": "mcq",
+      "prompt": "Which expression returns the remainder when 17 is divided by 5?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "17 / 5"
+        },
+        {
+          "id": "b",
+          "label": "17 // 5"
+        },
+        {
+          "id": "c",
+          "label": "17 % 5"
+        },
+        {
+          "id": "d",
+          "label": "17 ** 5"
+        }
+      ],
+      "correctChoiceId": "c",
+      "solution": {
+        "summary": "`%` returns the remainder, `//` returns the floor quotient, and `/` returns floating-point division."
+      }
+    },
+    {
+      "conceptId": "variables_strings_numbers",
+      "hints": [],
+      "id": "variables_strings_numbers__receipt-line",
+      "type": "code_exercise",
+      "prompt": "Create variables `item`, `price`, and `quantity`, then print one line in the form `tea x3 = 13.50` using an f-string.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "item = 'tea'\nprice = 4.5\nquantity = 3\n# print the formatted line\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nns = {}\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, ns)\noutput = buf.getvalue().strip()\nassert output == 'tea x3 = 13.50', 'Expected the exact formatted receipt line.'\n__grade_result__ = {'passed': True, 'message': 'Your formatted output looks correct.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "item = 'tea'\nprice = 4.5\nquantity = 3\ntotal = price * quantity\nprint(f\"{item} x{quantity} = {total:.2f}\")\n",
+        "checklist": [
+          "Computes total",
+          "Uses fixed decimal formatting"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

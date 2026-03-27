@@ -1,0 +1,123 @@
+{
+  "id": "dataframes_and_cleaning",
+  "title": "DataFrames and data cleaning",
+  "summary": "Inspect tabular data, repair quality problems, and choose transformations that keep later analysis trustworthy.",
+  "tags": [
+    "data-science",
+    "pandas",
+    "cleaning",
+    "tabular-data"
+  ],
+  "prerequisites": [
+    "collections_and_iteration",
+    "files_and_exceptions"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Collecting and Preparing Data",
+        "Data Science with Python",
+        "Data Cleaning and Preprocessing"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "EXPLORING DATA WITH PANDAS"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Downloading Data",
+        "CSV File Format"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "dataframes_and_cleaning",
+      "hints": [
+        "Diagnose before you fix."
+      ],
+      "id": "dataframes_and_cleaning__missing-data-first-step",
+      "type": "flashcard",
+      "prompt": "What is the first thing to do when you notice missing values in a dataset?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Inspect where they occur and decide whether they are expected, ignorable, imputable, or a sign of collection problems.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "dataframes_and_cleaning",
+      "hints": [
+        "Think labels and vectorized analysis."
+      ],
+      "id": "dataframes_and_cleaning__dataframe-benefit",
+      "type": "short_answer",
+      "prompt": "Why is a DataFrame more helpful than a raw list of rows for many analysis tasks?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "named columns",
+        "column operations",
+        "tabular operations"
+      ],
+      "solution": {
+        "summary": "DataFrames add labeled columns, rich filtering, summaries, joins, and transformations that are awkward with plain nested lists.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "dataframes_and_cleaning",
+      "hints": [
+        "Think quick numeric profile."
+      ],
+      "id": "dataframes_and_cleaning__describe-intuition",
+      "type": "predict_output",
+      "prompt": "What kind of information would `df.describe()` summarize for numeric columns?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "code": "# conceptual question: no code to execute",
+      "acceptedAnswers": [
+        "count mean std min max",
+        "summary statistics",
+        "descriptive statistics"
+      ],
+      "solution": {
+        "summary": "`describe()` gives a fast descriptive summary such as count, mean, spread, and common quantiles."
+      }
+    },
+    {
+      "conceptId": "dataframes_and_cleaning",
+      "hints": [],
+      "id": "dataframes_and_cleaning__pandas-filter",
+      "type": "code_exercise",
+      "prompt": "Use pandas to create a DataFrame from the records below and print the names of learners whose score is at least 80.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "import pandas as pd\nrecords = [{'name': 'Ava', 'score': 78}, {'name': 'Bo', 'score': 83}, {'name': 'Cy', 'score': 91}]\n# write your code here\n",
+      "pyodide": {
+        "packages": [
+          "pandas"
+        ],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\nassert buf.getvalue().strip() == 'Bo\\nCy', 'Expected the passing learners to print one per line.'\n__grade_result__ = {'passed': True, 'message': 'You filtered the DataFrame correctly.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "import pandas as pd\nrecords = [{'name': 'Ava', 'score': 78}, {'name': 'Bo', 'score': 83}, {'name': 'Cy', 'score': 91}]\ndf = pd.DataFrame(records)\nfor name in df.loc[df['score'] >= 80, 'name']:\n    print(name)\n",
+        "checklist": [
+          "Constructs a DataFrame",
+          "Filters rows by a numeric rule"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

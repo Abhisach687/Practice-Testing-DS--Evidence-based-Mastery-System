@@ -1,0 +1,119 @@
+{
+  "id": "collections_and_iteration",
+  "title": "Collections and iteration",
+  "summary": "Model grouped data with lists, tuples, and dictionaries, then iterate through those structures without losing track of the shape.",
+  "tags": [
+    "python",
+    "lists",
+    "tuples",
+    "dictionaries",
+    "loops"
+  ],
+  "prerequisites": [
+    "variables_strings_numbers"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Tuples, Lists, and Dictionaries",
+        "Functions and Loops"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Introducing Lists",
+        "Working with Lists",
+        "Dictionaries"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "STRUCTURED TYPES AND MUTABILITY"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "collections_and_iteration",
+      "hints": [
+        "Focus on mutability and intention."
+      ],
+      "id": "collections_and_iteration__list-vs-tuple",
+      "type": "flashcard",
+      "prompt": "What is the practical difference between a list and a tuple?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Lists are mutable and meant to change over time; tuples are fixed-size records that are typically treated as immutable.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "collections_and_iteration",
+      "hints": [
+        "Only topics with scores 8 or higher survive the filter."
+      ],
+      "id": "collections_and_iteration__dict-loop-trace",
+      "type": "code_trace",
+      "prompt": "What keys are printed, in order?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "code": "scores = {'python': 8, 'sql': 7, 'stats': 9}\nfor topic, score in scores.items():\n    if score >= 8:\n        print(topic)",
+      "acceptedAnswers": [
+        "python\nstats"
+      ],
+      "solution": {
+        "summary": "The loop visits each key-value pair, and only `python` and `stats` meet the threshold."
+      }
+    },
+    {
+      "conceptId": "collections_and_iteration",
+      "hints": [
+        "Python slices exclude the stop index."
+      ],
+      "id": "collections_and_iteration__slice-meaning",
+      "type": "short_answer",
+      "prompt": "What does `items[1:4]` return from a list?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "index 1 through 3",
+        "a new list from index 1 up to but not including 4",
+        "elements 1 to 3"
+      ],
+      "solution": {
+        "summary": "The slice creates a new list starting at index 1 and stopping before index 4.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "collections_and_iteration",
+      "hints": [],
+      "id": "collections_and_iteration__inventory-total",
+      "type": "code_exercise",
+      "prompt": "Given the `inventory` dictionary below, compute and print the total item count across all categories.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "inventory = {'books': 4, 'pens': 6, 'notebooks': 5}\n# print the total count\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\nassert buf.getvalue().strip() == '15', 'The total inventory count should be 15.'\n__grade_result__ = {'passed': True, 'message': 'You aggregated the dictionary values correctly.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "inventory = {'books': 4, 'pens': 6, 'notebooks': 5}\nprint(sum(inventory.values()))\n",
+        "checklist": [
+          "Uses dictionary values",
+          "Produces a single numeric result"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

@@ -1,0 +1,102 @@
+{
+  "id": "dynamic_programming_and_graphs",
+  "title": "Dynamic programming and graph thinking",
+  "summary": "Recognize overlapping subproblems, memoize repeated work, and model relationships as nodes plus edges.",
+  "tags": [
+    "algorithms",
+    "dynamic-programming",
+    "graphs",
+    "optimization"
+  ],
+  "prerequisites": [
+    "recursion_search_and_complexity"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS",
+        "DYNAMIC PROGRAMMING"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "dynamic_programming_and_graphs",
+      "hints": [
+        "Think repeated work."
+      ],
+      "id": "dynamic_programming_and_graphs__memoization",
+      "type": "flashcard",
+      "prompt": "What problem does memoization solve?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It avoids recomputing the same subproblem by storing previously computed answers and reusing them later.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "dynamic_programming_and_graphs",
+      "hints": [
+        "One part represents entities, the other relationships."
+      ],
+      "id": "dynamic_programming_and_graphs__graph-model",
+      "type": "short_answer",
+      "prompt": "What are the two basic ingredients of a graph model?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "nodes and edges",
+        "vertices and edges"
+      ],
+      "solution": {
+        "summary": "Graphs represent entities as nodes (or vertices) and relationships between them as edges.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "dynamic_programming_and_graphs",
+      "hints": [],
+      "id": "dynamic_programming_and_graphs__fib-memo",
+      "type": "code_exercise",
+      "prompt": "Implement `fib(n, memo=None)` so it computes Fibonacci numbers using memoization.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "# define fib here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nassert ns['fib'](0) == 0\nassert ns['fib'](1) == 1\nassert ns['fib'](8) == 21\n__grade_result__ = {'passed': True, 'message': 'Your memoized Fibonacci function returns correct values.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "def fib(n, memo=None):\n    if memo is None:\n        memo = {}\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]\n",
+        "checklist": [
+          "Caches prior results",
+          "Handles base cases"
+        ]
+      }
+    },
+    {
+      "conceptId": "dynamic_programming_and_graphs",
+      "hints": [],
+      "id": "dynamic_programming_and_graphs__knapsack-reflection",
+      "type": "project_checkpoint",
+      "prompt": "You are choosing features for a small app under a time budget. How would a knapsack-style framing help you make that decision?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Knapsack thinking turns an ambiguous prioritization problem into an optimization problem with explicit tradeoffs.",
+        "checklist": [
+          "Identify the limited resource.",
+          "List candidate items with value and cost.",
+          "Explain why brute force becomes expensive as choices grow."
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

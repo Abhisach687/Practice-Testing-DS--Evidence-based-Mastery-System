@@ -1,0 +1,3908 @@
+{
+  "generatedAt": "2026-03-27T03:22:43.204Z",
+  "books": [
+    {
+      "bookId": "python_basics",
+      "title": "Python Basics: A Practical Introduction to Python 3",
+      "shortTitle": "Python Basics",
+      "totalPages": 643,
+      "chapterCount": 17,
+      "coveredChapterCount": 17,
+      "sectionsCovered": 0,
+      "sectionsTotal": 108,
+      "chapters": [
+        {
+          "id": "setting-up-python",
+          "title": "Setting Up Python",
+          "pageStart": 31,
+          "pageEnd": 43,
+          "sections": [
+            {
+              "id": "a-note-on-python-versions",
+              "title": "A Note On Python Versions",
+              "pageStart": 32,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "windows",
+              "title": "Windows",
+              "pageStart": 33,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "macos",
+              "title": "macOS",
+              "pageStart": 36,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "ubuntu-linux",
+              "title": "Ubuntu Linux",
+              "pageStart": 40,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "python_environment_and_execution"
+          ],
+          "itemIds": [
+            "python_environment_and_execution__interpreter-role",
+            "python_environment_and_execution__script-vs-repl",
+            "python_environment_and_execution__traceback-purpose",
+            "python_environment_and_execution__greeting-script"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "your-first-python-program",
+          "title": "Your First Python Program",
+          "pageStart": 44,
+          "pageEnd": 65,
+          "sections": [
+            {
+              "id": "write-a-python-script",
+              "title": "Write a Python Script",
+              "pageStart": 44,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "mess-things-up",
+              "title": "Mess Things Up",
+              "pageStart": 50,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "create-a-variable",
+              "title": "Create a Variable",
+              "pageStart": 53,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "inspect-values-in-the-interactive-window",
+              "title": "Inspect Values in the Interactive Window",
+              "pageStart": 58,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "leave-yourself-helpful-notes",
+              "title": "Leave Yourself Helpful Notes",
+              "pageStart": 61,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 64,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "python_environment_and_execution"
+          ],
+          "itemIds": [
+            "python_environment_and_execution__interpreter-role",
+            "python_environment_and_execution__script-vs-repl",
+            "python_environment_and_execution__traceback-purpose",
+            "python_environment_and_execution__greeting-script"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "strings-and-string-methods",
+          "title": "Strings and String Methods",
+          "pageStart": 66,
+          "pageEnd": 105,
+          "sections": [
+            {
+              "id": "what-is-a-string",
+              "title": "What is a String?",
+              "pageStart": 67,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "concatenation-indexing-and-slicing",
+              "title": "Concatenation, Indexing, and Slicing",
+              "pageStart": 74,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "manipulate-strings-with-methods",
+              "title": "Manipulate Strings With Methods",
+              "pageStart": 82,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "interact-with-user-input",
+              "title": "Interact With User Input",
+              "pageStart": 89,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-pick-apart-your-user-s-input",
+              "title": "Challenge: Pick Apart Your User's Input",
+              "pageStart": 91,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "working-with-strings-and-numbers",
+              "title": "Working With Strings and Numbers",
+              "pageStart": 92,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "streamline-your-print-statements",
+              "title": "Streamline Your Print Statements",
+              "pageStart": 98,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "find-a-string-in-a-string",
+              "title": "Find a String in a String",
+              "pageStart": 100,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-turn-your-user-into-a-l33t-h4x0r",
+              "title": "Challenge: Turn Your User Into a L33t H4x0r",
+              "pageStart": 103,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 104,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "variables_strings_numbers"
+          ],
+          "itemIds": [
+            "variables_strings_numbers__f-string-purpose",
+            "variables_strings_numbers__string-method-output",
+            "variables_strings_numbers__division-choice",
+            "variables_strings_numbers__receipt-line"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "numbers-and-math",
+          "title": "Numbers and Math",
+          "pageStart": 106,
+          "pageEnd": 135,
+          "sections": [
+            {
+              "id": "integers-and-floating-point-numbers",
+              "title": "Integers and Floating-Point Numbers",
+              "pageStart": 107,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "arithmetic-operators-and-expressions",
+              "title": "Arithmetic Operators and Expressions",
+              "pageStart": 111,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-perform-calculations-on-user-input",
+              "title": "Challenge: Perform Calculations on User Input",
+              "pageStart": 119,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "make-python-lie-to-you",
+              "title": "Make Python Lie to You",
+              "pageStart": 120,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "math-functions-and-number-methods",
+              "title": "Math Functions and Number Methods",
+              "pageStart": 122,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "print-numbers-in-style",
+              "title": "Print Numbers in Style",
+              "pageStart": 127,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "complex-numbers",
+              "title": "Complex Numbers",
+              "pageStart": 130,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 134,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "variables_strings_numbers"
+          ],
+          "itemIds": [
+            "variables_strings_numbers__f-string-purpose",
+            "variables_strings_numbers__string-method-output",
+            "variables_strings_numbers__division-choice",
+            "variables_strings_numbers__receipt-line"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "functions-and-loops",
+          "title": "Functions and Loops",
+          "pageStart": 136,
+          "pageEnd": 168,
+          "sections": [
+            {
+              "id": "what-is-a-function-really",
+              "title": "What is a Function, Really?",
+              "pageStart": 137,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "write-your-own-functions",
+              "title": "Write Your Own Functions",
+              "pageStart": 141,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-convert-temperatures",
+              "title": "Challenge: Convert Temperatures",
+              "pageStart": 150,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "run-in-circles",
+              "title": "Run in Circles",
+              "pageStart": 151,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-track-your-investments",
+              "title": "Challenge: Track Your Investments",
+              "pageStart": 161,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "understand-scope-in-python",
+              "title": "Understand Scope in Python",
+              "pageStart": 162,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 167,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "collections_and_iteration",
+            "conditionals_and_loops",
+            "functions_and_modules"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total",
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts",
+            "functions_and_modules__return-vs-print",
+            "functions_and_modules__parameter-purpose",
+            "functions_and_modules__function-call-trace",
+            "functions_and_modules__module-style-helper"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "finding-and-fixing-code-bugs",
+          "title": "Finding and Fixing Code Bugs",
+          "pageStart": 169,
+          "pageEnd": 186,
+          "sections": [
+            {
+              "id": "use-the-debug-control-window",
+              "title": "Use the Debug Control Window",
+              "pageStart": 170,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "squash-some-bugs",
+              "title": "Squash Some Bugs",
+              "pageStart": 177,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 186,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "debugging_testing_assertions"
+          ],
+          "itemIds": [
+            "debugging_testing_assertions__failing-test-value",
+            "debugging_testing_assertions__fix-average",
+            "debugging_testing_assertions__assert-purpose",
+            "debugging_testing_assertions__minimal-repro"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "conditional-logic-and-control-flow",
+          "title": "Conditional Logic and Control Flow",
+          "pageStart": 187,
+          "pageEnd": 230,
+          "sections": [
+            {
+              "id": "compare-values",
+              "title": "Compare Values",
+              "pageStart": 188,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "add-some-logic",
+              "title": "Add Some Logic",
+              "pageStart": 191,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "control-the-flow-of-your-program",
+              "title": "Control the Flow of Your Program",
+              "pageStart": 199,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-find-the-factors-of-a-number",
+              "title": "Challenge: Find the Factors of a Number",
+              "pageStart": 211,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "break-out-of-the-pattern",
+              "title": "Break Out of the Pattern",
+              "pageStart": 212,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "recover-from-errors",
+              "title": "Recover From Errors",
+              "pageStart": 216,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "simulate-events-and-calculate-probabilities",
+              "title": "Simulate Events and Calculate Probabilities",
+              "pageStart": 222,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-simulate-a-coin-toss-experiment",
+              "title": "Challenge: Simulate a Coin Toss Experiment",
+              "pageStart": 228,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-simulate-an-election",
+              "title": "Challenge: Simulate an Election",
+              "pageStart": 228,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 229,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "conditionals_and_loops"
+          ],
+          "itemIds": [
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "tuples-lists-and-dictionaries",
+          "title": "Tuples, Lists, and Dictionaries",
+          "pageStart": 231,
+          "pageEnd": 279,
+          "sections": [
+            {
+              "id": "tuples-are-immutable-sequences",
+              "title": "Tuples Are Immutable Sequences",
+              "pageStart": 232,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "lists-are-mutable-sequences",
+              "title": "Lists Are Mutable Sequences",
+              "pageStart": 242,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "nesting-copying-and-sorting-tuples-and-lists",
+              "title": "Nesting, Copying, and Sorting Tuples and Lists",
+              "pageStart": 255,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-list-of-lists",
+              "title": "Challenge: List of lists",
+              "pageStart": 261,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-wax-poetic",
+              "title": "Challenge: Wax Poetic",
+              "pageStart": 262,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "store-relationships-in-dictionaries",
+              "title": "Store Relationships in Dictionaries",
+              "pageStart": 264,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-capital-city-loop",
+              "title": "Challenge: Capital City Loop",
+              "pageStart": 275,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "how-to-pick-a-data-structure",
+              "title": "How to Pick a Data Structure",
+              "pageStart": 276,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-cats-with-hats",
+              "title": "Challenge: Cats With Hats",
+              "pageStart": 277,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 278,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "object-oriented-programming-oop",
+          "title": "Object-Oriented Programming (OOP)",
+          "pageStart": 280,
+          "pageEnd": 304,
+          "sections": [
+            {
+              "id": "define-a-class",
+              "title": "Define a Class",
+              "pageStart": 281,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "instantiate-an-object",
+              "title": "Instantiate an Object",
+              "pageStart": 285,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "inherit-from-other-classes",
+              "title": "Inherit From Other Classes",
+              "pageStart": 292,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-model-a-farm",
+              "title": "Challenge: Model a Farm",
+              "pageStart": 302,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 303,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "objects_and_classes"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "modules-and-packages",
+          "title": "Modules and Packages",
+          "pageStart": 305,
+          "pageEnd": 328,
+          "sections": [
+            {
+              "id": "working-with-modules",
+              "title": "Working With Modules",
+              "pageStart": 306,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "working-with-packages",
+              "title": "Working With Packages",
+              "pageStart": 316,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 327,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "functions_and_modules"
+          ],
+          "itemIds": [
+            "functions_and_modules__return-vs-print",
+            "functions_and_modules__parameter-purpose",
+            "functions_and_modules__function-call-trace",
+            "functions_and_modules__module-style-helper"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "file-input-and-output",
+          "title": "File Input and Output",
+          "pageStart": 329,
+          "pageEnd": 388,
+          "sections": [
+            {
+              "id": "files-and-the-file-system",
+              "title": "Files and the File System",
+              "pageStart": 330,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "working-with-file-paths-in-python",
+              "title": "Working With File Paths in Python",
+              "pageStart": 334,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "common-file-system-operations",
+              "title": "Common File System Operations",
+              "pageStart": 342,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-move-all-image-files-to-a-new-directory",
+              "title": "Challenge: Move All Image Files To a New Directory",
+              "pageStart": 359,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "reading-and-writing-files",
+              "title": "Reading and Writing Files",
+              "pageStart": 360,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "read-and-write-csv-data",
+              "title": "Read and Write CSV Data",
+              "pageStart": 375,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-create-a-high-scores-list",
+              "title": "Challenge: Create a High Scores List",
+              "pageStart": 386,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 387,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "files_and_exceptions"
+          ],
+          "itemIds": [
+            "files_and_exceptions__with-statement",
+            "files_and_exceptions__exception-when",
+            "files_and_exceptions__specific-except",
+            "files_and_exceptions__safe-divide"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "installing-packages-with-pip",
+          "title": "Installing Packages With Pip",
+          "pageStart": 389,
+          "pageEnd": 403,
+          "sections": [
+            {
+              "id": "installing-third-party-packages-with-pip",
+              "title": "Installing Third-Party Packages With Pip",
+              "pageStart": 390,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "the-pitfalls-of-third-party-packages",
+              "title": "The Pitfalls of Third-Party Packages",
+              "pageStart": 401,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 402,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "packages_databases_and_web"
+          ],
+          "itemIds": [
+            "packages_databases_and_web__pip-role",
+            "packages_databases_and_web__api-definition",
+            "packages_databases_and_web__database-benefit",
+            "packages_databases_and_web__external-system-checklist"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "creating-and-modifying-pdf-files",
+          "title": "Creating and Modifying PDF Files",
+          "pageStart": 404,
+          "pageEnd": 451,
+          "sections": [
+            {
+              "id": "extract-text-from-a-pdf",
+              "title": "Extract Text From a PDF",
+              "pageStart": 405,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "extract-pages-from-a-pdf",
+              "title": "Extract Pages From a PDF",
+              "pageStart": 412,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-pdffilesplitter-class",
+              "title": "Challenge: PdfFileSplitter Class",
+              "pageStart": 419,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "concatenating-and-merging-pdfs",
+              "title": "Concatenating and Merging PDFs",
+              "pageStart": 420,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "rotating-and-cropping-pdf-pages",
+              "title": "Rotating and Cropping PDF Pages",
+              "pageStart": 427,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "encrypting-and-decrypting-pdfs",
+              "title": "Encrypting and Decrypting PDFs",
+              "pageStart": 439,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-unscramble-a-pdf",
+              "title": "Challenge: Unscramble A PDF",
+              "pageStart": 443,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "create-a-pdf-file-from-scratch",
+              "title": "Create a PDF File From Scratch",
+              "pageStart": 443,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 450,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "packages_databases_and_web"
+          ],
+          "itemIds": [
+            "packages_databases_and_web__pip-role",
+            "packages_databases_and_web__api-definition",
+            "packages_databases_and_web__database-benefit",
+            "packages_databases_and_web__external-system-checklist"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "working-with-databases",
+          "title": "Working With Databases",
+          "pageStart": 452,
+          "pageEnd": 467,
+          "sections": [
+            {
+              "id": "an-introduction-to-sqlite",
+              "title": "An Introduction to SQLite",
+              "pageStart": 453,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "libraries-for-working-with-other-sql-databases",
+              "title": "Libraries for Working With Other SQL Databases",
+              "pageStart": 465,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 466,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "packages_databases_and_web"
+          ],
+          "itemIds": [
+            "packages_databases_and_web__pip-role",
+            "packages_databases_and_web__api-definition",
+            "packages_databases_and_web__database-benefit",
+            "packages_databases_and_web__external-system-checklist"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "interacting-with-the-web",
+          "title": "Interacting With the Web",
+          "pageStart": 468,
+          "pageEnd": 495,
+          "sections": [
+            {
+              "id": "scrape-and-parse-text-from-websites",
+              "title": "Scrape and Parse Text From Websites",
+              "pageStart": 469,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "use-an-html-parser-to-scrape-websites",
+              "title": "Use an HTML Parser to Scrape Websites",
+              "pageStart": 478,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "interact-with-html-forms",
+              "title": "Interact With HTML Forms",
+              "pageStart": 483,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "interact-with-websites-in-real-time",
+              "title": "Interact With Websites in Real-Time",
+              "pageStart": 490,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 494,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "packages_databases_and_web"
+          ],
+          "itemIds": [
+            "packages_databases_and_web__pip-role",
+            "packages_databases_and_web__api-definition",
+            "packages_databases_and_web__database-benefit",
+            "packages_databases_and_web__external-system-checklist"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "scientific-computing-and-graphing",
+          "title": "Scientific Computing and Graphing",
+          "pageStart": 496,
+          "pageEnd": 535,
+          "sections": [
+            {
+              "id": "use-numpy-for-matrix-manipulation",
+              "title": "Use NumPy for Matrix Manipulation",
+              "pageStart": 497,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "use-matplotlib-for-plotting-graphs",
+              "title": "Use matplotlib for Plotting Graphs",
+              "pageStart": 508,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 534,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "scientific_computing_and_interfaces"
+          ],
+          "itemIds": [
+            "scientific_computing_and_interfaces__numpy-strength",
+            "scientific_computing_and_interfaces__gui-event-loop",
+            "scientific_computing_and_interfaces__numpy-mean"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "graphical-user-interfaces",
+          "title": "Graphical User Interfaces",
+          "pageStart": 536,
+          "pageEnd": null,
+          "sections": [
+            {
+              "id": "add-gui-elements-with-easygui",
+              "title": "Add GUI Elements With EasyGUI",
+              "pageStart": 537,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "example-app-pdf-page-rotator",
+              "title": "Example App: PDF Page Rotator",
+              "pageStart": 549,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-pdf-page-extraction-application",
+              "title": "Challenge: PDF Page Extraction Application",
+              "pageStart": 556,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "introduction-to-tkinter",
+              "title": "Introduction to Tkinter",
+              "pageStart": 557,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "working-with-widgets",
+              "title": "Working With Widgets",
+              "pageStart": 561,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "controlling-layout-with-geometry-managers",
+              "title": "Controlling Layout With Geometry Managers",
+              "pageStart": 589,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "making-your-applications-interactive",
+              "title": "Making Your Applications Interactive",
+              "pageStart": 608,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "example-app-temperature-converter",
+              "title": "Example App: Temperature Converter",
+              "pageStart": 618,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "example-app-text-editor",
+              "title": "Example App: Text Editor",
+              "pageStart": 623,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "challenge-return-of-the-poet",
+              "title": "Challenge: Return of the Poet",
+              "pageStart": 632,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary-and-additional-resources",
+              "title": "Summary and Additional Resources",
+              "pageStart": 634,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "scientific_computing_and_interfaces"
+          ],
+          "itemIds": [
+            "scientific_computing_and_interfaces__numpy-strength",
+            "scientific_computing_and_interfaces__gui-event-loop",
+            "scientific_computing_and_interfaces__numpy-mean"
+          ],
+          "status": "covered"
+        }
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "title": "Python Crash Course, 3rd Edition",
+      "shortTitle": "Python Crash Course",
+      "totalPages": 853,
+      "chapterCount": 20,
+      "coveredChapterCount": 20,
+      "sectionsCovered": 21,
+      "sectionsTotal": 108,
+      "chapters": [
+        {
+          "id": "chapter-1-getting-started",
+          "title": "Chapter 1: Getting Started",
+          "pageStart": 52,
+          "pageEnd": 68,
+          "sections": [
+            {
+              "id": "setting-up-your-programming-environment",
+              "title": "Setting Up Your Programming Environment",
+              "pageStart": 52,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "python-on-different-operating-systems",
+              "title": "Python on Different Operating Systems",
+              "pageStart": 55,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "running-a-hello-world-program",
+              "title": "Running a Hello World Program",
+              "pageStart": 62,
+              "conceptIds": [
+                "python_environment_and_execution"
+              ],
+              "itemIds": [
+                "python_environment_and_execution__interpreter-role",
+                "python_environment_and_execution__script-vs-repl",
+                "python_environment_and_execution__traceback-purpose",
+                "python_environment_and_execution__greeting-script"
+              ]
+            },
+            {
+              "id": "troubleshooting",
+              "title": "Troubleshooting",
+              "pageStart": 64,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "running-python-programs-from-a-terminal",
+              "title": "Running Python Programs from a Terminal",
+              "pageStart": 66,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 68,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "python_environment_and_execution"
+          ],
+          "itemIds": [
+            "python_environment_and_execution__interpreter-role",
+            "python_environment_and_execution__script-vs-repl",
+            "python_environment_and_execution__traceback-purpose",
+            "python_environment_and_execution__greeting-script"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-2-variables-and-simple-data-types",
+          "title": "Chapter 2: Variables and Simple Data Types",
+          "pageStart": 69,
+          "pageEnd": 94,
+          "sections": [
+            {
+              "id": "what-really-happens-when-you-run-hello-world-py",
+              "title": "What Really Happens When You Run hello_world.py",
+              "pageStart": 69,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "variables",
+              "title": "Variables",
+              "pageStart": 70,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "strings",
+              "title": "Strings",
+              "pageStart": 75,
+              "conceptIds": [
+                "variables_strings_numbers"
+              ],
+              "itemIds": [
+                "variables_strings_numbers__f-string-purpose",
+                "variables_strings_numbers__string-method-output",
+                "variables_strings_numbers__division-choice",
+                "variables_strings_numbers__receipt-line"
+              ]
+            },
+            {
+              "id": "numbers",
+              "title": "Numbers",
+              "pageStart": 85,
+              "conceptIds": [
+                "variables_strings_numbers"
+              ],
+              "itemIds": [
+                "variables_strings_numbers__f-string-purpose",
+                "variables_strings_numbers__string-method-output",
+                "variables_strings_numbers__division-choice",
+                "variables_strings_numbers__receipt-line"
+              ]
+            },
+            {
+              "id": "comments",
+              "title": "Comments",
+              "pageStart": 90,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "the-zen-of-python",
+              "title": "The Zen of Python",
+              "pageStart": 92,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 94,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "variables_strings_numbers"
+          ],
+          "itemIds": [
+            "variables_strings_numbers__f-string-purpose",
+            "variables_strings_numbers__string-method-output",
+            "variables_strings_numbers__division-choice",
+            "variables_strings_numbers__receipt-line"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-3-introducing-lists",
+          "title": "Chapter 3: Introducing Lists",
+          "pageStart": 95,
+          "pageEnd": 116,
+          "sections": [
+            {
+              "id": "what-is-a-list",
+              "title": "What Is a List?",
+              "pageStart": 95,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "modifying-adding-and-removing-elements",
+              "title": "Modifying, Adding, and Removing Elements",
+              "pageStart": 99,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "organizing-a-list",
+              "title": "Organizing a List",
+              "pageStart": 109,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "avoiding-index-errors-when-working-with-lists",
+              "title": "Avoiding Index Errors When Working with Lists",
+              "pageStart": 113,
+              "conceptIds": [
+                "collections_and_iteration"
+              ],
+              "itemIds": [
+                "collections_and_iteration__list-vs-tuple",
+                "collections_and_iteration__dict-loop-trace",
+                "collections_and_iteration__slice-meaning",
+                "collections_and_iteration__inventory-total"
+              ]
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 115,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-4-working-with-lists",
+          "title": "Chapter 4: Working with Lists",
+          "pageStart": 117,
+          "pageEnd": 150,
+          "sections": [
+            {
+              "id": "looping-through-an-entire-list",
+              "title": "Looping Through an Entire List",
+              "pageStart": 117,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "avoiding-indentation-errors",
+              "title": "Avoiding Indentation Errors",
+              "pageStart": 123,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "making-numerical-lists",
+              "title": "Making Numerical Lists",
+              "pageStart": 128,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "working-with-part-of-a-list",
+              "title": "Working with Part of a List",
+              "pageStart": 135,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "tuples",
+              "title": "Tuples",
+              "pageStart": 141,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "styling-your-code",
+              "title": "Styling Your Code",
+              "pageStart": 145,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 149,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-5-if-statements",
+          "title": "Chapter 5: if Statements",
+          "pageStart": 151,
+          "pageEnd": 179,
+          "sections": [
+            {
+              "id": "a-simple-example",
+              "title": "A Simple Example",
+              "pageStart": 152,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "conditional-tests",
+              "title": "Conditional Tests",
+              "pageStart": 152,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "if-statements",
+              "title": "if Statements",
+              "pageStart": 161,
+              "conceptIds": [
+                "conditionals_and_loops"
+              ],
+              "itemIds": [
+                "conditionals_and_loops__guard-clause",
+                "conditionals_and_loops__elif-purpose",
+                "conditionals_and_loops__while-countdown",
+                "conditionals_and_loops__password-attempts"
+              ]
+            },
+            {
+              "id": "using-if-statements-with-lists",
+              "title": "Using if Statements with Lists",
+              "pageStart": 172,
+              "conceptIds": [
+                "conditionals_and_loops"
+              ],
+              "itemIds": [
+                "conditionals_and_loops__guard-clause",
+                "conditionals_and_loops__elif-purpose",
+                "conditionals_and_loops__while-countdown",
+                "conditionals_and_loops__password-attempts"
+              ]
+            },
+            {
+              "id": "styling-your-if-statements",
+              "title": "Styling Your if Statements",
+              "pageStart": 177,
+              "conceptIds": [
+                "conditionals_and_loops"
+              ],
+              "itemIds": [
+                "conditionals_and_loops__guard-clause",
+                "conditionals_and_loops__elif-purpose",
+                "conditionals_and_loops__while-countdown",
+                "conditionals_and_loops__password-attempts"
+              ]
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 178,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "conditionals_and_loops"
+          ],
+          "itemIds": [
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-6-dictionaries",
+          "title": "Chapter 6: Dictionaries",
+          "pageStart": 180,
+          "pageEnd": 211,
+          "sections": [
+            {
+              "id": "a-simple-dictionary",
+              "title": "A Simple Dictionary",
+              "pageStart": 181,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "working-with-dictionaries",
+              "title": "Working with Dictionaries",
+              "pageStart": 181,
+              "conceptIds": [
+                "collections_and_iteration"
+              ],
+              "itemIds": [
+                "collections_and_iteration__list-vs-tuple",
+                "collections_and_iteration__dict-loop-trace",
+                "collections_and_iteration__slice-meaning",
+                "collections_and_iteration__inventory-total"
+              ]
+            },
+            {
+              "id": "looping-through-a-dictionary",
+              "title": "Looping Through a Dictionary",
+              "pageStart": 192,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "nesting",
+              "title": "Nesting",
+              "pageStart": 201,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 211,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-7-user-input-and-while-loops",
+          "title": "Chapter 7: User Input and while Loops",
+          "pageStart": 212,
+          "pageEnd": 234,
+          "sections": [
+            {
+              "id": "how-the-input-function-works",
+              "title": "How the input() Function Works",
+              "pageStart": 213,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "introducing-while-loops",
+              "title": "Introducing while Loops",
+              "pageStart": 219,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "using-a-while-loop-with-lists-and-dictionaries",
+              "title": "Using a while Loop with Lists and Dictionaries",
+              "pageStart": 228,
+              "conceptIds": [
+                "collections_and_iteration"
+              ],
+              "itemIds": [
+                "collections_and_iteration__list-vs-tuple",
+                "collections_and_iteration__dict-loop-trace",
+                "collections_and_iteration__slice-meaning",
+                "collections_and_iteration__inventory-total"
+              ]
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 233,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "conditionals_and_loops",
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts",
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-8-functions",
+          "title": "Chapter 8: Functions",
+          "pageStart": 235,
+          "pageEnd": 275,
+          "sections": [
+            {
+              "id": "defining-a-function",
+              "title": "Defining a Function",
+              "pageStart": 236,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "passing-arguments",
+              "title": "Passing Arguments",
+              "pageStart": 239,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "return-values",
+              "title": "Return Values",
+              "pageStart": 247,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "passing-a-list",
+              "title": "Passing a List",
+              "pageStart": 255,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "passing-an-arbitrary-number-of-arguments",
+              "title": "Passing an Arbitrary Number of Arguments",
+              "pageStart": 261,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "storing-your-functions-in-modules",
+              "title": "Storing Your Functions in Modules",
+              "pageStart": 266,
+              "conceptIds": [
+                "functions_and_modules"
+              ],
+              "itemIds": [
+                "functions_and_modules__return-vs-print",
+                "functions_and_modules__parameter-purpose",
+                "functions_and_modules__function-call-trace",
+                "functions_and_modules__module-style-helper"
+              ]
+            },
+            {
+              "id": "styling-functions",
+              "title": "Styling Functions",
+              "pageStart": 271,
+              "conceptIds": [
+                "functions_and_modules"
+              ],
+              "itemIds": [
+                "functions_and_modules__return-vs-print",
+                "functions_and_modules__parameter-purpose",
+                "functions_and_modules__function-call-trace",
+                "functions_and_modules__module-style-helper"
+              ]
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 273,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "functions_and_modules"
+          ],
+          "itemIds": [
+            "functions_and_modules__return-vs-print",
+            "functions_and_modules__parameter-purpose",
+            "functions_and_modules__function-call-trace",
+            "functions_and_modules__module-style-helper"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-9-classes",
+          "title": "Chapter 9: Classes",
+          "pageStart": 276,
+          "pageEnd": 314,
+          "sections": [
+            {
+              "id": "creating-and-using-a-class",
+              "title": "Creating and Using a Class",
+              "pageStart": 277,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "working-with-classes-and-instances",
+              "title": "Working with Classes and Instances",
+              "pageStart": 284,
+              "conceptIds": [
+                "objects_and_classes"
+              ],
+              "itemIds": [
+                "objects_and_classes__class-vs-instance",
+                "objects_and_classes__method-call-output",
+                "objects_and_classes__init-purpose",
+                "objects_and_classes__book-class"
+              ]
+            },
+            {
+              "id": "inheritance",
+              "title": "Inheritance",
+              "pageStart": 291,
+              "conceptIds": [
+                "objects_and_classes"
+              ],
+              "itemIds": [
+                "objects_and_classes__class-vs-instance",
+                "objects_and_classes__method-call-output",
+                "objects_and_classes__init-purpose",
+                "objects_and_classes__book-class"
+              ]
+            },
+            {
+              "id": "importing-classes",
+              "title": "Importing Classes",
+              "pageStart": 301,
+              "conceptIds": [
+                "objects_and_classes"
+              ],
+              "itemIds": [
+                "objects_and_classes__class-vs-instance",
+                "objects_and_classes__method-call-output",
+                "objects_and_classes__init-purpose",
+                "objects_and_classes__book-class"
+              ]
+            },
+            {
+              "id": "the-python-standard-library",
+              "title": "The Python Standard Library",
+              "pageStart": 310,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "styling-classes",
+              "title": "Styling Classes",
+              "pageStart": 312,
+              "conceptIds": [
+                "objects_and_classes"
+              ],
+              "itemIds": [
+                "objects_and_classes__class-vs-instance",
+                "objects_and_classes__method-call-output",
+                "objects_and_classes__init-purpose",
+                "objects_and_classes__book-class"
+              ]
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 313,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "objects_and_classes"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-10-files-and-exceptions",
+          "title": "Chapter 10: Files and Exceptions",
+          "pageStart": 315,
+          "pageEnd": 352,
+          "sections": [
+            {
+              "id": "reading-from-a-file",
+              "title": "Reading from a File",
+              "pageStart": 316,
+              "conceptIds": [
+                "files_and_exceptions"
+              ],
+              "itemIds": [
+                "files_and_exceptions__with-statement",
+                "files_and_exceptions__exception-when",
+                "files_and_exceptions__specific-except",
+                "files_and_exceptions__safe-divide"
+              ]
+            },
+            {
+              "id": "writing-to-a-file",
+              "title": "Writing to a File",
+              "pageStart": 326,
+              "conceptIds": [
+                "files_and_exceptions"
+              ],
+              "itemIds": [
+                "files_and_exceptions__with-statement",
+                "files_and_exceptions__exception-when",
+                "files_and_exceptions__specific-except",
+                "files_and_exceptions__safe-divide"
+              ]
+            },
+            {
+              "id": "exceptions",
+              "title": "Exceptions",
+              "pageStart": 329,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "storing-data",
+              "title": "Storing Data",
+              "pageStart": 343,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 351,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "files_and_exceptions"
+          ],
+          "itemIds": [
+            "files_and_exceptions__with-statement",
+            "files_and_exceptions__exception-when",
+            "files_and_exceptions__specific-except",
+            "files_and_exceptions__safe-divide"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-11-testing-your-code",
+          "title": "Chapter 11: Testing Your Code",
+          "pageStart": 353,
+          "pageEnd": 379,
+          "sections": [
+            {
+              "id": "installing-pytest-with-pip",
+              "title": "Installing pytest with pip",
+              "pageStart": 354,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "testing-a-function",
+              "title": "Testing a Function",
+              "pageStart": 356,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "testing-a-class",
+              "title": "Testing a Class",
+              "pageStart": 367,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 376,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "debugging_testing_assertions"
+          ],
+          "itemIds": [
+            "debugging_testing_assertions__failing-test-value",
+            "debugging_testing_assertions__fix-average",
+            "debugging_testing_assertions__assert-purpose",
+            "debugging_testing_assertions__minimal-repro"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-12-a-ship-that-fires-bullets",
+          "title": "Chapter 12: A Ship That Fires Bullets",
+          "pageStart": 380,
+          "pageEnd": 421,
+          "sections": [
+            {
+              "id": "planning-your-project",
+              "title": "Planning Your Project",
+              "pageStart": 381,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "installing-pygame",
+              "title": "Installing Pygame",
+              "pageStart": 382,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "starting-the-game-project",
+              "title": "Starting the Game Project",
+              "pageStart": 382,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "adding-the-ship-image",
+              "title": "Adding the Ship Image",
+              "pageStart": 389,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "refactoring-the-check-events-and-update-screen-methods",
+              "title": "Refactoring: The _check_events() and _update_screen() Methods",
+              "pageStart": 395,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "piloting-the-ship",
+              "title": "Piloting the Ship",
+              "pageStart": 398,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "a-quick-recap",
+              "title": "A Quick Recap",
+              "pageStart": 409,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "shooting-bullets",
+              "title": "Shooting Bullets",
+              "pageStart": 411,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 421,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "pcc_game_architecture"
+          ],
+          "itemIds": [
+            "pcc_game_architecture__game-loop",
+            "pcc_game_architecture__state-separation",
+            "pcc_game_architecture__game-retro"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-13-aliens",
+          "title": "Chapter 13: Aliens!",
+          "pageStart": 422,
+          "pageEnd": 455,
+          "sections": [
+            {
+              "id": "reviewing-the-project",
+              "title": "Reviewing the Project",
+              "pageStart": 423,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "creating-the-first-alien",
+              "title": "Creating the First Alien",
+              "pageStart": 424,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "building-the-alien-fleet",
+              "title": "Building the Alien Fleet",
+              "pageStart": 427,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "making-the-fleet-move",
+              "title": "Making the Fleet Move",
+              "pageStart": 434,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "shooting-aliens",
+              "title": "Shooting Aliens",
+              "pageStart": 440,
+              "conceptIds": [
+                "pcc_game_architecture"
+              ],
+              "itemIds": [
+                "pcc_game_architecture__game-loop",
+                "pcc_game_architecture__state-separation",
+                "pcc_game_architecture__game-retro"
+              ]
+            },
+            {
+              "id": "ending-the-game",
+              "title": "Ending the Game",
+              "pageStart": 446,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 454,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "pcc_game_architecture"
+          ],
+          "itemIds": [
+            "pcc_game_architecture__game-loop",
+            "pcc_game_architecture__state-separation",
+            "pcc_game_architecture__game-retro"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-14-scoring",
+          "title": "Chapter 14: Scoring",
+          "pageStart": 456,
+          "pageEnd": 491,
+          "sections": [
+            {
+              "id": "adding-the-play-button",
+              "title": "Adding the Play Button",
+              "pageStart": 456,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "leveling-up",
+              "title": "Leveling Up",
+              "pageStart": 465,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "scoring",
+              "title": "Scoring",
+              "pageStart": 469,
+              "conceptIds": [
+                "pcc_game_architecture"
+              ],
+              "itemIds": [
+                "pcc_game_architecture__game-loop",
+                "pcc_game_architecture__state-separation",
+                "pcc_game_architecture__game-retro"
+              ]
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 490,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "pcc_game_architecture"
+          ],
+          "itemIds": [
+            "pcc_game_architecture__game-loop",
+            "pcc_game_architecture__state-separation",
+            "pcc_game_architecture__game-retro"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-15-generating-data",
+          "title": "Chapter 15: Generating Data",
+          "pageStart": 492,
+          "pageEnd": 535,
+          "sections": [
+            {
+              "id": "installing-matplotlib",
+              "title": "Installing Matplotlib",
+              "pageStart": 493,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "plotting-a-simple-line-graph",
+              "title": "Plotting a Simple Line Graph",
+              "pageStart": 494,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "random-walks",
+              "title": "Random Walks",
+              "pageStart": 509,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "rolling-dice-with-plotly",
+              "title": "Rolling Dice with Plotly",
+              "pageStart": 520,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 534,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "visualization_storytelling",
+            "pcc_data_visualization_projects"
+          ],
+          "itemIds": [
+            "visualization_storytelling__chart-choice",
+            "visualization_storytelling__misleading-axis",
+            "visualization_storytelling__annotation-value",
+            "visualization_storytelling__line-plot",
+            "pcc_data_visualization_projects__workflow-order",
+            "pcc_data_visualization_projects__api-risk",
+            "pcc_data_visualization_projects__viz-project-brief"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-16-downloading-data",
+          "title": "Chapter 16: Downloading Data",
+          "pageStart": 536,
+          "pageEnd": 573,
+          "sections": [
+            {
+              "id": "the-csv-file-format",
+              "title": "The CSV File Format",
+              "pageStart": 537,
+              "conceptIds": [
+                "dataframes_and_cleaning"
+              ],
+              "itemIds": [
+                "dataframes_and_cleaning__missing-data-first-step",
+                "dataframes_and_cleaning__dataframe-benefit",
+                "dataframes_and_cleaning__describe-intuition",
+                "dataframes_and_cleaning__pandas-filter"
+              ]
+            },
+            {
+              "id": "mapping-global-datasets-geojson-format",
+              "title": "Mapping Global Datasets: GeoJSON Format",
+              "pageStart": 556,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 572,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "dataframes_and_cleaning",
+            "visualization_storytelling",
+            "pcc_data_visualization_projects"
+          ],
+          "itemIds": [
+            "dataframes_and_cleaning__missing-data-first-step",
+            "dataframes_and_cleaning__dataframe-benefit",
+            "dataframes_and_cleaning__describe-intuition",
+            "dataframes_and_cleaning__pandas-filter",
+            "visualization_storytelling__chart-choice",
+            "visualization_storytelling__misleading-axis",
+            "visualization_storytelling__annotation-value",
+            "visualization_storytelling__line-plot",
+            "pcc_data_visualization_projects__workflow-order",
+            "pcc_data_visualization_projects__api-risk",
+            "pcc_data_visualization_projects__viz-project-brief"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-17-working-with-apis",
+          "title": "Chapter 17: Working with APIs",
+          "pageStart": 574,
+          "pageEnd": 601,
+          "sections": [
+            {
+              "id": "using-an-api",
+              "title": "Using an API",
+              "pageStart": 574,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "visualizing-repositories-using-plotly",
+              "title": "Visualizing Repositories Using Plotly",
+              "pageStart": 585,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "the-hacker-news-api",
+              "title": "The Hacker News API",
+              "pageStart": 594,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 600,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "packages_databases_and_web",
+            "visualization_storytelling",
+            "pcc_data_visualization_projects"
+          ],
+          "itemIds": [
+            "packages_databases_and_web__pip-role",
+            "packages_databases_and_web__api-definition",
+            "packages_databases_and_web__database-benefit",
+            "packages_databases_and_web__external-system-checklist",
+            "visualization_storytelling__chart-choice",
+            "visualization_storytelling__misleading-axis",
+            "visualization_storytelling__annotation-value",
+            "visualization_storytelling__line-plot",
+            "pcc_data_visualization_projects__workflow-order",
+            "pcc_data_visualization_projects__api-risk",
+            "pcc_data_visualization_projects__viz-project-brief"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-18-getting-started-with-django",
+          "title": "Chapter 18: Getting Started with Django",
+          "pageStart": 602,
+          "pageEnd": 648,
+          "sections": [
+            {
+              "id": "setting-up-a-project",
+              "title": "Setting Up a Project",
+              "pageStart": 603,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "starting-an-app",
+              "title": "Starting an App",
+              "pageStart": 611,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "making-pages-the-learning-log-home-page",
+              "title": "Making Pages: The Learning Log Home Page",
+              "pageStart": 626,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "building-additional-pages",
+              "title": "Building Additional Pages",
+              "pageStart": 633,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 647,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "pcc_web_app_workflow"
+          ],
+          "itemIds": [
+            "pcc_web_app_workflow__app-loop",
+            "pcc_web_app_workflow__user-data-ownership",
+            "pcc_web_app_workflow__deployment-checklist"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-19-user-accounts",
+          "title": "Chapter 19: User Accounts",
+          "pageStart": 649,
+          "pageEnd": 692,
+          "sections": [
+            {
+              "id": "allowing-users-to-enter-data",
+              "title": "Allowing Users to Enter Data",
+              "pageStart": 650,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "setting-up-user-accounts",
+              "title": "Setting Up User Accounts",
+              "pageStart": 667,
+              "conceptIds": [
+                "pcc_web_app_workflow"
+              ],
+              "itemIds": [
+                "pcc_web_app_workflow__app-loop",
+                "pcc_web_app_workflow__user-data-ownership",
+                "pcc_web_app_workflow__deployment-checklist"
+              ]
+            },
+            {
+              "id": "allowing-users-to-own-their-data",
+              "title": "Allowing Users to Own Their Data",
+              "pageStart": 679,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 691,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "pcc_web_app_workflow"
+          ],
+          "itemIds": [
+            "pcc_web_app_workflow__app-loop",
+            "pcc_web_app_workflow__user-data-ownership",
+            "pcc_web_app_workflow__deployment-checklist"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-20-styling-and-deploying-an-app",
+          "title": "Chapter 20: Styling and Deploying an App",
+          "pageStart": 693,
+          "pageEnd": null,
+          "sections": [
+            {
+              "id": "styling-learning-log",
+              "title": "Styling Learning Log",
+              "pageStart": 694,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "deploying-learning-log",
+              "title": "Deploying Learning Log",
+              "pageStart": 712,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "summary",
+              "title": "Summary",
+              "pageStart": 739,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "pcc_web_app_workflow"
+          ],
+          "itemIds": [
+            "pcc_web_app_workflow__app-loop",
+            "pcc_web_app_workflow__user-data-ownership",
+            "pcc_web_app_workflow__deployment-checklist"
+          ],
+          "status": "covered"
+        }
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "title": "Introduction to Computation and Programming Using Python, 3rd Edition",
+      "shortTitle": "MIT Python",
+      "totalPages": 690,
+      "chapterCount": 26,
+      "coveredChapterCount": 26,
+      "sectionsCovered": 0,
+      "sectionsTotal": 0,
+      "chapters": [
+        {
+          "id": "1-getting-started",
+          "title": "1: GETTING STARTED",
+          "pageStart": 25,
+          "pageEnd": 33,
+          "sections": [],
+          "conceptIds": [
+            "python_environment_and_execution"
+          ],
+          "itemIds": [
+            "python_environment_and_execution__interpreter-role",
+            "python_environment_and_execution__script-vs-repl",
+            "python_environment_and_execution__traceback-purpose",
+            "python_environment_and_execution__greeting-script"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "2-introduction-to-python",
+          "title": "2: INTRODUCTION TO PYTHON",
+          "pageStart": 34,
+          "pageEnd": 67,
+          "sections": [],
+          "conceptIds": [
+            "python_environment_and_execution",
+            "variables_strings_numbers",
+            "conditionals_and_loops"
+          ],
+          "itemIds": [
+            "python_environment_and_execution__interpreter-role",
+            "python_environment_and_execution__script-vs-repl",
+            "python_environment_and_execution__traceback-purpose",
+            "python_environment_and_execution__greeting-script",
+            "variables_strings_numbers__f-string-purpose",
+            "variables_strings_numbers__string-method-output",
+            "variables_strings_numbers__division-choice",
+            "variables_strings_numbers__receipt-line",
+            "conditionals_and_loops__guard-clause",
+            "conditionals_and_loops__elif-purpose",
+            "conditionals_and_loops__while-countdown",
+            "conditionals_and_loops__password-attempts"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "3-some-simple-numerical-programs",
+          "title": "3: SOME SIMPLE NUMERICAL PROGRAMS",
+          "pageStart": 68,
+          "pageEnd": 86,
+          "sections": [],
+          "conceptIds": [
+            "variables_strings_numbers"
+          ],
+          "itemIds": [
+            "variables_strings_numbers__f-string-purpose",
+            "variables_strings_numbers__string-method-output",
+            "variables_strings_numbers__division-choice",
+            "variables_strings_numbers__receipt-line"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "4-functions-scoping-and-abstraction",
+          "title": "4: FUNCTIONS, SCOPING, AND ABSTRACTION",
+          "pageStart": 87,
+          "pageEnd": 112,
+          "sections": [],
+          "conceptIds": [
+            "functions_and_modules"
+          ],
+          "itemIds": [
+            "functions_and_modules__return-vs-print",
+            "functions_and_modules__parameter-purpose",
+            "functions_and_modules__function-call-trace",
+            "functions_and_modules__module-style-helper"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "5-structured-types-and-mutability",
+          "title": "5: STRUCTURED TYPES AND MUTABILITY",
+          "pageStart": 113,
+          "pageEnd": 145,
+          "sections": [],
+          "conceptIds": [
+            "collections_and_iteration"
+          ],
+          "itemIds": [
+            "collections_and_iteration__list-vs-tuple",
+            "collections_and_iteration__dict-loop-trace",
+            "collections_and_iteration__slice-meaning",
+            "collections_and_iteration__inventory-total"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "6-recursion-and-global-variables",
+          "title": "6: RECURSION AND GLOBAL VARIABLES",
+          "pageStart": 146,
+          "pageEnd": 157,
+          "sections": [],
+          "conceptIds": [
+            "recursion_search_and_complexity"
+          ],
+          "itemIds": [
+            "recursion_search_and_complexity__base-case",
+            "recursion_search_and_complexity__binary-search-requirement",
+            "recursion_search_and_complexity__big-o-intuition",
+            "recursion_search_and_complexity__recursive-countdown"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "7-modules-and-files",
+          "title": "7: MODULES AND FILES",
+          "pageStart": 158,
+          "pageEnd": 168,
+          "sections": [],
+          "conceptIds": [
+            "functions_and_modules",
+            "files_and_exceptions"
+          ],
+          "itemIds": [
+            "functions_and_modules__return-vs-print",
+            "functions_and_modules__parameter-purpose",
+            "functions_and_modules__function-call-trace",
+            "functions_and_modules__module-style-helper",
+            "files_and_exceptions__with-statement",
+            "files_and_exceptions__exception-when",
+            "files_and_exceptions__specific-except",
+            "files_and_exceptions__safe-divide"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "8-testing-and-debugging",
+          "title": "8: TESTING AND DEBUGGING",
+          "pageStart": 169,
+          "pageEnd": 189,
+          "sections": [],
+          "conceptIds": [
+            "debugging_testing_assertions"
+          ],
+          "itemIds": [
+            "debugging_testing_assertions__failing-test-value",
+            "debugging_testing_assertions__fix-average",
+            "debugging_testing_assertions__assert-purpose",
+            "debugging_testing_assertions__minimal-repro"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "9-exceptions-and-assertions",
+          "title": "9: EXCEPTIONS AND ASSERTIONS",
+          "pageStart": 190,
+          "pageEnd": 199,
+          "sections": [],
+          "conceptIds": [
+            "files_and_exceptions",
+            "debugging_testing_assertions"
+          ],
+          "itemIds": [
+            "files_and_exceptions__with-statement",
+            "files_and_exceptions__exception-when",
+            "files_and_exceptions__specific-except",
+            "files_and_exceptions__safe-divide",
+            "debugging_testing_assertions__failing-test-value",
+            "debugging_testing_assertions__fix-average",
+            "debugging_testing_assertions__assert-purpose",
+            "debugging_testing_assertions__minimal-repro"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "10-classes-and-object-oriented-programming",
+          "title": "10: CLASSES AND OBJECT-ORIENTED PROGRAMMING",
+          "pageStart": 200,
+          "pageEnd": 235,
+          "sections": [],
+          "conceptIds": [
+            "objects_and_classes"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "11-a-simplistic-introduction-to-algorithmic-complexity",
+          "title": "11: A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY",
+          "pageStart": 236,
+          "pageEnd": 254,
+          "sections": [],
+          "conceptIds": [
+            "recursion_search_and_complexity"
+          ],
+          "itemIds": [
+            "recursion_search_and_complexity__base-case",
+            "recursion_search_and_complexity__binary-search-requirement",
+            "recursion_search_and_complexity__big-o-intuition",
+            "recursion_search_and_complexity__recursive-countdown"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "12-some-simple-algorithms-and-data-structures",
+          "title": "12: SOME SIMPLE ALGORITHMS AND DATA STRUCTURES",
+          "pageStart": 255,
+          "pageEnd": 277,
+          "sections": [],
+          "conceptIds": [
+            "recursion_search_and_complexity"
+          ],
+          "itemIds": [
+            "recursion_search_and_complexity__base-case",
+            "recursion_search_and_complexity__binary-search-requirement",
+            "recursion_search_and_complexity__big-o-intuition",
+            "recursion_search_and_complexity__recursive-countdown"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "13-plotting-and-more-about-classes",
+          "title": "13: PLOTTING AND MORE ABOUT CLASSES",
+          "pageStart": 278,
+          "pageEnd": 300,
+          "sections": [],
+          "conceptIds": [
+            "objects_and_classes",
+            "visualization_storytelling"
+          ],
+          "itemIds": [
+            "objects_and_classes__class-vs-instance",
+            "objects_and_classes__method-call-output",
+            "objects_and_classes__init-purpose",
+            "objects_and_classes__book-class",
+            "visualization_storytelling__chart-choice",
+            "visualization_storytelling__misleading-axis",
+            "visualization_storytelling__annotation-value",
+            "visualization_storytelling__line-plot"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "14-knapsack-and-graph-optimization-problems",
+          "title": "14: KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS",
+          "pageStart": 301,
+          "pageEnd": 325,
+          "sections": [],
+          "conceptIds": [
+            "dynamic_programming_and_graphs"
+          ],
+          "itemIds": [
+            "dynamic_programming_and_graphs__memoization",
+            "dynamic_programming_and_graphs__graph-model",
+            "dynamic_programming_and_graphs__fib-memo",
+            "dynamic_programming_and_graphs__knapsack-reflection"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "15-dynamic-programming",
+          "title": "15: DYNAMIC PROGRAMMING",
+          "pageStart": 326,
+          "pageEnd": 340,
+          "sections": [],
+          "conceptIds": [
+            "dynamic_programming_and_graphs"
+          ],
+          "itemIds": [
+            "dynamic_programming_and_graphs__memoization",
+            "dynamic_programming_and_graphs__graph-model",
+            "dynamic_programming_and_graphs__fib-memo",
+            "dynamic_programming_and_graphs__knapsack-reflection"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "16-random-walks-and-more-about-data-visualization",
+          "title": "16: RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION",
+          "pageStart": 341,
+          "pageEnd": 364,
+          "sections": [],
+          "conceptIds": [
+            "simulation_probability",
+            "visualization_storytelling"
+          ],
+          "itemIds": [
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation",
+            "visualization_storytelling__chart-choice",
+            "visualization_storytelling__misleading-axis",
+            "visualization_storytelling__annotation-value",
+            "visualization_storytelling__line-plot"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "17-stochastic-programs-probability-and-distributions",
+          "title": "17: STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS",
+          "pageStart": 365,
+          "pageEnd": 417,
+          "sections": [],
+          "conceptIds": [
+            "simulation_probability"
+          ],
+          "itemIds": [
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "18-monte-carlo-simulation",
+          "title": "18: MONTE CARLO SIMULATION",
+          "pageStart": 418,
+          "pageEnd": 437,
+          "sections": [],
+          "conceptIds": [
+            "simulation_probability"
+          ],
+          "itemIds": [
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "19-sampling-and-confidence",
+          "title": "19: SAMPLING AND CONFIDENCE",
+          "pageStart": 438,
+          "pageEnd": 456,
+          "sections": [],
+          "conceptIds": [
+            "sampling_inference_hypothesis"
+          ],
+          "itemIds": [
+            "sampling_inference_hypothesis__sample-vs-population",
+            "sampling_inference_hypothesis__p-value-meaning",
+            "sampling_inference_hypothesis__confidence-interval",
+            "sampling_inference_hypothesis__sample-mean"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "20-understanding-experimental-data",
+          "title": "20: UNDERSTANDING EXPERIMENTAL DATA",
+          "pageStart": 457,
+          "pageEnd": 481,
+          "sections": [],
+          "conceptIds": [
+            "sampling_inference_hypothesis"
+          ],
+          "itemIds": [
+            "sampling_inference_hypothesis__sample-vs-population",
+            "sampling_inference_hypothesis__p-value-meaning",
+            "sampling_inference_hypothesis__confidence-interval",
+            "sampling_inference_hypothesis__sample-mean"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "21-randomized-trials-and-hypothesis-checking",
+          "title": "21: RANDOMIZED TRIALS AND HYPOTHESIS CHECKING",
+          "pageStart": 482,
+          "pageEnd": 511,
+          "sections": [],
+          "conceptIds": [
+            "sampling_inference_hypothesis"
+          ],
+          "itemIds": [
+            "sampling_inference_hypothesis__sample-vs-population",
+            "sampling_inference_hypothesis__p-value-meaning",
+            "sampling_inference_hypothesis__confidence-interval",
+            "sampling_inference_hypothesis__sample-mean"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "22-lies-damned-lies-and-statistics",
+          "title": "22: LIES, DAMNED LIES, AND STATISTICS",
+          "pageStart": 512,
+          "pageEnd": 535,
+          "sections": [],
+          "conceptIds": [
+            "sampling_inference_hypothesis"
+          ],
+          "itemIds": [
+            "sampling_inference_hypothesis__sample-vs-population",
+            "sampling_inference_hypothesis__p-value-meaning",
+            "sampling_inference_hypothesis__confidence-interval",
+            "sampling_inference_hypothesis__sample-mean"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "23-exploring-data-with-pandas",
+          "title": "23: EXPLORING DATA WITH PANDAS",
+          "pageStart": 536,
+          "pageEnd": 569,
+          "sections": [],
+          "conceptIds": [
+            "dataframes_and_cleaning"
+          ],
+          "itemIds": [
+            "dataframes_and_cleaning__missing-data-first-step",
+            "dataframes_and_cleaning__dataframe-benefit",
+            "dataframes_and_cleaning__describe-intuition",
+            "dataframes_and_cleaning__pandas-filter"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "24-a-quick-look-at-machine-learning",
+          "title": "24: A QUICK LOOK AT MACHINE LEARNING",
+          "pageStart": 570,
+          "pageEnd": 584,
+          "sections": [],
+          "conceptIds": [
+            "machine_learning_classification"
+          ],
+          "itemIds": [
+            "machine_learning_classification__precision-vs-recall",
+            "machine_learning_classification__confusion-matrix",
+            "machine_learning_classification__class-imbalance",
+            "machine_learning_classification__logistic-regression"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "25-clustering",
+          "title": "25: CLUSTERING",
+          "pageStart": 585,
+          "pageEnd": 607,
+          "sections": [],
+          "conceptIds": [
+            "clustering_and_unsupervised"
+          ],
+          "itemIds": [
+            "clustering_and_unsupervised__unsupervised-definition",
+            "clustering_and_unsupervised__kmeans-caveat",
+            "clustering_and_unsupervised__kmeans-fit",
+            "clustering_and_unsupervised__cluster-audit"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "26-classification-methods",
+          "title": "26: CLASSIFICATION METHODS",
+          "pageStart": 608,
+          "pageEnd": null,
+          "sections": [],
+          "conceptIds": [
+            "machine_learning_classification"
+          ],
+          "itemIds": [
+            "machine_learning_classification__precision-vs-recall",
+            "machine_learning_classification__confusion-matrix",
+            "machine_learning_classification__class-imbalance",
+            "machine_learning_classification__logistic-regression"
+          ],
+          "status": "covered"
+        }
+      ]
+    },
+    {
+      "bookId": "principles_data_science",
+      "title": "Principles of Data Science",
+      "shortTitle": "Principles of Data Science",
+      "totalPages": 573,
+      "chapterCount": 10,
+      "coveredChapterCount": 10,
+      "sectionsCovered": 16,
+      "sectionsTotal": 99,
+      "chapters": [
+        {
+          "id": "chapter-1-what-are-data-and-data-science",
+          "title": "Chapter 1 What Are Data and Data Science?",
+          "pageStart": 19,
+          "pageEnd": 68,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 19,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "1-1-what-is-data-science",
+              "title": "1.1 What Is Data Science?",
+              "pageStart": 19,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "1-2-data-science-in-practice",
+              "title": "1.2 Data Science in Practice",
+              "pageStart": 22,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "1-3-data-and-datasets",
+              "title": "1.3 Data and Datasets",
+              "pageStart": 26,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "1-4-using-technology-for-data-science",
+              "title": "1.4 Using Technology for Data Science",
+              "pageStart": 39,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "1-5-data-science-with-python",
+              "title": "1.5 Data Science with Python",
+              "pageStart": 41,
+              "conceptIds": [
+                "scientific_computing_and_interfaces",
+                "dataframes_and_cleaning"
+              ],
+              "itemIds": [
+                "scientific_computing_and_interfaces__numpy-strength",
+                "scientific_computing_and_interfaces__gui-event-loop",
+                "scientific_computing_and_interfaces__numpy-mean",
+                "dataframes_and_cleaning__missing-data-first-step",
+                "dataframes_and_cleaning__dataframe-benefit",
+                "dataframes_and_cleaning__describe-intuition",
+                "dataframes_and_cleaning__pandas-filter"
+              ]
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 63,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 64,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "chapter-review",
+              "title": "Chapter Review",
+              "pageStart": 65,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 65,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "quantitative-problems",
+              "title": "Quantitative Problems",
+              "pageStart": 66,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "references",
+              "title": "References",
+              "pageStart": 66,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "scientific_computing_and_interfaces",
+            "dataframes_and_cleaning"
+          ],
+          "itemIds": [
+            "scientific_computing_and_interfaces__numpy-strength",
+            "scientific_computing_and_interfaces__gui-event-loop",
+            "scientific_computing_and_interfaces__numpy-mean",
+            "dataframes_and_cleaning__missing-data-first-step",
+            "dataframes_and_cleaning__dataframe-benefit",
+            "dataframes_and_cleaning__describe-intuition",
+            "dataframes_and_cleaning__pandas-filter"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-2-collecting-and-preparing-data",
+          "title": "Chapter 2 Collecting and Preparing Data",
+          "pageStart": 69,
+          "pageEnd": 114,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 69,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "2-1-overview-of-data-collection-methods",
+              "title": "2.1 Overview of Data Collection Methods",
+              "pageStart": 70,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "2-2-survey-design-and-implementation",
+              "title": "2.2 Survey Design and Implementation",
+              "pageStart": 73,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "2-3-web-scraping-and-social-media-data-collection",
+              "title": "2.3 Web Scraping and Social Media Data Collection",
+              "pageStart": 78,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "2-4-data-cleaning-and-preprocessing",
+              "title": "2.4 Data Cleaning and Preprocessing",
+              "pageStart": 88,
+              "conceptIds": [
+                "dataframes_and_cleaning"
+              ],
+              "itemIds": [
+                "dataframes_and_cleaning__missing-data-first-step",
+                "dataframes_and_cleaning__dataframe-benefit",
+                "dataframes_and_cleaning__describe-intuition",
+                "dataframes_and_cleaning__pandas-filter"
+              ]
+            },
+            {
+              "id": "2-5-handling-large-datasets",
+              "title": "2.5 Handling Large Datasets",
+              "pageStart": 100,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 106,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 108,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 109,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "references",
+              "title": "References",
+              "pageStart": 113,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "dataframes_and_cleaning"
+          ],
+          "itemIds": [
+            "dataframes_and_cleaning__missing-data-first-step",
+            "dataframes_and_cleaning__dataframe-benefit",
+            "dataframes_and_cleaning__describe-intuition",
+            "dataframes_and_cleaning__pandas-filter"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-3-descriptive-statistics-statistical-measurements-and-probability-distri",
+          "title": "Chapter 3 Descriptive Statistics: Statistical Measurements and Probability Distributions",
+          "pageStart": 115,
+          "pageEnd": 156,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 115,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "3-1-measures-of-center",
+              "title": "3.1 Measures of Center",
+              "pageStart": 116,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "3-2-measures-of-variation",
+              "title": "3.2 Measures of Variation",
+              "pageStart": 122,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "3-3-measures-of-position",
+              "title": "3.3 Measures of Position",
+              "pageStart": 127,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "3-4-probability-theory",
+              "title": "3.4 Probability Theory",
+              "pageStart": 131,
+              "conceptIds": [
+                "simulation_probability"
+              ],
+              "itemIds": [
+                "simulation_probability__monte-carlo-idea",
+                "simulation_probability__random-choice-shape",
+                "simulation_probability__more-trials-effect",
+                "simulation_probability__coin-simulation"
+              ]
+            },
+            {
+              "id": "3-5-discrete-and-continuous-probability-distributions",
+              "title": "3.5 Discrete and Continuous Probability Distributions",
+              "pageStart": 139,
+              "conceptIds": [
+                "simulation_probability"
+              ],
+              "itemIds": [
+                "simulation_probability__monte-carlo-idea",
+                "simulation_probability__random-choice-shape",
+                "simulation_probability__more-trials-effect",
+                "simulation_probability__coin-simulation"
+              ]
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 152,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 153,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "quantitative-problems",
+              "title": "Quantitative Problems",
+              "pageStart": 154,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "simulation_probability"
+          ],
+          "itemIds": [
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-4-inferential-statistics-and-regression-analysis",
+          "title": "Chapter 4 Inferential Statistics and Regression Analysis",
+          "pageStart": 157,
+          "pageEnd": 224,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 157,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "4-1-statistical-inference-and-confidence-intervals",
+              "title": "4.1 Statistical Inference and Confidence Intervals",
+              "pageStart": 158,
+              "conceptIds": [
+                "sampling_inference_hypothesis"
+              ],
+              "itemIds": [
+                "sampling_inference_hypothesis__sample-vs-population",
+                "sampling_inference_hypothesis__p-value-meaning",
+                "sampling_inference_hypothesis__confidence-interval",
+                "sampling_inference_hypothesis__sample-mean"
+              ]
+            },
+            {
+              "id": "4-2-hypothesis-testing",
+              "title": "4.2 Hypothesis Testing",
+              "pageStart": 177,
+              "conceptIds": [
+                "sampling_inference_hypothesis"
+              ],
+              "itemIds": [
+                "sampling_inference_hypothesis__sample-vs-population",
+                "sampling_inference_hypothesis__p-value-meaning",
+                "sampling_inference_hypothesis__confidence-interval",
+                "sampling_inference_hypothesis__sample-mean"
+              ]
+            },
+            {
+              "id": "4-3-correlation-and-linear-regression-analysis",
+              "title": "4.3 Correlation and Linear Regression Analysis",
+              "pageStart": 199,
+              "conceptIds": [
+                "regression_and_model_validation"
+              ],
+              "itemIds": [
+                "regression_and_model_validation__train-test-split",
+                "regression_and_model_validation__overfitting-signal",
+                "regression_and_model_validation__residual-meaning",
+                "regression_and_model_validation__simple-linreg"
+              ]
+            },
+            {
+              "id": "4-4-analysis-of-variance-anova",
+              "title": "4.4 Analysis of Variance (ANOVA)",
+              "pageStart": 215,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 220,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 222,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "quantitative-problems",
+              "title": "Quantitative Problems",
+              "pageStart": 222,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "sampling_inference_hypothesis",
+            "regression_and_model_validation"
+          ],
+          "itemIds": [
+            "sampling_inference_hypothesis__sample-vs-population",
+            "sampling_inference_hypothesis__p-value-meaning",
+            "sampling_inference_hypothesis__confidence-interval",
+            "sampling_inference_hypothesis__sample-mean",
+            "regression_and_model_validation__train-test-split",
+            "regression_and_model_validation__overfitting-signal",
+            "regression_and_model_validation__residual-meaning",
+            "regression_and_model_validation__simple-linreg"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-5-time-series-and-forecasting",
+          "title": "Chapter 5 Time Series and Forecasting",
+          "pageStart": 225,
+          "pageEnd": 278,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 225,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "5-1-introduction-to-time-series-analysis",
+              "title": "5.1 Introduction to Time Series Analysis",
+              "pageStart": 225,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "5-2-components-of-time-series-analysis",
+              "title": "5.2 Components of Time Series Analysis",
+              "pageStart": 234,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "5-3-time-series-forecasting-methods",
+              "title": "5.3 Time Series Forecasting Methods",
+              "pageStart": 239,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "5-4-forecast-evaluation-methods",
+              "title": "5.4 Forecast Evaluation Methods",
+              "pageStart": 266,
+              "conceptIds": [
+                "time_series_forecasting"
+              ],
+              "itemIds": [
+                "time_series_forecasting__time-order-matters",
+                "time_series_forecasting__seasonality",
+                "time_series_forecasting__forecast-baseline",
+                "time_series_forecasting__naive-forecast"
+              ]
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 271,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 272,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 273,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "quantitative-problems",
+              "title": "Quantitative Problems",
+              "pageStart": 274,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "time_series_forecasting"
+          ],
+          "itemIds": [
+            "time_series_forecasting__time-order-matters",
+            "time_series_forecasting__seasonality",
+            "time_series_forecasting__forecast-baseline",
+            "time_series_forecasting__naive-forecast"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-6-decision-making-using-machine-learning-basics",
+          "title": "Chapter 6 Decision-Making Using Machine Learning Basics",
+          "pageStart": 279,
+          "pageEnd": 344,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 279,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "6-1-what-is-machine-learning",
+              "title": "6.1 What Is Machine Learning?",
+              "pageStart": 280,
+              "conceptIds": [
+                "machine_learning_classification"
+              ],
+              "itemIds": [
+                "machine_learning_classification__precision-vs-recall",
+                "machine_learning_classification__confusion-matrix",
+                "machine_learning_classification__class-imbalance",
+                "machine_learning_classification__logistic-regression"
+              ]
+            },
+            {
+              "id": "6-2-classification-using-machine-learning",
+              "title": "6.2 Classification Using Machine Learning",
+              "pageStart": 288,
+              "conceptIds": [
+                "machine_learning_classification",
+                "clustering_and_unsupervised"
+              ],
+              "itemIds": [
+                "machine_learning_classification__precision-vs-recall",
+                "machine_learning_classification__confusion-matrix",
+                "machine_learning_classification__class-imbalance",
+                "machine_learning_classification__logistic-regression",
+                "clustering_and_unsupervised__unsupervised-definition",
+                "clustering_and_unsupervised__kmeans-caveat",
+                "clustering_and_unsupervised__kmeans-fit",
+                "clustering_and_unsupervised__cluster-audit"
+              ]
+            },
+            {
+              "id": "6-3-machine-learning-in-regression-analysis",
+              "title": "6.3 Machine Learning in Regression Analysis",
+              "pageStart": 307,
+              "conceptIds": [
+                "regression_and_model_validation"
+              ],
+              "itemIds": [
+                "regression_and_model_validation__train-test-split",
+                "regression_and_model_validation__overfitting-signal",
+                "regression_and_model_validation__residual-meaning",
+                "regression_and_model_validation__simple-linreg"
+              ]
+            },
+            {
+              "id": "6-4-decision-trees",
+              "title": "6.4 Decision Trees",
+              "pageStart": 320,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "6-5-other-machine-learning-techniques",
+              "title": "6.5 Other Machine Learning Techniques",
+              "pageStart": 330,
+              "conceptIds": [
+                "clustering_and_unsupervised"
+              ],
+              "itemIds": [
+                "clustering_and_unsupervised__unsupervised-definition",
+                "clustering_and_unsupervised__kmeans-caveat",
+                "clustering_and_unsupervised__kmeans-fit",
+                "clustering_and_unsupervised__cluster-audit"
+              ]
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 340,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 341,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "chapter-review",
+              "title": "Chapter Review",
+              "pageStart": 342,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 342,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "quantitative-problems",
+              "title": "Quantitative Problems",
+              "pageStart": 342,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "references",
+              "title": "References",
+              "pageStart": 344,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "machine_learning_classification",
+            "clustering_and_unsupervised",
+            "regression_and_model_validation"
+          ],
+          "itemIds": [
+            "machine_learning_classification__precision-vs-recall",
+            "machine_learning_classification__confusion-matrix",
+            "machine_learning_classification__class-imbalance",
+            "machine_learning_classification__logistic-regression",
+            "clustering_and_unsupervised__unsupervised-definition",
+            "clustering_and_unsupervised__kmeans-caveat",
+            "clustering_and_unsupervised__kmeans-fit",
+            "clustering_and_unsupervised__cluster-audit",
+            "regression_and_model_validation__train-test-split",
+            "regression_and_model_validation__overfitting-signal",
+            "regression_and_model_validation__residual-meaning",
+            "regression_and_model_validation__simple-linreg"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-7-deep-learning-and-ai-basics",
+          "title": "Chapter 7 Deep Learning and AI Basics",
+          "pageStart": 345,
+          "pageEnd": 390,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 345,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "7-1-introduction-to-neural-networks",
+              "title": "7.1 Introduction to Neural Networks",
+              "pageStart": 346,
+              "conceptIds": [
+                "deep_learning_and_ai_foundations"
+              ],
+              "itemIds": [
+                "deep_learning_and_ai_foundations__layer-intuition",
+                "deep_learning_and_ai_foundations__epoch-meaning",
+                "deep_learning_and_ai_foundations__loss-function",
+                "deep_learning_and_ai_foundations__ai-use-case-check"
+              ]
+            },
+            {
+              "id": "7-2-backpropagation",
+              "title": "7.2 Backpropagation",
+              "pageStart": 355,
+              "conceptIds": [
+                "deep_learning_and_ai_foundations"
+              ],
+              "itemIds": [
+                "deep_learning_and_ai_foundations__layer-intuition",
+                "deep_learning_and_ai_foundations__epoch-meaning",
+                "deep_learning_and_ai_foundations__loss-function",
+                "deep_learning_and_ai_foundations__ai-use-case-check"
+              ]
+            },
+            {
+              "id": "7-3-introduction-to-deep-learning",
+              "title": "7.3 Introduction to Deep Learning",
+              "pageStart": 367,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "7-4-convolutional-neural-networks",
+              "title": "7.4 Convolutional Neural Networks",
+              "pageStart": 371,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "7-5-natural-language-processing",
+              "title": "7.5 Natural Language Processing",
+              "pageStart": 373,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 384,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 385,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "chapter-review",
+              "title": "Chapter Review",
+              "pageStart": 386,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 387,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "quantitative-problems",
+              "title": "Quantitative Problems",
+              "pageStart": 388,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "references",
+              "title": "References",
+              "pageStart": 389,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "deep_learning_and_ai_foundations"
+          ],
+          "itemIds": [
+            "deep_learning_and_ai_foundations__layer-intuition",
+            "deep_learning_and_ai_foundations__epoch-meaning",
+            "deep_learning_and_ai_foundations__loss-function",
+            "deep_learning_and_ai_foundations__ai-use-case-check"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-8-ethics-throughout-the-data-science-cycle",
+          "title": "Chapter 8 Ethics Throughout the Data Science Cycle",
+          "pageStart": 391,
+          "pageEnd": 424,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 391,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "8-1-ethics-in-data-collection",
+              "title": "8.1 Ethics in Data Collection",
+              "pageStart": 392,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "8-2-ethics-in-data-analysis-and-modeling",
+              "title": "8.2 Ethics in Data Analysis and Modeling",
+              "pageStart": 402,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "8-3-ethics-in-visualization-and-reporting",
+              "title": "8.3 Ethics in Visualization and Reporting",
+              "pageStart": 409,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 418,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 419,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "chapter-review",
+              "title": "Chapter Review",
+              "pageStart": 421,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 424,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "references",
+              "title": "References",
+              "pageStart": 424,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "data_ethics_and_reporting"
+          ],
+          "itemIds": [
+            "data_ethics_and_reporting__ethics-cycle",
+            "data_ethics_and_reporting__reporting-best-practice",
+            "data_ethics_and_reporting__fairness-question",
+            "data_ethics_and_reporting__executive-summary"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-9-visualizing-data",
+          "title": "Chapter 9 Visualizing Data",
+          "pageStart": 425,
+          "pageEnd": 474,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 425,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "9-1-encoding-univariate-data",
+              "title": "9.1 Encoding Univariate Data",
+              "pageStart": 426,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "9-2-encoding-data-that-change-over-time",
+              "title": "9.2 Encoding Data That Change Over Time",
+              "pageStart": 440,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "9-3-graphing-probability-distributions",
+              "title": "9.3 Graphing Probability Distributions",
+              "pageStart": 445,
+              "conceptIds": [
+                "simulation_probability"
+              ],
+              "itemIds": [
+                "simulation_probability__monte-carlo-idea",
+                "simulation_probability__random-choice-shape",
+                "simulation_probability__more-trials-effect",
+                "simulation_probability__coin-simulation"
+              ]
+            },
+            {
+              "id": "9-4-geospatial-and-heatmap-data-visualization-using-python",
+              "title": "9.4 Geospatial and Heatmap Data Visualization Using Python",
+              "pageStart": 453,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "9-5-multivariate-and-network-data-visualization-using-python",
+              "title": "9.5 Multivariate and Network Data Visualization Using Python",
+              "pageStart": 459,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 471,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 472,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 472,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "scientific_computing_and_interfaces",
+            "visualization_storytelling",
+            "simulation_probability"
+          ],
+          "itemIds": [
+            "scientific_computing_and_interfaces__numpy-strength",
+            "scientific_computing_and_interfaces__gui-event-loop",
+            "scientific_computing_and_interfaces__numpy-mean",
+            "visualization_storytelling__chart-choice",
+            "visualization_storytelling__misleading-axis",
+            "visualization_storytelling__annotation-value",
+            "visualization_storytelling__line-plot",
+            "simulation_probability__monte-carlo-idea",
+            "simulation_probability__random-choice-shape",
+            "simulation_probability__more-trials-effect",
+            "simulation_probability__coin-simulation"
+          ],
+          "status": "covered"
+        },
+        {
+          "id": "chapter-10-reporting-results",
+          "title": "Chapter 10 Reporting Results",
+          "pageStart": 475,
+          "pageEnd": null,
+          "sections": [
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "pageStart": 475,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "10-1-writing-an-informative-report",
+              "title": "10.1 Writing an Informative Report",
+              "pageStart": 476,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "10-2-validating-your-model",
+              "title": "10.2 Validating Your Model",
+              "pageStart": 483,
+              "conceptIds": [
+                "regression_and_model_validation"
+              ],
+              "itemIds": [
+                "regression_and_model_validation__train-test-split",
+                "regression_and_model_validation__overfitting-signal",
+                "regression_and_model_validation__residual-meaning",
+                "regression_and_model_validation__simple-linreg"
+              ]
+            },
+            {
+              "id": "10-3-effective-executive-summaries",
+              "title": "10.3 Effective Executive Summaries",
+              "pageStart": 498,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "key-terms",
+              "title": "Key Terms",
+              "pageStart": 504,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "group-project",
+              "title": "Group Project",
+              "pageStart": 505,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "chapter-review",
+              "title": "Chapter Review",
+              "pageStart": 505,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "critical-thinking",
+              "title": "Critical Thinking",
+              "pageStart": 507,
+              "conceptIds": [],
+              "itemIds": []
+            },
+            {
+              "id": "references",
+              "title": "References",
+              "pageStart": 508,
+              "conceptIds": [],
+              "itemIds": []
+            }
+          ],
+          "conceptIds": [
+            "visualization_storytelling",
+            "data_ethics_and_reporting",
+            "regression_and_model_validation"
+          ],
+          "itemIds": [
+            "visualization_storytelling__chart-choice",
+            "visualization_storytelling__misleading-axis",
+            "visualization_storytelling__annotation-value",
+            "visualization_storytelling__line-plot",
+            "data_ethics_and_reporting__ethics-cycle",
+            "data_ethics_and_reporting__reporting-best-practice",
+            "data_ethics_and_reporting__fairness-question",
+            "data_ethics_and_reporting__executive-summary",
+            "regression_and_model_validation__train-test-split",
+            "regression_and_model_validation__overfitting-signal",
+            "regression_and_model_validation__residual-meaning",
+            "regression_and_model_validation__simple-linreg"
+          ],
+          "status": "covered"
+        }
+      ]
+    }
+  ]
+}

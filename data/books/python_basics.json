@@ -1,0 +1,1082 @@
+{
+  "bookId": "python_basics",
+  "title": "Python Basics: A Practical Introduction to Python 3",
+  "shortTitle": "Python Basics",
+  "totalPages": 643,
+  "chapterCount": 17,
+  "coveredChapterCount": 17,
+  "sectionsCovered": 0,
+  "sectionsTotal": 108,
+  "chapters": [
+    {
+      "id": "setting-up-python",
+      "title": "Setting Up Python",
+      "pageStart": 31,
+      "pageEnd": 43,
+      "sections": [
+        {
+          "id": "a-note-on-python-versions",
+          "title": "A Note On Python Versions",
+          "pageStart": 32,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "windows",
+          "title": "Windows",
+          "pageStart": 33,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "macos",
+          "title": "macOS",
+          "pageStart": 36,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "ubuntu-linux",
+          "title": "Ubuntu Linux",
+          "pageStart": 40,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "python_environment_and_execution"
+      ],
+      "itemIds": [
+        "python_environment_and_execution__interpreter-role",
+        "python_environment_and_execution__script-vs-repl",
+        "python_environment_and_execution__traceback-purpose",
+        "python_environment_and_execution__greeting-script"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "your-first-python-program",
+      "title": "Your First Python Program",
+      "pageStart": 44,
+      "pageEnd": 65,
+      "sections": [
+        {
+          "id": "write-a-python-script",
+          "title": "Write a Python Script",
+          "pageStart": 44,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "mess-things-up",
+          "title": "Mess Things Up",
+          "pageStart": 50,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "create-a-variable",
+          "title": "Create a Variable",
+          "pageStart": 53,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "inspect-values-in-the-interactive-window",
+          "title": "Inspect Values in the Interactive Window",
+          "pageStart": 58,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "leave-yourself-helpful-notes",
+          "title": "Leave Yourself Helpful Notes",
+          "pageStart": 61,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 64,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "python_environment_and_execution"
+      ],
+      "itemIds": [
+        "python_environment_and_execution__interpreter-role",
+        "python_environment_and_execution__script-vs-repl",
+        "python_environment_and_execution__traceback-purpose",
+        "python_environment_and_execution__greeting-script"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "strings-and-string-methods",
+      "title": "Strings and String Methods",
+      "pageStart": 66,
+      "pageEnd": 105,
+      "sections": [
+        {
+          "id": "what-is-a-string",
+          "title": "What is a String?",
+          "pageStart": 67,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "concatenation-indexing-and-slicing",
+          "title": "Concatenation, Indexing, and Slicing",
+          "pageStart": 74,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "manipulate-strings-with-methods",
+          "title": "Manipulate Strings With Methods",
+          "pageStart": 82,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "interact-with-user-input",
+          "title": "Interact With User Input",
+          "pageStart": 89,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-pick-apart-your-user-s-input",
+          "title": "Challenge: Pick Apart Your User's Input",
+          "pageStart": 91,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "working-with-strings-and-numbers",
+          "title": "Working With Strings and Numbers",
+          "pageStart": 92,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "streamline-your-print-statements",
+          "title": "Streamline Your Print Statements",
+          "pageStart": 98,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "find-a-string-in-a-string",
+          "title": "Find a String in a String",
+          "pageStart": 100,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-turn-your-user-into-a-l33t-h4x0r",
+          "title": "Challenge: Turn Your User Into a L33t H4x0r",
+          "pageStart": 103,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 104,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "variables_strings_numbers"
+      ],
+      "itemIds": [
+        "variables_strings_numbers__f-string-purpose",
+        "variables_strings_numbers__string-method-output",
+        "variables_strings_numbers__division-choice",
+        "variables_strings_numbers__receipt-line"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "numbers-and-math",
+      "title": "Numbers and Math",
+      "pageStart": 106,
+      "pageEnd": 135,
+      "sections": [
+        {
+          "id": "integers-and-floating-point-numbers",
+          "title": "Integers and Floating-Point Numbers",
+          "pageStart": 107,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "arithmetic-operators-and-expressions",
+          "title": "Arithmetic Operators and Expressions",
+          "pageStart": 111,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-perform-calculations-on-user-input",
+          "title": "Challenge: Perform Calculations on User Input",
+          "pageStart": 119,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "make-python-lie-to-you",
+          "title": "Make Python Lie to You",
+          "pageStart": 120,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "math-functions-and-number-methods",
+          "title": "Math Functions and Number Methods",
+          "pageStart": 122,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "print-numbers-in-style",
+          "title": "Print Numbers in Style",
+          "pageStart": 127,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "complex-numbers",
+          "title": "Complex Numbers",
+          "pageStart": 130,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 134,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "variables_strings_numbers"
+      ],
+      "itemIds": [
+        "variables_strings_numbers__f-string-purpose",
+        "variables_strings_numbers__string-method-output",
+        "variables_strings_numbers__division-choice",
+        "variables_strings_numbers__receipt-line"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "functions-and-loops",
+      "title": "Functions and Loops",
+      "pageStart": 136,
+      "pageEnd": 168,
+      "sections": [
+        {
+          "id": "what-is-a-function-really",
+          "title": "What is a Function, Really?",
+          "pageStart": 137,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "write-your-own-functions",
+          "title": "Write Your Own Functions",
+          "pageStart": 141,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-convert-temperatures",
+          "title": "Challenge: Convert Temperatures",
+          "pageStart": 150,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "run-in-circles",
+          "title": "Run in Circles",
+          "pageStart": 151,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-track-your-investments",
+          "title": "Challenge: Track Your Investments",
+          "pageStart": 161,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "understand-scope-in-python",
+          "title": "Understand Scope in Python",
+          "pageStart": 162,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 167,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "collections_and_iteration",
+        "conditionals_and_loops",
+        "functions_and_modules"
+      ],
+      "itemIds": [
+        "collections_and_iteration__list-vs-tuple",
+        "collections_and_iteration__dict-loop-trace",
+        "collections_and_iteration__slice-meaning",
+        "collections_and_iteration__inventory-total",
+        "conditionals_and_loops__guard-clause",
+        "conditionals_and_loops__elif-purpose",
+        "conditionals_and_loops__while-countdown",
+        "conditionals_and_loops__password-attempts",
+        "functions_and_modules__return-vs-print",
+        "functions_and_modules__parameter-purpose",
+        "functions_and_modules__function-call-trace",
+        "functions_and_modules__module-style-helper"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "finding-and-fixing-code-bugs",
+      "title": "Finding and Fixing Code Bugs",
+      "pageStart": 169,
+      "pageEnd": 186,
+      "sections": [
+        {
+          "id": "use-the-debug-control-window",
+          "title": "Use the Debug Control Window",
+          "pageStart": 170,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "squash-some-bugs",
+          "title": "Squash Some Bugs",
+          "pageStart": 177,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 186,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "debugging_testing_assertions"
+      ],
+      "itemIds": [
+        "debugging_testing_assertions__failing-test-value",
+        "debugging_testing_assertions__fix-average",
+        "debugging_testing_assertions__assert-purpose",
+        "debugging_testing_assertions__minimal-repro"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "conditional-logic-and-control-flow",
+      "title": "Conditional Logic and Control Flow",
+      "pageStart": 187,
+      "pageEnd": 230,
+      "sections": [
+        {
+          "id": "compare-values",
+          "title": "Compare Values",
+          "pageStart": 188,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "add-some-logic",
+          "title": "Add Some Logic",
+          "pageStart": 191,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "control-the-flow-of-your-program",
+          "title": "Control the Flow of Your Program",
+          "pageStart": 199,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-find-the-factors-of-a-number",
+          "title": "Challenge: Find the Factors of a Number",
+          "pageStart": 211,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "break-out-of-the-pattern",
+          "title": "Break Out of the Pattern",
+          "pageStart": 212,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "recover-from-errors",
+          "title": "Recover From Errors",
+          "pageStart": 216,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "simulate-events-and-calculate-probabilities",
+          "title": "Simulate Events and Calculate Probabilities",
+          "pageStart": 222,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-simulate-a-coin-toss-experiment",
+          "title": "Challenge: Simulate a Coin Toss Experiment",
+          "pageStart": 228,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-simulate-an-election",
+          "title": "Challenge: Simulate an Election",
+          "pageStart": 228,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 229,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "conditionals_and_loops"
+      ],
+      "itemIds": [
+        "conditionals_and_loops__guard-clause",
+        "conditionals_and_loops__elif-purpose",
+        "conditionals_and_loops__while-countdown",
+        "conditionals_and_loops__password-attempts"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "tuples-lists-and-dictionaries",
+      "title": "Tuples, Lists, and Dictionaries",
+      "pageStart": 231,
+      "pageEnd": 279,
+      "sections": [
+        {
+          "id": "tuples-are-immutable-sequences",
+          "title": "Tuples Are Immutable Sequences",
+          "pageStart": 232,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "lists-are-mutable-sequences",
+          "title": "Lists Are Mutable Sequences",
+          "pageStart": 242,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "nesting-copying-and-sorting-tuples-and-lists",
+          "title": "Nesting, Copying, and Sorting Tuples and Lists",
+          "pageStart": 255,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-list-of-lists",
+          "title": "Challenge: List of lists",
+          "pageStart": 261,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-wax-poetic",
+          "title": "Challenge: Wax Poetic",
+          "pageStart": 262,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "store-relationships-in-dictionaries",
+          "title": "Store Relationships in Dictionaries",
+          "pageStart": 264,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-capital-city-loop",
+          "title": "Challenge: Capital City Loop",
+          "pageStart": 275,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "how-to-pick-a-data-structure",
+          "title": "How to Pick a Data Structure",
+          "pageStart": 276,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-cats-with-hats",
+          "title": "Challenge: Cats With Hats",
+          "pageStart": 277,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 278,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "collections_and_iteration"
+      ],
+      "itemIds": [
+        "collections_and_iteration__list-vs-tuple",
+        "collections_and_iteration__dict-loop-trace",
+        "collections_and_iteration__slice-meaning",
+        "collections_and_iteration__inventory-total"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "object-oriented-programming-oop",
+      "title": "Object-Oriented Programming (OOP)",
+      "pageStart": 280,
+      "pageEnd": 304,
+      "sections": [
+        {
+          "id": "define-a-class",
+          "title": "Define a Class",
+          "pageStart": 281,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "instantiate-an-object",
+          "title": "Instantiate an Object",
+          "pageStart": 285,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "inherit-from-other-classes",
+          "title": "Inherit From Other Classes",
+          "pageStart": 292,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-model-a-farm",
+          "title": "Challenge: Model a Farm",
+          "pageStart": 302,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 303,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "objects_and_classes"
+      ],
+      "itemIds": [
+        "objects_and_classes__class-vs-instance",
+        "objects_and_classes__method-call-output",
+        "objects_and_classes__init-purpose",
+        "objects_and_classes__book-class"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "modules-and-packages",
+      "title": "Modules and Packages",
+      "pageStart": 305,
+      "pageEnd": 328,
+      "sections": [
+        {
+          "id": "working-with-modules",
+          "title": "Working With Modules",
+          "pageStart": 306,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "working-with-packages",
+          "title": "Working With Packages",
+          "pageStart": 316,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 327,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "functions_and_modules"
+      ],
+      "itemIds": [
+        "functions_and_modules__return-vs-print",
+        "functions_and_modules__parameter-purpose",
+        "functions_and_modules__function-call-trace",
+        "functions_and_modules__module-style-helper"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "file-input-and-output",
+      "title": "File Input and Output",
+      "pageStart": 329,
+      "pageEnd": 388,
+      "sections": [
+        {
+          "id": "files-and-the-file-system",
+          "title": "Files and the File System",
+          "pageStart": 330,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "working-with-file-paths-in-python",
+          "title": "Working With File Paths in Python",
+          "pageStart": 334,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "common-file-system-operations",
+          "title": "Common File System Operations",
+          "pageStart": 342,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-move-all-image-files-to-a-new-directory",
+          "title": "Challenge: Move All Image Files To a New Directory",
+          "pageStart": 359,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "reading-and-writing-files",
+          "title": "Reading and Writing Files",
+          "pageStart": 360,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "read-and-write-csv-data",
+          "title": "Read and Write CSV Data",
+          "pageStart": 375,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-create-a-high-scores-list",
+          "title": "Challenge: Create a High Scores List",
+          "pageStart": 386,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 387,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "files_and_exceptions"
+      ],
+      "itemIds": [
+        "files_and_exceptions__with-statement",
+        "files_and_exceptions__exception-when",
+        "files_and_exceptions__specific-except",
+        "files_and_exceptions__safe-divide"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "installing-packages-with-pip",
+      "title": "Installing Packages With Pip",
+      "pageStart": 389,
+      "pageEnd": 403,
+      "sections": [
+        {
+          "id": "installing-third-party-packages-with-pip",
+          "title": "Installing Third-Party Packages With Pip",
+          "pageStart": 390,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "the-pitfalls-of-third-party-packages",
+          "title": "The Pitfalls of Third-Party Packages",
+          "pageStart": 401,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 402,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "packages_databases_and_web"
+      ],
+      "itemIds": [
+        "packages_databases_and_web__pip-role",
+        "packages_databases_and_web__api-definition",
+        "packages_databases_and_web__database-benefit",
+        "packages_databases_and_web__external-system-checklist"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "creating-and-modifying-pdf-files",
+      "title": "Creating and Modifying PDF Files",
+      "pageStart": 404,
+      "pageEnd": 451,
+      "sections": [
+        {
+          "id": "extract-text-from-a-pdf",
+          "title": "Extract Text From a PDF",
+          "pageStart": 405,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "extract-pages-from-a-pdf",
+          "title": "Extract Pages From a PDF",
+          "pageStart": 412,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-pdffilesplitter-class",
+          "title": "Challenge: PdfFileSplitter Class",
+          "pageStart": 419,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "concatenating-and-merging-pdfs",
+          "title": "Concatenating and Merging PDFs",
+          "pageStart": 420,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "rotating-and-cropping-pdf-pages",
+          "title": "Rotating and Cropping PDF Pages",
+          "pageStart": 427,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "encrypting-and-decrypting-pdfs",
+          "title": "Encrypting and Decrypting PDFs",
+          "pageStart": 439,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-unscramble-a-pdf",
+          "title": "Challenge: Unscramble A PDF",
+          "pageStart": 443,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "create-a-pdf-file-from-scratch",
+          "title": "Create a PDF File From Scratch",
+          "pageStart": 443,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 450,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "packages_databases_and_web"
+      ],
+      "itemIds": [
+        "packages_databases_and_web__pip-role",
+        "packages_databases_and_web__api-definition",
+        "packages_databases_and_web__database-benefit",
+        "packages_databases_and_web__external-system-checklist"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "working-with-databases",
+      "title": "Working With Databases",
+      "pageStart": 452,
+      "pageEnd": 467,
+      "sections": [
+        {
+          "id": "an-introduction-to-sqlite",
+          "title": "An Introduction to SQLite",
+          "pageStart": 453,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "libraries-for-working-with-other-sql-databases",
+          "title": "Libraries for Working With Other SQL Databases",
+          "pageStart": 465,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 466,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "packages_databases_and_web"
+      ],
+      "itemIds": [
+        "packages_databases_and_web__pip-role",
+        "packages_databases_and_web__api-definition",
+        "packages_databases_and_web__database-benefit",
+        "packages_databases_and_web__external-system-checklist"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "interacting-with-the-web",
+      "title": "Interacting With the Web",
+      "pageStart": 468,
+      "pageEnd": 495,
+      "sections": [
+        {
+          "id": "scrape-and-parse-text-from-websites",
+          "title": "Scrape and Parse Text From Websites",
+          "pageStart": 469,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "use-an-html-parser-to-scrape-websites",
+          "title": "Use an HTML Parser to Scrape Websites",
+          "pageStart": 478,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "interact-with-html-forms",
+          "title": "Interact With HTML Forms",
+          "pageStart": 483,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "interact-with-websites-in-real-time",
+          "title": "Interact With Websites in Real-Time",
+          "pageStart": 490,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 494,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "packages_databases_and_web"
+      ],
+      "itemIds": [
+        "packages_databases_and_web__pip-role",
+        "packages_databases_and_web__api-definition",
+        "packages_databases_and_web__database-benefit",
+        "packages_databases_and_web__external-system-checklist"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "scientific-computing-and-graphing",
+      "title": "Scientific Computing and Graphing",
+      "pageStart": 496,
+      "pageEnd": 535,
+      "sections": [
+        {
+          "id": "use-numpy-for-matrix-manipulation",
+          "title": "Use NumPy for Matrix Manipulation",
+          "pageStart": 497,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "use-matplotlib-for-plotting-graphs",
+          "title": "Use matplotlib for Plotting Graphs",
+          "pageStart": 508,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 534,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "scientific_computing_and_interfaces"
+      ],
+      "itemIds": [
+        "scientific_computing_and_interfaces__numpy-strength",
+        "scientific_computing_and_interfaces__gui-event-loop",
+        "scientific_computing_and_interfaces__numpy-mean"
+      ],
+      "status": "covered"
+    },
+    {
+      "id": "graphical-user-interfaces",
+      "title": "Graphical User Interfaces",
+      "pageStart": 536,
+      "pageEnd": null,
+      "sections": [
+        {
+          "id": "add-gui-elements-with-easygui",
+          "title": "Add GUI Elements With EasyGUI",
+          "pageStart": 537,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "example-app-pdf-page-rotator",
+          "title": "Example App: PDF Page Rotator",
+          "pageStart": 549,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-pdf-page-extraction-application",
+          "title": "Challenge: PDF Page Extraction Application",
+          "pageStart": 556,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "introduction-to-tkinter",
+          "title": "Introduction to Tkinter",
+          "pageStart": 557,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "working-with-widgets",
+          "title": "Working With Widgets",
+          "pageStart": 561,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "controlling-layout-with-geometry-managers",
+          "title": "Controlling Layout With Geometry Managers",
+          "pageStart": 589,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "making-your-applications-interactive",
+          "title": "Making Your Applications Interactive",
+          "pageStart": 608,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "example-app-temperature-converter",
+          "title": "Example App: Temperature Converter",
+          "pageStart": 618,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "example-app-text-editor",
+          "title": "Example App: Text Editor",
+          "pageStart": 623,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "challenge-return-of-the-poet",
+          "title": "Challenge: Return of the Poet",
+          "pageStart": 632,
+          "conceptIds": [],
+          "itemIds": []
+        },
+        {
+          "id": "summary-and-additional-resources",
+          "title": "Summary and Additional Resources",
+          "pageStart": 634,
+          "conceptIds": [],
+          "itemIds": []
+        }
+      ],
+      "conceptIds": [
+        "scientific_computing_and_interfaces"
+      ],
+      "itemIds": [
+        "scientific_computing_and_interfaces__numpy-strength",
+        "scientific_computing_and_interfaces__gui-event-loop",
+        "scientific_computing_and_interfaces__numpy-mean"
+      ],
+      "status": "covered"
+    }
+  ]
+}

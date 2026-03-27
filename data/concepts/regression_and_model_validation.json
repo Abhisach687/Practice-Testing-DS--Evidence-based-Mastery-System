@@ -1,0 +1,122 @@
+{
+  "id": "regression_and_model_validation",
+  "title": "Regression and model validation",
+  "summary": "Fit predictive relationships carefully, separate signal from overfitting, and validate models on data they have not already seen.",
+  "tags": [
+    "regression",
+    "validation",
+    "modeling"
+  ],
+  "prerequisites": [
+    "dataframes_and_cleaning",
+    "sampling_inference_hypothesis"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Regression Analysis",
+        "Validating Your Model",
+        "Machine Learning in Regression Analysis"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "regression_and_model_validation",
+      "hints": [
+        "Think honest evaluation."
+      ],
+      "id": "regression_and_model_validation__train-test-split",
+      "type": "flashcard",
+      "prompt": "Why do we keep training data separate from test data?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "So we can estimate how well the model generalizes to unseen data instead of only measuring how well it memorized the training set.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "regression_and_model_validation",
+      "hints": [
+        "Look for memorization without generalization."
+      ],
+      "id": "regression_and_model_validation__overfitting-signal",
+      "type": "mcq",
+      "prompt": "Which pattern most strongly suggests overfitting?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Very low training error but much worse validation error."
+        },
+        {
+          "id": "b",
+          "label": "Both training and validation error are high."
+        },
+        {
+          "id": "c",
+          "label": "The dataset contains column names."
+        },
+        {
+          "id": "d",
+          "label": "The target variable is numeric."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "Overfitting often appears when a model fits the training set extremely well but fails to transfer to held-out data."
+      }
+    },
+    {
+      "conceptId": "regression_and_model_validation",
+      "hints": [
+        "Think one-point error, not overall loss."
+      ],
+      "id": "regression_and_model_validation__residual-meaning",
+      "type": "short_answer",
+      "prompt": "What is a residual in regression?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "actual minus predicted",
+        "prediction error for one observation",
+        "difference between observed and predicted"
+      ],
+      "solution": {
+        "summary": "A residual is the difference between the observed outcome and the model's predicted outcome for a single case.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "regression_and_model_validation",
+      "hints": [],
+      "id": "regression_and_model_validation__simple-linreg",
+      "type": "code_exercise",
+      "prompt": "Use scikit-learn to fit a linear regression model on the small dataset below and print the prediction for `x = 6` rounded to one decimal place.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "from sklearn.linear_model import LinearRegression\nX = [[1], [2], [3], [4], [5]]\ny = [2, 4, 6, 8, 10]\n# fit the model and print the prediction for 6\n",
+      "pyodide": {
+        "packages": [
+          "scikit-learn"
+        ],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\nassert buf.getvalue().strip() == '12.0', 'Expected the linear trend to predict 12.0 for x = 6.'\n__grade_result__ = {'passed': True, 'message': 'Your regression pipeline predicts the linear trend correctly.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "from sklearn.linear_model import LinearRegression\nX = [[1], [2], [3], [4], [5]]\ny = [2, 4, 6, 8, 10]\nmodel = LinearRegression()\nmodel.fit(X, y)\nprediction = model.predict([[6]])[0]\nprint(round(prediction, 1))\n",
+        "checklist": [
+          "Fits before predicting",
+          "Uses the trained model for inference"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

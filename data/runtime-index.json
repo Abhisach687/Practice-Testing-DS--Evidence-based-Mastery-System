@@ -1,0 +1,927 @@
+{
+  "generatedAt": "2026-03-27T03:22:43.204Z",
+  "scheduler": {
+    "sameSessionOffset": 4,
+    "sameSessionWindow": [
+      3,
+      5
+    ],
+    "intervalsInDays": [
+      0,
+      1,
+      3,
+      7,
+      14,
+      30,
+      60,
+      120
+    ],
+    "queueMix": {
+      "due": 0.7,
+      "weak": 0.2,
+      "fresh": 0.1
+    }
+  },
+  "books": [
+    {
+      "bookId": "python_basics",
+      "title": "Python Basics: A Practical Introduction to Python 3",
+      "shortTitle": "Python Basics",
+      "totalPages": 643,
+      "chapterCount": 17,
+      "coveredChapterCount": 17,
+      "sectionsCovered": 0,
+      "sectionsTotal": 108,
+      "extraction": {
+        "available": true
+      }
+    },
+    {
+      "bookId": "python_crash_course",
+      "title": "Python Crash Course, 3rd Edition",
+      "shortTitle": "Python Crash Course",
+      "totalPages": 853,
+      "chapterCount": 20,
+      "coveredChapterCount": 20,
+      "sectionsCovered": 21,
+      "sectionsTotal": 108,
+      "extraction": {
+        "available": true
+      }
+    },
+    {
+      "bookId": "mit_python",
+      "title": "Introduction to Computation and Programming Using Python, 3rd Edition",
+      "shortTitle": "MIT Python",
+      "totalPages": 690,
+      "chapterCount": 26,
+      "coveredChapterCount": 26,
+      "sectionsCovered": 0,
+      "sectionsTotal": 0,
+      "extraction": {
+        "available": true
+      }
+    },
+    {
+      "bookId": "principles_data_science",
+      "title": "Principles of Data Science",
+      "shortTitle": "Principles of Data Science",
+      "totalPages": 573,
+      "chapterCount": 10,
+      "coveredChapterCount": 10,
+      "sectionsCovered": 16,
+      "sectionsTotal": 99,
+      "extraction": {
+        "available": true
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "id": "python_environment_and_execution",
+      "title": "Python environment and execution",
+      "summary": "Set up Python, understand the interpreter, and move confidently between scripts, terminals, and quick experiments.",
+      "tags": [
+        "python",
+        "setup",
+        "cli",
+        "syntax"
+      ],
+      "prerequisites": [],
+      "masteryThreshold": 4,
+      "workedExample": true,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Setting Up Python",
+            "Your First Python Program"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Chapter 1: Getting Started",
+            "Running a Hello World Program"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "GETTING STARTED",
+            "INTRODUCTION TO PYTHON"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "variables_strings_numbers",
+      "title": "Variables, strings, and numbers",
+      "summary": "Use names to store values, transform strings, and choose numeric operators that match the task.",
+      "tags": [
+        "python",
+        "strings",
+        "numbers",
+        "variables"
+      ],
+      "prerequisites": [
+        "python_environment_and_execution"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": true,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Strings and String Methods",
+            "Numbers and Math"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Variables and Simple Data Types",
+            "Strings",
+            "Numbers"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "INTRODUCTION TO PYTHON",
+            "SOME SIMPLE NUMERICAL PROGRAMS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collections_and_iteration",
+      "title": "Collections and iteration",
+      "summary": "Model grouped data with lists, tuples, and dictionaries, then iterate through those structures without losing track of the shape.",
+      "tags": [
+        "python",
+        "lists",
+        "tuples",
+        "dictionaries",
+        "loops"
+      ],
+      "prerequisites": [
+        "variables_strings_numbers"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Tuples, Lists, and Dictionaries",
+            "Functions and Loops"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Introducing Lists",
+            "Working with Lists",
+            "Dictionaries"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "STRUCTURED TYPES AND MUTABILITY"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditionals_and_loops",
+      "title": "Conditionals and loops",
+      "summary": "Control program flow with boolean tests, `if` branches, `while` loops, and loop guards that stop at the right time.",
+      "tags": [
+        "python",
+        "conditionals",
+        "while",
+        "for",
+        "control-flow"
+      ],
+      "prerequisites": [
+        "collections_and_iteration"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Conditional Logic and Control Flow",
+            "Functions and Loops"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "if Statements",
+            "User Input and while Loops"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "INTRODUCTION TO PYTHON"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions_and_modules",
+      "title": "Functions and modules",
+      "summary": "Break logic into reusable units with clear parameters, return values, and module boundaries.",
+      "tags": [
+        "python",
+        "functions",
+        "modules",
+        "abstraction"
+      ],
+      "prerequisites": [
+        "conditionals_and_loops"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": true,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Functions and Loops",
+            "Modules and Packages"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Functions",
+            "Storing Your Functions in Modules"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "FUNCTIONS, SCOPING, AND ABSTRACTION",
+            "MODULES AND FILES"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "files_and_exceptions",
+      "title": "Files and exceptions",
+      "summary": "Read and write files safely, and handle failures in ways that preserve signal instead of hiding bugs.",
+      "tags": [
+        "python",
+        "files",
+        "exceptions",
+        "io"
+      ],
+      "prerequisites": [
+        "functions_and_modules"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "File Input and Output"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Files and Exceptions",
+            "Reading from a File",
+            "Writing to a File"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "MODULES AND FILES",
+            "EXCEPTIONS AND ASSERTIONS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debugging_testing_assertions",
+      "title": "Debugging, testing, and assertions",
+      "summary": "Read failures, isolate bugs, and write tests that protect behavior as programs grow.",
+      "tags": [
+        "python",
+        "debugging",
+        "testing",
+        "assertions"
+      ],
+      "prerequisites": [
+        "files_and_exceptions"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Finding and Fixing Code Bugs"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Testing Your Code"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "TESTING AND DEBUGGING",
+            "EXCEPTIONS AND ASSERTIONS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objects_and_classes",
+      "title": "Objects and classes",
+      "summary": "Model state and behavior with classes, instances, and inheritance without overcomplicating simple data.",
+      "tags": [
+        "python",
+        "oop",
+        "classes",
+        "instances"
+      ],
+      "prerequisites": [
+        "functions_and_modules"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Object-Oriented Programming (OOP)"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Classes",
+            "Inheritance"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "CLASSES AND OBJECT-ORIENTED PROGRAMMING",
+            "PLOTTING AND MORE ABOUT CLASSES"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "packages_databases_and_web",
+      "title": "Packages, databases, and web interaction",
+      "summary": "Work with Python's wider ecosystem by installing packages, storing structured data, and making controlled requests to external systems.",
+      "tags": [
+        "pip",
+        "databases",
+        "web",
+        "apis",
+        "ecosystem"
+      ],
+      "prerequisites": [
+        "functions_and_modules",
+        "files_and_exceptions"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Installing Packages With Pip",
+            "Creating and Modifying PDF Files",
+            "Working With Databases",
+            "Interacting With the Web"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Working with APIs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scientific_computing_and_interfaces",
+      "title": "Scientific computing and interfaces",
+      "summary": "Use numerical libraries and graphical interfaces when the task calls for them, while keeping the underlying program structure clear.",
+      "tags": [
+        "numpy",
+        "graphing",
+        "gui",
+        "interfaces"
+      ],
+      "prerequisites": [
+        "variables_strings_numbers",
+        "visualization_storytelling"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 3,
+      "sourceAnchors": [
+        {
+          "bookId": "python_basics",
+          "keywords": [
+            "Scientific Computing and Graphing",
+            "Graphical User Interfaces"
+          ]
+        },
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Data Science with Python",
+            "Visualizing Data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recursion_search_and_complexity",
+      "title": "Recursion, search, and complexity",
+      "summary": "Break problems into smaller subproblems, compare search strategies, and reason about how runtime grows as inputs scale.",
+      "tags": [
+        "algorithms",
+        "recursion",
+        "search",
+        "complexity"
+      ],
+      "prerequisites": [
+        "functions_and_modules",
+        "collections_and_iteration"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "RECURSION AND GLOBAL VARIABLES",
+            "A SIMPLISTIC INTRODUCTION TO ALGORITHMIC COMPLEXITY",
+            "SOME SIMPLE ALGORITHMS AND DATA STRUCTURES"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dynamic_programming_and_graphs",
+      "title": "Dynamic programming and graph thinking",
+      "summary": "Recognize overlapping subproblems, memoize repeated work, and model relationships as nodes plus edges.",
+      "tags": [
+        "algorithms",
+        "dynamic-programming",
+        "graphs",
+        "optimization"
+      ],
+      "prerequisites": [
+        "recursion_search_and_complexity"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "KNAPSACK AND GRAPH OPTIMIZATION PROBLEMS",
+            "DYNAMIC PROGRAMMING"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simulation_probability",
+      "title": "Simulation, probability, and randomness",
+      "summary": "Use random processes to model uncertainty, estimate behavior with repeated trials, and connect simulations back to probability questions.",
+      "tags": [
+        "probability",
+        "simulation",
+        "random",
+        "monte-carlo"
+      ],
+      "prerequisites": [
+        "variables_strings_numbers",
+        "collections_and_iteration"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION",
+            "STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS",
+            "MONTE CARLO SIMULATION"
+          ]
+        },
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Probability Distributions",
+            "Probability Theory"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sampling_inference_hypothesis",
+      "title": "Sampling, inference, and hypothesis testing",
+      "summary": "Reason from samples to populations, build confidence intervals carefully, and interpret hypothesis tests without magical thinking.",
+      "tags": [
+        "statistics",
+        "sampling",
+        "confidence",
+        "hypothesis-testing"
+      ],
+      "prerequisites": [
+        "simulation_probability"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "SAMPLING AND CONFIDENCE",
+            "UNDERSTANDING EXPERIMENTAL DATA",
+            "RANDOMIZED TRIALS AND HYPOTHESIS CHECKING",
+            "LIES, DAMNED LIES, AND STATISTICS"
+          ]
+        },
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Inferential Statistics",
+            "Hypothesis Testing",
+            "Confidence Intervals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dataframes_and_cleaning",
+      "title": "DataFrames and data cleaning",
+      "summary": "Inspect tabular data, repair quality problems, and choose transformations that keep later analysis trustworthy.",
+      "tags": [
+        "data-science",
+        "pandas",
+        "cleaning",
+        "tabular-data"
+      ],
+      "prerequisites": [
+        "collections_and_iteration",
+        "files_and_exceptions"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Collecting and Preparing Data",
+            "Data Science with Python",
+            "Data Cleaning and Preprocessing"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "EXPLORING DATA WITH PANDAS"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Downloading Data",
+            "CSV File Format"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visualization_storytelling",
+      "title": "Visualization and data storytelling",
+      "summary": "Match chart types to analytical questions and communicate the real signal without misleading scales or clutter.",
+      "tags": [
+        "visualization",
+        "matplotlib",
+        "communication"
+      ],
+      "prerequisites": [
+        "dataframes_and_cleaning",
+        "sampling_inference_hypothesis"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Visualizing Data",
+            "Reporting Results"
+          ]
+        },
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Generating Data",
+            "Downloading Data",
+            "Working with APIs"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "PLOTTING AND MORE ABOUT CLASSES",
+            "RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regression_and_model_validation",
+      "title": "Regression and model validation",
+      "summary": "Fit predictive relationships carefully, separate signal from overfitting, and validate models on data they have not already seen.",
+      "tags": [
+        "regression",
+        "validation",
+        "modeling"
+      ],
+      "prerequisites": [
+        "dataframes_and_cleaning",
+        "sampling_inference_hypothesis"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Regression Analysis",
+            "Validating Your Model",
+            "Machine Learning in Regression Analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time_series_forecasting",
+      "title": "Time series and forecasting",
+      "summary": "Respect ordering in time-dependent data, separate trend from noise, and evaluate forecasts against appropriate baselines.",
+      "tags": [
+        "time-series",
+        "forecasting",
+        "evaluation"
+      ],
+      "prerequisites": [
+        "regression_and_model_validation"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Time Series and Forecasting",
+            "Forecast Evaluation Methods"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "machine_learning_classification",
+      "title": "Machine learning classification",
+      "summary": "Train classifiers, interpret confusion-matrix tradeoffs, and choose metrics that match the real cost of mistakes.",
+      "tags": [
+        "machine-learning",
+        "classification",
+        "metrics"
+      ],
+      "prerequisites": [
+        "regression_and_model_validation"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "What Is Machine Learning?",
+            "Classification Using Machine Learning"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "A QUICK LOOK AT MACHINE LEARNING",
+            "CLASSIFICATION METHODS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clustering_and_unsupervised",
+      "title": "Clustering and unsupervised learning",
+      "summary": "Group similar observations without labels and stay skeptical about whether the discovered groups are meaningful or artifacts.",
+      "tags": [
+        "machine-learning",
+        "clustering",
+        "unsupervised"
+      ],
+      "prerequisites": [
+        "dataframes_and_cleaning"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Other Machine Learning Techniques",
+            "Classification Using Machine Learning"
+          ]
+        },
+        {
+          "bookId": "mit_python",
+          "keywords": [
+            "CLUSTERING"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deep_learning_and_ai_foundations",
+      "title": "Deep learning and AI foundations",
+      "summary": "Understand neural-network building blocks and keep the emphasis on what the model is optimizing, not on memorizing buzzwords.",
+      "tags": [
+        "deep-learning",
+        "ai",
+        "neural-networks"
+      ],
+      "prerequisites": [
+        "machine_learning_classification"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Deep Learning and AI Basics",
+            "Introduction to Neural Networks",
+            "Backpropagation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data_ethics_and_reporting",
+      "title": "Data ethics and reporting",
+      "summary": "Treat privacy, fairness, transparency, and communication quality as part of the analysis itself rather than as polish added at the end.",
+      "tags": [
+        "ethics",
+        "reporting",
+        "communication",
+        "fairness"
+      ],
+      "prerequisites": [
+        "visualization_storytelling",
+        "machine_learning_classification"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 4,
+      "sourceAnchors": [
+        {
+          "bookId": "principles_data_science",
+          "keywords": [
+            "Ethics Throughout the Data Science Cycle",
+            "Reporting Results"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pcc_game_architecture",
+      "title": "Project capstone: interactive game architecture",
+      "summary": "Use the arcade-game chapters as a systems-design capstone for loops, state updates, events, classes, and progressive refactoring.",
+      "tags": [
+        "capstone",
+        "projects",
+        "architecture",
+        "python-crash-course"
+      ],
+      "prerequisites": [
+        "objects_and_classes",
+        "conditionals_and_loops"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 3,
+      "sourceAnchors": [
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "A Ship That Fires Bullets",
+            "Aliens!",
+            "Scoring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pcc_data_visualization_projects",
+      "title": "Project capstone: data visualization workflows",
+      "summary": "Treat the project chapters on generated data, downloads, and APIs as a workflow for moving from raw inputs to meaningful visual output.",
+      "tags": [
+        "capstone",
+        "projects",
+        "visualization",
+        "apis"
+      ],
+      "prerequisites": [
+        "visualization_storytelling",
+        "dataframes_and_cleaning"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 3,
+      "sourceAnchors": [
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Generating Data",
+            "Downloading Data",
+            "Working with APIs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pcc_web_app_workflow",
+      "title": "Project capstone: web app workflow",
+      "summary": "Use the Django project arc as a capstone for user-centered features, data ownership, styling, and deployment thinking.",
+      "tags": [
+        "capstone",
+        "web",
+        "deployment",
+        "product-thinking"
+      ],
+      "prerequisites": [
+        "files_and_exceptions",
+        "data_ethics_and_reporting"
+      ],
+      "masteryThreshold": 4,
+      "workedExample": false,
+      "itemCount": 3,
+      "sourceAnchors": [
+        {
+          "bookId": "python_crash_course",
+          "keywords": [
+            "Getting Started with Django",
+            "User Accounts",
+            "Styling and Deploying an App"
+          ]
+        }
+      ]
+    }
+  ]
+}

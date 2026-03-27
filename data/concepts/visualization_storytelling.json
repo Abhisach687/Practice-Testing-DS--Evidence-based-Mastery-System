@@ -1,0 +1,136 @@
+{
+  "id": "visualization_storytelling",
+  "title": "Visualization and data storytelling",
+  "summary": "Match chart types to analytical questions and communicate the real signal without misleading scales or clutter.",
+  "tags": [
+    "visualization",
+    "matplotlib",
+    "communication"
+  ],
+  "prerequisites": [
+    "dataframes_and_cleaning",
+    "sampling_inference_hypothesis"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Visualizing Data",
+        "Reporting Results"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Generating Data",
+        "Downloading Data",
+        "Working with APIs"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "PLOTTING AND MORE ABOUT CLASSES",
+        "RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "visualization_storytelling",
+      "hints": [
+        "Think variable types and relationships."
+      ],
+      "id": "visualization_storytelling__chart-choice",
+      "type": "flashcard",
+      "prompt": "When is a scatter plot a better choice than a bar chart?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Use a scatter plot when you want to inspect the relationship between two numeric variables rather than compare a few category totals.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "visualization_storytelling",
+      "hints": [
+        "Look for the choice that distorts magnitude perception."
+      ],
+      "id": "visualization_storytelling__misleading-axis",
+      "type": "mcq",
+      "prompt": "Which choice is most likely to mislead a reader?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Truncating an axis without clearly signaling the break."
+        },
+        {
+          "id": "b",
+          "label": "Labeling both axes clearly."
+        },
+        {
+          "id": "c",
+          "label": "Choosing a chart title that names the takeaway."
+        },
+        {
+          "id": "d",
+          "label": "Explaining the unit of measurement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "Truncated axes can exaggerate apparent differences, especially when the break is not made explicit."
+      }
+    },
+    {
+      "conceptId": "visualization_storytelling",
+      "hints": [
+        "Think attention and context."
+      ],
+      "id": "visualization_storytelling__annotation-value",
+      "type": "short_answer",
+      "prompt": "Why are annotations often useful on a chart?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "highlight important points",
+        "guide interpretation",
+        "explain unusual patterns"
+      ],
+      "solution": {
+        "summary": "Annotations help the reader focus on the important event, outlier, or pattern instead of guessing what matters.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "visualization_storytelling",
+      "hints": [],
+      "id": "visualization_storytelling__line-plot",
+      "type": "code_exercise",
+      "prompt": "Create a line chart of the monthly values below using matplotlib and title it `Monthly Active Users`.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "import matplotlib.pyplot as plt\nmonths = ['Jan', 'Feb', 'Mar']\nvalues = [120, 135, 150]\n# create the plot here\n",
+      "pyodide": {
+        "packages": [
+          "matplotlib"
+        ],
+        "tests": "import matplotlib.pyplot as plt\nns = {}\nexec(user_code, ns)\nfig = plt.gcf()\nax = fig.axes[0]\nassert ax.get_title() == 'Monthly Active Users'\nassert len(ax.lines) == 1\n__grade_result__ = {'passed': True, 'message': 'Your chart has the expected title and a single line.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "import matplotlib.pyplot as plt\nmonths = ['Jan', 'Feb', 'Mar']\nvalues = [120, 135, 150]\nplt.plot(months, values)\nplt.title('Monthly Active Users')\nplt.xlabel('Month')\nplt.ylabel('Users')\nplt.gcf()\n",
+        "checklist": [
+          "Creates a line plot",
+          "Adds the required title"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

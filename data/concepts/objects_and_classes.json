@@ -1,0 +1,117 @@
+{
+  "id": "objects_and_classes",
+  "title": "Objects and classes",
+  "summary": "Model state and behavior with classes, instances, and inheritance without overcomplicating simple data.",
+  "tags": [
+    "python",
+    "oop",
+    "classes",
+    "instances"
+  ],
+  "prerequisites": [
+    "functions_and_modules"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Object-Oriented Programming (OOP)"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "Classes",
+        "Inheritance"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "CLASSES AND OBJECT-ORIENTED PROGRAMMING",
+        "PLOTTING AND MORE ABOUT CLASSES"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "objects_and_classes",
+      "hints": [
+        "Blueprint versus specific object."
+      ],
+      "id": "objects_and_classes__class-vs-instance",
+      "type": "flashcard",
+      "prompt": "What is the difference between a class and an instance?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "A class is the blueprint that defines attributes and behavior; an instance is one concrete object created from that blueprint.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "objects_and_classes",
+      "hints": [
+        "The object keeps state between method calls."
+      ],
+      "id": "objects_and_classes__method-call-output",
+      "type": "predict_output",
+      "prompt": "Predict the output.",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "code": "class Counter:\n    def __init__(self, start):\n        self.value = start\n\n    def bump(self):\n        self.value += 1\n        return self.value\n\nc = Counter(4)\nprint(c.bump())\nprint(c.bump())",
+      "acceptedAnswers": [
+        "5\n6"
+      ],
+      "solution": {
+        "summary": "Each call mutates `self.value`, so the counter increments from 4 to 5 and then to 6."
+      }
+    },
+    {
+      "conceptId": "objects_and_classes",
+      "hints": [
+        "Think first-time setup for each new instance."
+      ],
+      "id": "objects_and_classes__init-purpose",
+      "type": "short_answer",
+      "prompt": "What is the role of `__init__` in a class?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "acceptedAnswers": [
+        "initialize instance attributes",
+        "set up a new object",
+        "constructor-like setup"
+      ],
+      "solution": {
+        "summary": "`__init__` runs when an instance is created and is typically used to assign its starting attributes.",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "objects_and_classes",
+      "hints": [],
+      "id": "objects_and_classes__book-class",
+      "type": "code_exercise",
+      "prompt": "Create a class `Book` with attributes `title` and `pages`, and a method `is_long()` that returns `True` when pages are at least 300.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "# define Book here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nbook = ns['Book']('Python Patterns', 320)\nassert book.title == 'Python Patterns'\nassert book.pages == 320\nassert book.is_long() is True\nassert ns['Book']('Short Notes', 120).is_long() is False\n__grade_result__ = {'passed': True, 'message': 'Your class models state and behavior correctly.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "class Book:\n    def __init__(self, title, pages):\n        self.title = title\n        self.pages = pages\n\n    def is_long(self):\n        return self.pages >= 300\n",
+        "checklist": [
+          "Stores both attributes",
+          "Returns the right boolean"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

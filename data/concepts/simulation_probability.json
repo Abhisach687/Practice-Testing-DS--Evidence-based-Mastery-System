@@ -1,0 +1,128 @@
+{
+  "id": "simulation_probability",
+  "title": "Simulation, probability, and randomness",
+  "summary": "Use random processes to model uncertainty, estimate behavior with repeated trials, and connect simulations back to probability questions.",
+  "tags": [
+    "probability",
+    "simulation",
+    "random",
+    "monte-carlo"
+  ],
+  "prerequisites": [
+    "variables_strings_numbers",
+    "collections_and_iteration"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "RANDOM WALKS AND MORE ABOUT DATA VISUALIZATION",
+        "STOCHASTIC PROGRAMS, PROBABILITY, AND DISTRIBUTIONS",
+        "MONTE CARLO SIMULATION"
+      ]
+    },
+    {
+      "bookId": "principles_data_science",
+      "keywords": [
+        "Probability Distributions",
+        "Probability Theory"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "simulation_probability",
+      "hints": [
+        "Think repeated random experiments."
+      ],
+      "id": "simulation_probability__monte-carlo-idea",
+      "type": "flashcard",
+      "prompt": "What is the main idea behind a Monte Carlo simulation?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "Run many random trials of a process and use the aggregate results to estimate probabilities or expected behavior.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "simulation_probability",
+      "hints": [
+        "This is an average of binary outcomes."
+      ],
+      "id": "simulation_probability__random-choice-shape",
+      "type": "predict_output",
+      "prompt": "Suppose `results` stores 1,000 simulated coin flips coded as 0 or 1. What does `sum(results) / len(results)` estimate?",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "code": "# conceptual question: no code to execute",
+      "acceptedAnswers": [
+        "the proportion of ones",
+        "estimated probability of heads",
+        "average outcome"
+      ],
+      "solution": {
+        "summary": "For 0/1 outcomes, the mean is the observed proportion of 1s, which estimates the event probability."
+      }
+    },
+    {
+      "conceptId": "simulation_probability",
+      "hints": [
+        "Think sampling noise."
+      ],
+      "id": "simulation_probability__more-trials-effect",
+      "type": "mcq",
+      "prompt": "What usually happens when you increase the number of simulation trials?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Estimates tend to stabilize, though not perfectly."
+        },
+        {
+          "id": "b",
+          "label": "Randomness disappears completely."
+        },
+        {
+          "id": "c",
+          "label": "The probability law changes."
+        },
+        {
+          "id": "d",
+          "label": "The code becomes deterministic without a seed."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "More trials reduce variance in the estimate, even though the process remains random."
+      }
+    },
+    {
+      "conceptId": "simulation_probability",
+      "hints": [],
+      "id": "simulation_probability__coin-simulation",
+      "type": "code_exercise",
+      "prompt": "Write a function `estimate_heads(trials)` that simulates fair coin flips and returns the estimated probability of heads.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "import random\n\n# define estimate_heads here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "ns = {}\nexec(user_code, ns)\nvalue = ns['estimate_heads'](200)\nassert 0 <= value <= 1, 'A probability estimate must stay between 0 and 1.'\nassert abs(value - 0.5) < 0.2, 'With 200 trials the estimate should usually be near 0.5.'\n__grade_result__ = {'passed': True, 'message': 'Your simulation returns a plausible probability estimate.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "import random\n\ndef estimate_heads(trials):\n    heads = 0\n    for _ in range(trials):\n        heads += random.choice([0, 1])\n    return heads / trials\n",
+        "checklist": [
+          "Uses repeated trials",
+          "Returns a proportion"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}

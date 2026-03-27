@@ -1,0 +1,131 @@
+{
+  "id": "conditionals_and_loops",
+  "title": "Conditionals and loops",
+  "summary": "Control program flow with boolean tests, `if` branches, `while` loops, and loop guards that stop at the right time.",
+  "tags": [
+    "python",
+    "conditionals",
+    "while",
+    "for",
+    "control-flow"
+  ],
+  "prerequisites": [
+    "collections_and_iteration"
+  ],
+  "sourceAnchors": [
+    {
+      "bookId": "python_basics",
+      "keywords": [
+        "Conditional Logic and Control Flow",
+        "Functions and Loops"
+      ]
+    },
+    {
+      "bookId": "python_crash_course",
+      "keywords": [
+        "if Statements",
+        "User Input and while Loops"
+      ]
+    },
+    {
+      "bookId": "mit_python",
+      "keywords": [
+        "INTRODUCTION TO PYTHON"
+      ]
+    }
+  ],
+  "masteryThreshold": 4,
+  "workedExample": false,
+  "items": [
+    {
+      "conceptId": "conditionals_and_loops",
+      "hints": [
+        "Think termination and safety."
+      ],
+      "id": "conditionals_and_loops__guard-clause",
+      "type": "flashcard",
+      "prompt": "What problem does a loop guard solve?",
+      "answerMode": "self_check",
+      "evaluationMode": "self",
+      "solution": {
+        "summary": "It defines the condition for continuing or stopping so a loop does useful work without running forever.",
+        "followUp": "",
+        "checklist": []
+      }
+    },
+    {
+      "conceptId": "conditionals_and_loops",
+      "hints": [
+        "Look for exactly-one-path logic."
+      ],
+      "id": "conditionals_and_loops__elif-purpose",
+      "type": "mcq",
+      "prompt": "When is `elif` better than writing several separate `if` statements?",
+      "answerMode": "multiple_choice",
+      "evaluationMode": "auto",
+      "choices": [
+        {
+          "id": "a",
+          "label": "When the branches are mutually exclusive and only one should run."
+        },
+        {
+          "id": "b",
+          "label": "When you want every branch to always execute."
+        },
+        {
+          "id": "c",
+          "label": "When you are defining a list."
+        },
+        {
+          "id": "d",
+          "label": "When you need to install a package."
+        }
+      ],
+      "correctChoiceId": "a",
+      "solution": {
+        "summary": "`elif` expresses an ordered chain of mutually exclusive checks, which is clearer and safer than separate `if` blocks."
+      }
+    },
+    {
+      "conceptId": "conditionals_and_loops",
+      "hints": [
+        "The loop prints before it decrements."
+      ],
+      "id": "conditionals_and_loops__while-countdown",
+      "type": "predict_output",
+      "prompt": "Predict the printed output.",
+      "answerMode": "text",
+      "evaluationMode": "auto",
+      "code": "count = 3\nwhile count > 0:\n    print(count)\n    count -= 1\nprint('done')",
+      "acceptedAnswers": [
+        "3\n2\n1\ndone"
+      ],
+      "solution": {
+        "summary": "The loop runs while `count` is positive, so it prints 3, 2, 1, then exits and prints `done`."
+      }
+    },
+    {
+      "conceptId": "conditionals_and_loops",
+      "hints": [],
+      "id": "conditionals_and_loops__password-attempts",
+      "type": "code_exercise",
+      "prompt": "Write a loop that checks `attempts` one by one and prints `locked` as soon as an attempt equals `'open-sesame'`. If none match, print `access denied` once.",
+      "answerMode": "code",
+      "evaluationMode": "pyodide",
+      "starterCode": "attempts = ['hello', 'letmein', 'open-sesame']\n# write your loop here\n",
+      "pyodide": {
+        "packages": [],
+        "tests": "import io, contextlib\nbuf = io.StringIO()\nwith contextlib.redirect_stdout(buf):\n    exec(user_code, {})\nassert buf.getvalue().strip() == 'locked', 'Expected the successful branch to print locked.'\n__grade_result__ = {'passed': True, 'message': 'Your loop stops on the correct password.'}\n"
+      },
+      "solution": {
+        "summary": "Use the reference solution to compare structure, not just syntax.",
+        "code": "attempts = ['hello', 'letmein', 'open-sesame']\nfor attempt in attempts:\n    if attempt == 'open-sesame':\n        print('locked')\n        break\nelse:\n    print('access denied')\n",
+        "checklist": [
+          "Uses a branch",
+          "Stops once the condition is met"
+        ]
+      }
+    }
+  ],
+  "itemCount": 4
+}
